@@ -16,7 +16,7 @@
 Notebook will be up soon.
 
 ## Parameters
-None.
+- Input batch size: 1
 
 ## Results
 

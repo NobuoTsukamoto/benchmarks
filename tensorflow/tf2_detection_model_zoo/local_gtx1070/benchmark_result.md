@@ -29,6 +29,7 @@ $ jupyter lab
 ```
 
 ## Parameters
+- Input batch size: 1
 - [Auto-clustering](https://www.tensorflow.org/xla#auto-clustering)
     - [TF_XLA_FLAGS="" (No options)](benchmark_result.md#tf_xla_flags-no-options)
     - [TF_XLA_FLAGS="--tf_xla_auto_jit=2" (GPU)](benchmark_result.md#tf_xla_flags--tf_xla_auto_jit2)
