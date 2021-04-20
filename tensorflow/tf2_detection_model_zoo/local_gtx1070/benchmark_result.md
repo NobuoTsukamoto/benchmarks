@@ -8,8 +8,11 @@
     - CUDA + cuDNN: 11.0 + 8.0
 - HW
     - CPU: AMD Ryzen 7 1700 Eight-Core Processor
-    - GPU: GeForce GTX 1070
+    - GPU: NVIDIA GeForce GTX 1070
     - MEM: 32GB
+
+## Dataset
+- [COCO2017](https://cocodataset.org/#home) 
 
 ## How to benchmarks
 
