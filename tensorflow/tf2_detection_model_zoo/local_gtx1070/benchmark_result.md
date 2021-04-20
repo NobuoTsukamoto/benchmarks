@@ -27,13 +27,21 @@ $ jupyter lab
 
 ## Parameters
 - [Auto-clustering](https://www.tensorflow.org/xla#auto-clustering)
-    - TF_XLA_FLAGS="" (No options)
-    - TF_XLA_FLAGS="--tf_xla_auto_jit=2" (GPU)
-    - TF_XLA_FLAGS="--tf_xla_auto_jit=2 --tf_xla_cpu_global_jit" (GPU and CPU)
+    - [TF_XLA_FLAGS="" (No options)](benchmark_result.md#tf_xla_flags-no-options)
+    - [TF_XLA_FLAGS="--tf_xla_auto_jit=2" (GPU)](benchmark_result.md#tf_xla_flags--tf_xla_auto_jit2)
+    - [TF_XLA_FLAGS="--tf_xla_auto_jit=2 --tf_xla_cpu_global_jit" (GPU and CPU)](benchmark_result.md#tf_xla_flags--tf_xla_auto_jit2---tf_xla_cpu_global_jit)
 
 ## Results
 
 Note: CenterNet MobileNetV2 (detection and keypoints) will result in an error inference by the saved model.
+
+- Benchmark results
+    - [TF_XLA_FLAGS="" (No options)](benchmark_result.md#tf_xla_flags-no-options)
+    - [TF_XLA_FLAGS="--tf_xla_auto_jit=2" (GPU)](benchmark_result.md#tf_xla_flags--tf_xla_auto_jit2)
+    - [TF_XLA_FLAGS="--tf_xla_auto_jit=2 --tf_xla_cpu_global_jit" (GPU and CPU)](benchmark_result.md#tf_xla_flags--tf_xla_auto_jit2---tf_xla_cpu_global_jit)
+- Comparison of Auto-clustering
+    - [mAP (None vs GPU)](benchmark_result.md#map-none-vs-gpu)
+    - [Latency mean (ms) (None vs GPU)](benchmark_result.md#latency-mean-ms-none-vs-gpu)
 
 ### TF_XLA_FLAGS="" (No options)
 | Model                               | Input     | TF-TRT      |    AP |   AP50 |   AP75 |   APsmall |   APmedium |   APlarge |   ARmax=1 |   ARmax=10 |   ARmax=100 |   ARsmall |   ARmidium |   ARlarge |   images/sec |   99th_percentile(ms) |   total_time(s) |   latency_mean(ms) |   latency_median(ms) |   latency_min(ms) |
