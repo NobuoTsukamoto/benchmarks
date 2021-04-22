@@ -7,8 +7,9 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, etc...
 
 |Description|Benchmarks|Framework|
 |:--|:--|:--|
-|[TF2 Detection Models<br>Local PC GTX1070](tensorflow/tf2_detection_model_zoo/local_gtx1070/benchmark_result.md)|AP, Latancy,<br> Comparison of [Auto-clustering](https://www.tensorflow.org/xla#auto-clustering)|TensorFlow|
-|[TF2 Detection Models<br>Colab Tesla P100](tensorflow/tf2_detection_model_zoo/colab_p100/benchmark_result.mdd)|AP, Latancy|TensorFlow|
+|[TF2 Detection Models<br>Local PC GTX1070](tensorflow/tf2_detection_model_zoo/colab_p100.md)|AP, Latancy, [Auto-clustering](https://www.tensorflow.org/xla#auto-clustering)|TensorFlow|
+|[TF2 Detection Models<br>Colab Tesla P100](tensorflow/tf2_detection_model_zoo/colab_p100.md)|AP, Latancy|TensorFlow|
+|[TF2 Detection Models<br>V100 vs P100 vs GTX1070](tensorflow/tf2_detection_model_zoo/v100_vs_p100_vs_gtx1070.md)|Latancy|TensorFlow|
 
 
 ## Reference
