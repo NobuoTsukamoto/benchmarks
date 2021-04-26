@@ -23,7 +23,12 @@ Notebook will be up soon.
 
 ## Results
 
-- All results: [Colab_TF2.4.1_P100Colab_TF2.4.1_V100_minimum_segment_size_20.csv](./results/Colab_TF2.4.1_V100_minimum_segment_size_20.csv)
+- All results:
+    - [Colab_TF2.4.1_V100_minimum_segment_size_3.csv](.results/Colab_TF2.4.1_V100_minimum_segment_size_3.csv)
+    - [Colab_TF2.4.1_V100_minimum_segment_size_20.csv](./results/Colab_TF2.4.1_V100_minimum_segment_size_20.csv)
+    - [Colab_TF2.4.1_V100_minimum_segment_size_50.csv](./results/Colab_TF2.4.1_V100_minimum_segment_size_50.csv)
+    - [Colab_TF2.4.1_V100_minimum_segment_size_20_TF_XLA_FLAGS_GPU.csv](./results/Colab_TF2.4.1_V100_minimum_segment_size_20_TF_XLA_FLAGS_GPU.csv)
+
 - Note: CenterNet MobileNetV2 (detection and keypoints) will result in an error inference by the saved model.
 
 ## mAP
@@ -237,6 +242,7 @@ Note: "0" is the model that could not be converted.
 
 ## with XLA
 -  [Auto-clustering](https://www.tensorflow.org/xla#auto-clustering)
+
 Note: "0" is the model that could not be converted.
 
 | Model                               | Input     |   TF-TRT FP32 |   TF-TRT FP32<br>+tf_xla_auto_jit=2 |   TF-TRT FP16 |   TF-TRT FP16<br>+tf_xla_auto_jit=2  |
