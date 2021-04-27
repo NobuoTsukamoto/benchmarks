@@ -1,4 +1,4 @@
-# TensorFlow 2 Detection Model Zoo Benchmarks
+# TensorFlow 2 Detection Model Zoo Benchmarks (Colab Tesla V100)
 
 ## Environment
     
@@ -12,8 +12,11 @@
 - [COCO2017](https://cocodataset.org/#home) 
 
 ## How to benchmarks
+Source
+- [NobuoTsukamoto/tensorrt](https://github.com/NobuoTsukamoto/tensorrt)
 
-Notebook will be up soon.
+Notebook
+- [Colab Notebook](https://github.com/NobuoTsukamoto/tensorrt/blob/detection2/tftrt/examples/object_detection/Colab_TF2_4_1_TF2_Detection_Model_TF_TRT.ipynb)
 
 ## Parameters
 - Input batch size: 1
