@@ -1,11 +1,11 @@
 # TensorFlow Lite (TensorFlow 1 Detection Model Zoo) Benchmarks
 
 ## Environment
-    
+
 - HW
   - Raspberry Pi 4 Model B Rev 1.2 4GB
 - OS
-  - Raspberry Pi OS 64bit (raspios_arm64-2021-04-09)  
+  - Raspberry Pi OS 64bit (raspios_arm64-2021-04-09)
     Linux raspberrypi 5.10.36-v8+ #1418 SMP PREEMPT Thu May 13 18:19:53 BST 2021 aarch64 GNU/Linux
 - SW
   - TensorFlow Lite 2.5.0
@@ -15,7 +15,7 @@
   - Python3 3.7.3
 
 ## Dataset
-- [COCO2017](https://cocodataset.org/#home) 
+- [COCO2017](https://cocodataset.org/#home)
 
 ## How to benchmarks
 Source
@@ -65,8 +65,8 @@ FP32: XNNPACK delegate
 ||||4|126.46|
 |SSD MnasFPN                |320x320|FP32   |      1|      306.79|
 ||||2|198.85|
-||||2|170.20|
-||||2|163.48|
+||||3|170.20|
+||||4|163.48|
 |SSDLite Mobilenet v3 large |320x320|FP32|1|177.60|
 ||||2|120.72|
 ||||3|105.89|
