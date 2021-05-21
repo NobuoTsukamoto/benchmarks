@@ -37,7 +37,7 @@ Models
 
 ## COCO2017VAL mAP
 
-| Model                      |Input  |Kind   |     AP |   AP50 |   AP75 |   APsmall |   APmedium |   APlarge |   ARmax=1 |   ARmax=10 |   ARmax=100 |   ARsmall |   ARmidium |   ARlarge |
+| Model                      |Input  |Kind   |    AP |   AP50 |   AP75 |   APsmall |   APmedium |   APlarge |   ARmax=1 |   ARmax=10 |   ARmax=100 |   ARsmall |   ARmidium |   ARlarge |
 |:---------------------------|:----  |:------|------:|-------:|-------:|----------:|-----------:|----------:|----------:|-----------:|------------:|----------:|-----------:|----------:|
 | SSD Mobilenet v2           |300x300|FP32   | 23.36 |  34.5  |  25.99 |      1.53 |      15.55 |     55.97 |     20.95 |      25.98 |       25.98 |      1.93 |      17.68 |     62.2  |
 | SSDLite Mobilenet v2       |300x300|FP32   | 23.93 |  36.13 |  26.51 |      1.8  |      16.62 |     55.86 |     21.3  |      26.64 |       26.64 |      2.27 |      18.85 |     62.03 |
