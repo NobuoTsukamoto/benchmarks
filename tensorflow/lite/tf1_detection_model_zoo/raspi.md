@@ -10,7 +10,7 @@
 - SW
   - TensorFlow Lite 2.5.0
     - FP32 XNNPACK: [PINTO0309/TensorflowLite-bin](https://github.com/PINTO0309/TensorflowLite-bin)
-    - INT8 EdgeTPU: [TensorFlow 2.5.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.5.0)
+    - INT8: [TensorFlow Lite 2.5.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.5.0)
   - OpenCV 4.5.2 (Self build)
   - Python3 3.7.3
 
@@ -35,7 +35,18 @@ Models
 - All results:
     - [Latency mean (ms)](./results/result_raspi4_64bit_latency.txt)
 
-## mAP
+## COCO2017VAL mAP
+
+| Model                      |Input  |Kind   |     AP |   AP50 |   AP75 |   APsmall |   APmedium |   APlarge |   ARmax=1 |   ARmax=10 |   ARmax=100 |   ARsmall |   ARmidium |   ARlarge |
+|:---------------------------|:----  |:------|------:|-------:|-------:|----------:|-----------:|----------:|----------:|-----------:|------------:|----------:|-----------:|----------:|
+| SSD Mobilenet v2           |300x300|FP32   | 23.36 |  34.5  |  25.99 |      1.53 |      15.55 |     55.97 |     20.95 |      25.98 |       25.98 |      1.93 |      17.68 |     62.2  |
+| SSDLite Mobilenet v2       |300x300|FP32   | 23.93 |  36.13 |  26.51 |      1.8  |      16.62 |     55.86 |     21.3  |      26.64 |       26.64 |      2.27 |      18.85 |     62.03 |
+| SSD Mobilenet v1 FPN       |640x640|FP32   | 32.2  |  47.21 |  36.31 |     11.9  |      34.77 |     51.02 |     26.68 |      37.21 |       37.21 |     13.22 |      40.06 |     59.17 |
+| SSD Resnet 50 v1 FPN       |640x640|FP32   |  0.03 |   0.04 |   0.04 |      0    |       0    |      0.09 |      0.02 |       0.02 |        0.02 |      0    |       0    |      0.08 |
+| SSDLite MobileDet-CPU      |320x320|FP32   | 25.66 |  40.33 |  27.36 |      2.46 |      22.07 |     55.27 |     22.89 |      31.46 |       31.46 |      4.08 |      28.42 |     66.19 |
+| SSD MnasFPN                |320x320|FP32   | 32.64 |  48.13 |  36.82 |      7.31 |      37.11 |     56.03 |     26.54 |      37.66 |       37.66 |      8.08 |      43.3  |     64.96 |
+| SSDLite Mobilenet v3 large |320x320|FP32   | 25.45 |  42.73 |  25.8  |      3.44 |      23.24 |     51.94 |     22.87 |      33.91 |       36.25 |      7.51 |      37.94 |     66.99 |
+| SSDLite Mobilenet v3 small |320x320|FP32   | 15.99 |  28.56 |  15.7  |      1.14 |      11.8  |     34.42 |     16.36 |      24.52 |       26.51 |      3.12 |      24.06 |     53.44 |
 
 ## Latency mean (ms)
 
@@ -51,7 +62,11 @@ FP32: XNNPACK delegate
 ||||2|130.44|
 ||||3|111.67|
 ||||4|109.60|
-|SSD  Mobilenet v1 FPN      |640x640|FP32   |      1|    15478.10|
+|                           |       |INT8   |      1|      168.15|
+||||2|93.39|
+||||3|69.49|
+||||4|57.36|
+|SSD Mobilenet v1 FPN       |640x640|FP32   |      1|    15478.10|
 ||||2|9843.06|
 ||||3|8119.81|
 ||||4|8476.19|
@@ -75,3 +90,7 @@ FP32: XNNPACK delegate
 ||||2|51.11|
 ||||3|44.95|
 ||||4|43.34|
+|SSDLite MobileNetEdgeTPU   |320x320|INT8   |      1|      337.53|
+||||2|186.01|
+||||3|136.34|
+||||4|112.04|
