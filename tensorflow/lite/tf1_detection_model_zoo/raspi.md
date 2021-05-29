@@ -32,8 +32,7 @@ Models
 
 
 ## Results
-- All results:
-    - [Latency mean (ms)](./results/result_raspi4_64bit_latency.txt)
+- [All results](./results)
 
 ## COCO2017VAL mAP
 
