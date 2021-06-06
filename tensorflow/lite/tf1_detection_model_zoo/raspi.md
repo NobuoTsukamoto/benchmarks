@@ -36,6 +36,8 @@ Models
 
 ## COCO2017VAL mAP
 
+FP32: XNNPACK delegate
+
 | Model                      |Input  |mAP(FP32) |mAP(INT8) |
 |:---------------------------|:----  |---------:|---------:|
 | SSD Mobilenet v2           |300x300|    23.36 |          |

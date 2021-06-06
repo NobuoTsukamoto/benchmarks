@@ -1,0 +1,288 @@
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_int8.tflite, param num_threads: 1
+Interpreter:  1 320 320 3
+First Inference : 323.49 ms
+  step 100/350, iter_time(ms)=290
+  step 200/350, iter_time(ms)=291
+  step 300/350, iter_time(ms)=290
+  images/sec: 3
+  99th_percentile(ms): 292.55
+  total_time(s): 101.5
+  latency_mean(ms): 290.01
+  latency_median(ms): 289.89
+  latency_min(ms): 289.47
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_int8.tflite, param num_threads: 2
+Interpreter:  1 320 320 3
+First Inference : 203.78 ms
+  step 100/350, iter_time(ms)=176
+  step 200/350, iter_time(ms)=176
+  step 300/350, iter_time(ms)=177
+  images/sec: 5
+  99th_percentile(ms): 179.19
+  total_time(s): 61.8
+  latency_mean(ms): 176.53
+  latency_median(ms): 176.40
+  latency_min(ms): 175.94
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_int8.tflite, param num_threads: 3
+Interpreter:  1 320 320 3
+First Inference : 170.41 ms
+  step 100/350, iter_time(ms)=143
+  step 200/350, iter_time(ms)=143
+  step 300/350, iter_time(ms)=143
+  images/sec: 6
+  99th_percentile(ms): 145.41
+  total_time(s): 50.2
+  latency_mean(ms): 143.30
+  latency_median(ms): 143.21
+  latency_min(ms): 142.64
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_int8.tflite, param num_threads: 4
+Interpreter:  1 320 320 3
+First Inference : 150.99 ms
+  step 100/350, iter_time(ms)=121
+  step 200/350, iter_time(ms)=121
+  step 300/350, iter_time(ms)=124
+  images/sec: 8
+  99th_percentile(ms): 136.12
+  total_time(s): 42.8
+  latency_mean(ms): 122.06
+  latency_median(ms): 121.44
+  latency_min(ms): 120.87
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_int8.tflite, param num_threads: 1
+Interpreter:  1 384 384 3
+First Inference : 590.21 ms
+  step 100/350, iter_time(ms)=547
+  step 200/350, iter_time(ms)=552
+  step 300/350, iter_time(ms)=546
+  images/sec: 1
+  99th_percentile(ms): 551.14
+  total_time(s): 191.5
+  latency_mean(ms): 546.90
+  latency_median(ms): 546.59
+  latency_min(ms): 545.65
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_int8.tflite, param num_threads: 2
+Interpreter:  1 384 384 3
+First Inference : 364.68 ms
+  step 100/350, iter_time(ms)=325
+  step 200/350, iter_time(ms)=324
+  step 300/350, iter_time(ms)=324
+  images/sec: 3
+  99th_percentile(ms): 328.95
+  total_time(s): 113.7
+  latency_mean(ms): 324.85
+  latency_median(ms): 324.59
+  latency_min(ms): 323.89
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_int8.tflite, param num_threads: 3
+Interpreter:  1 384 384 3
+First Inference : 294.42 ms
+  step 100/350, iter_time(ms)=253
+  step 200/350, iter_time(ms)=251
+  step 300/350, iter_time(ms)=252
+  images/sec: 3
+  99th_percentile(ms): 255.59
+  total_time(s): 88.3
+  latency_mean(ms): 251.86
+  latency_median(ms): 251.40
+  latency_min(ms): 250.62
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_int8.tflite, param num_threads: 4
+Interpreter:  1 384 384 3
+First Inference : 248.96 ms
+  step 100/350, iter_time(ms)=210
+  step 200/350, iter_time(ms)=220
+  step 300/350, iter_time(ms)=210
+  images/sec: 4
+  99th_percentile(ms): 229.21
+  total_time(s): 74.1
+  latency_mean(ms): 211.73
+  latency_median(ms): 210.22
+  latency_min(ms): 209.65
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_int8.tflite, param num_threads: 1
+Interpreter:  1 448 448 3
+First Inference : 914.26 ms
+  step 100/350, iter_time(ms)=857
+  step 200/350, iter_time(ms)=857
+  step 300/350, iter_time(ms)=858
+  images/sec: 1
+  99th_percentile(ms): 861.48
+  total_time(s): 300.3
+  latency_mean(ms): 857.87
+  latency_median(ms): 857.74
+  latency_min(ms): 856.99
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_int8.tflite, param num_threads: 2
+Interpreter:  1 448 448 3
+First Inference : 556.45 ms
+  step 100/350, iter_time(ms)=505
+  step 200/350, iter_time(ms)=505
+  step 300/350, iter_time(ms)=504
+  images/sec: 1
+  99th_percentile(ms): 508.42
+  total_time(s): 176.9
+  latency_mean(ms): 505.17
+  latency_median(ms): 505.04
+  latency_min(ms): 504.05
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_int8.tflite, param num_threads: 3
+Interpreter:  1 448 448 3
+First Inference : 445.56 ms
+  step 100/350, iter_time(ms)=395
+  step 200/350, iter_time(ms)=395
+  step 300/350, iter_time(ms)=395
+  images/sec: 2
+  99th_percentile(ms): 398.49
+  total_time(s): 138.3
+  latency_mean(ms): 394.94
+  latency_median(ms): 394.76
+  latency_min(ms): 393.63
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_int8.tflite, param num_threads: 4
+Interpreter:  1 448 448 3
+First Inference : 380.04 ms
+  step 100/350, iter_time(ms)=329
+  step 200/350, iter_time(ms)=344
+  step 300/350, iter_time(ms)=328
+  images/sec: 3
+  99th_percentile(ms): 351.93
+  total_time(s): 116.0
+  latency_mean(ms): 331.20
+  latency_median(ms): 328.91
+  latency_min(ms): 327.72
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_int8.tflite, param num_threads: 1
+Interpreter:  1 512 512 3
+First Inference : 1737.05 ms
+  step 100/350, iter_time(ms)=1658
+  step 200/350, iter_time(ms)=1658
+  step 300/350, iter_time(ms)=1657
+  images/sec: 0
+  99th_percentile(ms): 1661.10
+  total_time(s): 580.3
+  latency_mean(ms): 1657.71
+  latency_median(ms): 1657.70
+  latency_min(ms): 1655.60
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_int8.tflite, param num_threads: 2
+Interpreter:  1 512 512 3
+First Inference : 1021.19 ms
+  step 100/350, iter_time(ms)=949
+  step 200/350, iter_time(ms)=948
+  step 300/350, iter_time(ms)=949
+  images/sec: 1
+  99th_percentile(ms): 951.89
+  total_time(s): 332.0
+  latency_mean(ms): 948.42
+  latency_median(ms): 948.28
+  latency_min(ms): 947.02
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_int8.tflite, param num_threads: 3
+Interpreter:  1 512 512 3
+First Inference : 782.01 ms
+  step 100/350, iter_time(ms)=716
+  step 200/350, iter_time(ms)=716
+  step 300/350, iter_time(ms)=716
+  images/sec: 1
+  99th_percentile(ms): 719.72
+  total_time(s): 250.9
+  latency_mean(ms): 716.57
+  latency_median(ms): 716.39
+  latency_min(ms): 715.11
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_int8.tflite, param num_threads: 4
+Interpreter:  1 512 512 3
+First Inference : 662.19 ms
+  step 100/350, iter_time(ms)=600
+  step 200/350, iter_time(ms)=597
+  step 300/350, iter_time(ms)=605
+  images/sec: 1
+  99th_percentile(ms): 619.71
+  total_time(s): 210.5
+  latency_mean(ms): 601.34
+  latency_median(ms): 597.57
+  latency_min(ms): 595.81
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_int8.tflite, param num_threads: 1
+Interpreter:  1 640 640 3
+First Inference : 3099.22 ms
+  step 100/350, iter_time(ms)=2978
+  step 200/350, iter_time(ms)=2977
+  step 300/350, iter_time(ms)=2978
+  images/sec: 0
+  99th_percentile(ms): 2986.58
+  total_time(s): 1042.8
+  latency_mean(ms): 2979.10
+  latency_median(ms): 2978.93
+  latency_min(ms): 2972.77
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_int8.tflite, param num_threads: 2
+Interpreter:  1 640 640 3
+First Inference : 1788.49 ms
+  step 100/350, iter_time(ms)=1682
+  step 200/350, iter_time(ms)=1688
+  step 300/350, iter_time(ms)=1683
+  images/sec: 0
+  99th_percentile(ms): 1690.20
+  total_time(s): 590.1
+  latency_mean(ms): 1685.61
+  latency_median(ms): 1685.41
+  latency_min(ms): 1679.83
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_int8.tflite, param num_threads: 3
+Interpreter:  1 640 640 3
+First Inference : 1365.31 ms
+  step 100/350, iter_time(ms)=1271
+  step 200/350, iter_time(ms)=1268
+  step 300/350, iter_time(ms)=1265
+  images/sec: 0
+  99th_percentile(ms): 1272.20
+  total_time(s): 443.7
+  latency_mean(ms): 1267.22
+  latency_median(ms): 1267.12
+  latency_min(ms): 1261.97
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_int8.tflite, param num_threads: 4
+Interpreter:  1 640 640 3
+First Inference : 1148.67 ms
+  step 100/350, iter_time(ms)=1050
+  step 200/350, iter_time(ms)=1054
+  step 300/350, iter_time(ms)=1044
+  images/sec: 0
+  99th_percentile(ms): 1070.10
+  total_time(s): 367.9
+  latency_mean(ms): 1050.79
+  latency_median(ms): 1049.72
+  latency_min(ms): 1039.71
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_int8.tflite, param num_threads: 1
+Interpreter:  1 640 640 3
+First Inference : 4134.90 ms
+  step 100/350, iter_time(ms)=4012
+  step 200/350, iter_time(ms)=4011
+  step 300/350, iter_time(ms)=4006
+  images/sec: 0
+  99th_percentile(ms): 4013.55
+  total_time(s): 1403.3
+  latency_mean(ms): 4008.46
+  latency_median(ms): 4008.46
+  latency_min(ms): 4002.59
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_int8.tflite, param num_threads: 2
+Interpreter:  1 640 640 3
+First Inference : 2345.17 ms
+  step 100/350, iter_time(ms)=2245
+  step 200/350, iter_time(ms)=2246
+  step 300/350, iter_time(ms)=2243
+  images/sec: 0
+  99th_percentile(ms): 2248.29
+  total_time(s): 785.7
+  latency_mean(ms): 2244.46
+  latency_median(ms): 2244.55
+  latency_min(ms): 2240.21
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_int8.tflite, param num_threads: 3
+Interpreter:  1 640 640 3
+First Inference : 1757.41 ms
+  step 100/350, iter_time(ms)=1663
+  step 200/350, iter_time(ms)=1662
+  step 300/350, iter_time(ms)=1658
+  images/sec: 0
+  99th_percentile(ms): 1665.11
+  total_time(s): 580.8
+  latency_mean(ms): 1659.16
+  latency_median(ms): 1658.89
+  latency_min(ms): 1655.38
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_int8.tflite, param num_threads: 4
+Interpreter:  1 640 640 3
+First Inference : 1457.96 ms
+  step 100/350, iter_time(ms)=1354
+  step 200/350, iter_time(ms)=1357
+  step 300/350, iter_time(ms)=1359
+  images/sec: 0
+  99th_percentile(ms): 1381.23
+  total_time(s): 476.2
+  latency_mean(ms): 1360.11
+  latency_median(ms): 1359.06
+  latency_min(ms): 1348.65
