@@ -1,0 +1,908 @@
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_int8.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 320 320 3
+First Inference : 1259.17 ms
+  step 100/350, iter_time(ms)=1188
+  step 200/350, iter_time(ms)=1187
+  step 300/350, iter_time(ms)=1187
+  images/sec: 0
+  99th_percentile(ms): 1191.37
+  total_time(s): 415.8
+  latency_mean(ms): 1187.71
+  latency_median(ms): 1187.67
+  latency_min(ms): 1185.30
+Info: Shutdown time: 8.62 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_int8.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.13 ms
+
+Interpreter:  1 320 320 3
+First Inference : 701.97 ms
+  step 100/350, iter_time(ms)=636
+  step 200/350, iter_time(ms)=637
+  step 300/350, iter_time(ms)=635
+  images/sec: 1
+  99th_percentile(ms): 638.72
+  total_time(s): 222.7
+  latency_mean(ms): 636.04
+  latency_median(ms): 636.15
+  latency_min(ms): 633.55
+Info: Shutdown time: 8.09 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_int8.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 320 320 3
+First Inference : 530.24 ms
+  step 100/350, iter_time(ms)=470
+  step 200/350, iter_time(ms)=465
+  step 300/350, iter_time(ms)=465
+  images/sec: 2
+  99th_percentile(ms): 468.99
+  total_time(s): 162.7
+  latency_mean(ms): 464.67
+  latency_median(ms): 464.37
+  latency_min(ms): 463.47
+Info: Shutdown time: 8.07 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_int8.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.20 ms
+
+Interpreter:  1 320 320 3
+First Inference : 423.68 ms
+  step 100/350, iter_time(ms)=361
+  step 200/350, iter_time(ms)=360
+  step 300/350, iter_time(ms)=361
+  images/sec: 2
+  99th_percentile(ms): 383.31
+  total_time(s): 127.2
+  latency_mean(ms): 363.14
+  latency_median(ms): 360.47
+  latency_min(ms): 359.75
+Info: Shutdown time: 12.10 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_int8.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.30 ms
+
+Interpreter:  1 384 384 3
+First Inference : 2393.29 ms
+  step 100/350, iter_time(ms)=2302
+  step 200/350, iter_time(ms)=2301
+  step 300/350, iter_time(ms)=2296
+  images/sec: 0
+  99th_percentile(ms): 2305.37
+  total_time(s): 805.2
+  latency_mean(ms): 2300.32
+  latency_median(ms): 2300.25
+  latency_min(ms): 2295.23
+Info: Shutdown time: 10.68 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_int8.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 384 384 3
+First Inference : 1302.97 ms
+  step 100/350, iter_time(ms)=1215
+  step 200/350, iter_time(ms)=1215
+  step 300/350, iter_time(ms)=1215
+  images/sec: 0
+  99th_percentile(ms): 1218.75
+  total_time(s): 425.4
+  latency_mean(ms): 1215.24
+  latency_median(ms): 1215.12
+  latency_min(ms): 1213.94
+Info: Shutdown time: 10.82 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_int8.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.17 ms
+
+Interpreter:  1 384 384 3
+First Inference : 935.48 ms
+  step 100/350, iter_time(ms)=848
+  step 200/350, iter_time(ms)=849
+  step 300/350, iter_time(ms)=849
+  images/sec: 1
+  99th_percentile(ms): 853.57
+  total_time(s): 297.3
+  latency_mean(ms): 849.08
+  latency_median(ms): 848.83
+  latency_min(ms): 847.93
+Info: Shutdown time: 10.69 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_int8.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.13 ms
+
+Interpreter:  1 384 384 3
+First Inference : 756.14 ms
+  step 100/350, iter_time(ms)=672
+  step 200/350, iter_time(ms)=688
+  step 300/350, iter_time(ms)=671
+  images/sec: 1
+  99th_percentile(ms): 694.27
+  total_time(s): 236.9
+  latency_mean(ms): 676.47
+  latency_median(ms): 674.47
+  latency_min(ms): 670.19
+Info: Shutdown time: 10.73 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_int8.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 448 448 3
+First Inference : 3642.54 ms
+  step 100/350, iter_time(ms)=3524
+  step 200/350, iter_time(ms)=3524
+  step 300/350, iter_time(ms)=3521
+  images/sec: 0
+  99th_percentile(ms): 3531.02
+  total_time(s): 1233.7
+  latency_mean(ms): 3524.52
+  latency_median(ms): 3524.70
+  latency_min(ms): 3515.44
+Info: Shutdown time: 13.41 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_int8.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.11 ms
+
+Interpreter:  1 448 448 3
+First Inference : 1962.97 ms
+  step 100/350, iter_time(ms)=1851
+  step 200/350, iter_time(ms)=1851
+  step 300/350, iter_time(ms)=1849
+  images/sec: 0
+  99th_percentile(ms): 1853.74
+  total_time(s): 647.8
+  latency_mean(ms): 1850.40
+  latency_median(ms): 1850.22
+  latency_min(ms): 1848.16
+Info: Shutdown time: 13.40 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_int8.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.18 ms
+
+Interpreter:  1 448 448 3
+First Inference : 1427.32 ms
+  step 100/350, iter_time(ms)=1315
+  step 200/350, iter_time(ms)=1315
+  step 300/350, iter_time(ms)=1315
+  images/sec: 0
+  99th_percentile(ms): 1323.46
+  total_time(s): 460.4
+  latency_mean(ms): 1315.06
+  latency_median(ms): 1314.75
+  latency_min(ms): 1312.96
+Info: Shutdown time: 13.32 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_int8.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 448 448 3
+First Inference : 1136.66 ms
+  step 100/350, iter_time(ms)=1011
+  step 200/350, iter_time(ms)=1016
+  step 300/350, iter_time(ms)=1017
+  images/sec: 0
+  99th_percentile(ms): 1036.79
+  total_time(s): 356.0
+  latency_mean(ms): 1016.84
+  latency_median(ms): 1017.04
+  latency_min(ms): 1008.78
+Info: Shutdown time: 13.46 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_int8.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 512 512 3
+First Inference : 6611.01 ms
+  step 100/350, iter_time(ms)=6244
+  step 200/350, iter_time(ms)=6238
+  step 300/350, iter_time(ms)=6244
+  images/sec: 0
+  99th_percentile(ms): 6251.19
+  total_time(s): 2185.9
+  latency_mean(ms): 6244.21
+  latency_median(ms): 6244.15
+  latency_min(ms): 6237.25
+Info: Shutdown time: 20.72 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_int8.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.18 ms
+
+Interpreter:  1 512 512 3
+First Inference : 3423.56 ms
+  step 100/350, iter_time(ms)=3254
+  step 200/350, iter_time(ms)=3255
+  step 300/350, iter_time(ms)=3252
+  images/sec: 0
+  99th_percentile(ms): 3255.05
+  total_time(s): 1134.7
+  latency_mean(ms): 3241.10
+  latency_median(ms): 3240.31
+  latency_min(ms): 3237.20
+Info: Shutdown time: 20.97 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_int8.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.34 ms
+
+Interpreter:  1 512 512 3
+First Inference : 2475.21 ms
+  step 100/350, iter_time(ms)=2297
+  step 200/350, iter_time(ms)=2296
+  step 300/350, iter_time(ms)=2295
+  images/sec: 0
+  99th_percentile(ms): 2308.54
+  total_time(s): 804.4
+  latency_mean(ms): 2297.68
+  latency_median(ms): 2297.13
+  latency_min(ms): 2294.69
+Info: Shutdown time: 20.61 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_int8.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.30 ms
+
+Interpreter:  1 512 512 3
+First Inference : 1927.18 ms
+  step 100/350, iter_time(ms)=1752
+  step 200/350, iter_time(ms)=1751
+  step 300/350, iter_time(ms)=1751
+  images/sec: 0
+  99th_percentile(ms): 1768.47
+  total_time(s): 613.2
+  latency_mean(ms): 1751.42
+  latency_median(ms): 1749.76
+  latency_min(ms): 1744.04
+Info: Shutdown time: 20.66 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_int8.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 640 640 3
+First Inference : 11024.22 ms
+  step 100/350, iter_time(ms)=10730
+  step 200/350, iter_time(ms)=10734
+  step 300/350, iter_time(ms)=10748
+  images/sec: 0
+  99th_percentile(ms): 10758.96
+  total_time(s): 3758.2
+  latency_mean(ms): 10737.77
+  latency_median(ms): 10738.77
+  latency_min(ms): 10706.43
+Info: Shutdown time: 28.43 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_int8.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 640 640 3
+First Inference : 5857.10 ms
+  step 100/350, iter_time(ms)=5564
+  step 200/350, iter_time(ms)=5563
+  step 300/350, iter_time(ms)=5560
+  images/sec: 0
+  99th_percentile(ms): 5568.64
+  total_time(s): 1947.1
+  latency_mean(ms): 5561.44
+  latency_median(ms): 5561.17
+  latency_min(ms): 5554.64
+Info: Shutdown time: 29.29 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_int8.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 640 640 3
+First Inference : 4187.94 ms
+  step 100/350, iter_time(ms)=3915
+  step 200/350, iter_time(ms)=3905
+  step 300/350, iter_time(ms)=3907
+  images/sec: 0
+  99th_percentile(ms): 3918.92
+  total_time(s): 1368.2
+  latency_mean(ms): 3907.89
+  latency_median(ms): 3907.37
+  latency_min(ms): 3900.91
+Info: Shutdown time: 31.40 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_int8.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 640 640 3
+First Inference : 3279.65 ms
+  step 100/350, iter_time(ms)=3003
+  step 200/350, iter_time(ms)=3003
+  step 300/350, iter_time(ms)=3004
+  images/sec: 0
+  99th_percentile(ms): 3022.62
+  total_time(s): 1051.0
+  latency_mean(ms): 3001.89
+  latency_median(ms): 3001.06
+  latency_min(ms): 2988.30
+Info: Shutdown time: 28.72 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_int8.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.13 ms
+
+Interpreter:  1 640 640 3
+First Inference : 14370.09 ms
+  step 100/350, iter_time(ms)=14060
+  step 200/350, iter_time(ms)=14073
+  step 300/350, iter_time(ms)=14086
+  images/sec: 0
+  99th_percentile(ms): 14084.93
+  total_time(s): 4926.0
+  latency_mean(ms): 14074.93
+  latency_median(ms): 14077.48
+  latency_min(ms): 14053.82
+Info: Shutdown time: 30.80 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_int8.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.13 ms
+
+Interpreter:  1 640 640 3
+First Inference : 7530.88 ms
+  step 100/350, iter_time(ms)=7239
+  step 200/350, iter_time(ms)=7235
+  step 300/350, iter_time(ms)=7239
+  images/sec: 0
+  99th_percentile(ms): 7244.71
+  total_time(s): 2533.7
+  latency_mean(ms): 7238.01
+  latency_median(ms): 7237.86
+  latency_min(ms): 7231.87
+Info: Shutdown time: 30.84 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_int8.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.30 ms
+
+Interpreter:  1 640 640 3
+First Inference : 5365.67 ms
+  step 100/350, iter_time(ms)=5080
+  step 200/350, iter_time(ms)=5065
+  step 300/350, iter_time(ms)=5067
+  images/sec: 0
+  99th_percentile(ms): 5081.56
+  total_time(s): 1775.2
+  latency_mean(ms): 5070.61
+  latency_median(ms): 5070.23
+  latency_min(ms): 5062.58
+Info: Shutdown time: 30.88 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_int8.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.16 ms
+
+Interpreter:  1 640 640 3
+First Inference : 4182.82 ms
+  step 100/350, iter_time(ms)=3876
+  step 200/350, iter_time(ms)=3876
+  step 300/350, iter_time(ms)=3890
+  images/sec: 0
+  99th_percentile(ms): 3914.58
+  total_time(s): 1359.5
+  latency_mean(ms): 3883.23
+  latency_median(ms): 3881.79
+  latency_min(ms): 3869.75
+Info: Shutdown time: 31.17 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_fp32.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.27 ms
+
+Interpreter:  1 320 320 3
+First Inference : 620.40 ms
+  step 100/350, iter_time(ms)=519
+  step 200/350, iter_time(ms)=520
+  step 300/350, iter_time(ms)=520
+  images/sec: 1
+  99th_percentile(ms): 523.48
+  total_time(s): 182.1
+  latency_mean(ms): 520.00
+  latency_median(ms): 520.08
+  latency_min(ms): 518.21
+Info: Shutdown time: 13.32 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_fp32.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.31 ms
+
+Interpreter:  1 320 320 3
+First Inference : 413.34 ms
+  step 100/350, iter_time(ms)=320
+  step 200/350, iter_time(ms)=320
+  step 300/350, iter_time(ms)=319
+  images/sec: 3
+  99th_percentile(ms): 324.21
+  total_time(s): 112.1
+  latency_mean(ms): 320.08
+  latency_median(ms): 319.87
+  latency_min(ms): 317.90
+Info: Shutdown time: 13.25 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_fp32.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.31 ms
+
+Interpreter:  1 320 320 3
+First Inference : 360.08 ms
+  step 100/350, iter_time(ms)=258
+  step 200/350, iter_time(ms)=257
+  step 300/350, iter_time(ms)=258
+  images/sec: 3
+  99th_percentile(ms): 263.09
+  total_time(s): 90.5
+  latency_mean(ms): 258.25
+  latency_median(ms): 257.82
+  latency_min(ms): 256.98
+Info: Shutdown time: 13.37 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_fp32.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.35 ms
+
+Interpreter:  1 320 320 3
+First Inference : 322.75 ms
+  step 100/350, iter_time(ms)=246
+  step 200/350, iter_time(ms)=227
+  step 300/350, iter_time(ms)=228
+  images/sec: 4
+  99th_percentile(ms): 246.76
+  total_time(s): 80.6
+  latency_mean(ms): 229.91
+  latency_median(ms): 228.06
+  latency_min(ms): 226.73
+Info: Shutdown time: 13.69 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_fp32.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.29 ms
+
+Interpreter:  1 384 384 3
+First Inference : 1050.32 ms
+  step 100/350, iter_time(ms)=914
+  step 200/350, iter_time(ms)=917
+  step 300/350, iter_time(ms)=919
+  images/sec: 1
+  99th_percentile(ms): 925.17
+  total_time(s): 321.2
+  latency_mean(ms): 917.73
+  latency_median(ms): 917.73
+  latency_min(ms): 912.46
+Info: Shutdown time: 18.20 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_fp32.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.30 ms
+
+Interpreter:  1 384 384 3
+First Inference : 696.54 ms
+  step 100/350, iter_time(ms)=574
+  step 200/350, iter_time(ms)=568
+  step 300/350, iter_time(ms)=566
+  images/sec: 1
+  99th_percentile(ms): 575.34
+  total_time(s): 199.1
+  latency_mean(ms): 568.35
+  latency_median(ms): 567.84
+  latency_min(ms): 564.87
+Info: Shutdown time: 18.22 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_fp32.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.30 ms
+
+Interpreter:  1 384 384 3
+First Inference : 580.77 ms
+  step 100/350, iter_time(ms)=454
+  step 200/350, iter_time(ms)=454
+  step 300/350, iter_time(ms)=456
+  images/sec: 2
+  99th_percentile(ms): 461.89
+  total_time(s): 159.3
+  latency_mean(ms): 454.73
+  latency_median(ms): 453.98
+  latency_min(ms): 451.85
+Info: Shutdown time: 17.93 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_fp32.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.34 ms
+
+Interpreter:  1 384 384 3
+First Inference : 541.53 ms
+  step 100/350, iter_time(ms)=416
+  step 200/350, iter_time(ms)=411
+  step 300/350, iter_time(ms)=411
+  images/sec: 2
+  99th_percentile(ms): 431.24
+  total_time(s): 144.9
+  latency_mean(ms): 413.50
+  latency_median(ms): 410.68
+  latency_min(ms): 408.94
+Info: Shutdown time: 18.36 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_fp32.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.29 ms
+
+Interpreter:  1 448 448 3
+First Inference : 1592.47 ms
+  step 100/350, iter_time(ms)=1419
+  step 200/350, iter_time(ms)=1428
+  step 300/350, iter_time(ms)=1423
+  images/sec: 0
+  99th_percentile(ms): 1427.87
+  total_time(s): 497.1
+  latency_mean(ms): 1419.79
+  latency_median(ms): 1419.24
+  latency_min(ms): 1414.80
+Info: Shutdown time: 23.06 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_fp32.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.29 ms
+
+Interpreter:  1 448 448 3
+First Inference : 1046.30 ms
+  step 100/350, iter_time(ms)=883
+  step 200/350, iter_time(ms)=884
+  step 300/350, iter_time(ms)=891
+  images/sec: 1
+  99th_percentile(ms): 892.76
+  total_time(s): 309.9
+  latency_mean(ms): 884.95
+  latency_median(ms): 884.27
+  latency_min(ms): 882.00
+Info: Shutdown time: 22.80 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_fp32.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.28 ms
+
+Interpreter:  1 448 448 3
+First Inference : 875.85 ms
+  step 100/350, iter_time(ms)=712
+  step 200/350, iter_time(ms)=704
+  step 300/350, iter_time(ms)=713
+  images/sec: 1
+  99th_percentile(ms): 720.79
+  total_time(s): 247.4
+  latency_mean(ms): 706.44
+  latency_median(ms): 705.50
+  latency_min(ms): 700.85
+Info: Shutdown time: 23.22 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_fp32.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.40 ms
+
+Interpreter:  1 448 448 3
+First Inference : 796.80 ms
+  step 100/350, iter_time(ms)=622
+  step 200/350, iter_time(ms)=631
+  step 300/350, iter_time(ms)=629
+  images/sec: 1
+  99th_percentile(ms): 641.60
+  total_time(s): 218.7
+  latency_mean(ms): 624.21
+  latency_median(ms): 620.41
+  latency_min(ms): 616.98
+Info: Shutdown time: 25.38 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_fp32.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.28 ms
+
+Interpreter:  1 512 512 3
+First Inference : 3038.78 ms
+  step 100/350, iter_time(ms)=2769
+  step 200/350, iter_time(ms)=2770
+  step 300/350, iter_time(ms)=2772
+  images/sec: 0
+  99th_percentile(ms): 2780.87
+  total_time(s): 970.5
+  latency_mean(ms): 2772.21
+  latency_median(ms): 2771.55
+  latency_min(ms): 2767.28
+Info: Shutdown time: 32.90 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_fp32.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.30 ms
+
+Interpreter:  1 512 512 3
+First Inference : 1924.03 ms
+  step 100/350, iter_time(ms)=1664
+  step 200/350, iter_time(ms)=1667
+  step 300/350, iter_time(ms)=1672
+  images/sec: 0
+  99th_percentile(ms): 1677.47
+  total_time(s): 583.4
+  latency_mean(ms): 1665.98
+  latency_median(ms): 1665.37
+  latency_min(ms): 1660.15
+Info: Shutdown time: 32.93 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_fp32.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.34 ms
+
+Interpreter:  1 512 512 3
+First Inference : 1607.98 ms
+  step 100/350, iter_time(ms)=1348
+  step 200/350, iter_time(ms)=1345
+  step 300/350, iter_time(ms)=1343
+  images/sec: 0
+  99th_percentile(ms): 1359.26
+  total_time(s): 472.5
+  latency_mean(ms): 1348.81
+  latency_median(ms): 1348.37
+  latency_min(ms): 1340.40
+Info: Shutdown time: 33.06 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_fp32.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.30 ms
+
+Interpreter:  1 512 512 3
+First Inference : 1445.11 ms
+  step 100/350, iter_time(ms)=1190
+  step 200/350, iter_time(ms)=1190
+  step 300/350, iter_time(ms)=1185
+  images/sec: 0
+  99th_percentile(ms): 1209.53
+  total_time(s): 417.0
+  latency_mean(ms): 1190.78
+  latency_median(ms): 1191.08
+  latency_min(ms): 1178.22
+Info: Shutdown time: 35.47 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_fp32.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.30 ms
+
+Interpreter:  1 640 640 3
+First Inference : 5132.56 ms
+  step 100/350, iter_time(ms)=4701
+  step 200/350, iter_time(ms)=4699
+  step 300/350, iter_time(ms)=4700
+  images/sec: 0
+  99th_percentile(ms): 4709.58
+  total_time(s): 1645.2
+  latency_mean(ms): 4699.25
+  latency_median(ms): 4698.91
+  latency_min(ms): 4688.91
+Info: Shutdown time: 58.39 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_fp32.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.29 ms
+
+Interpreter:  1 640 640 3
+First Inference : 3253.28 ms
+  step 100/350, iter_time(ms)=2844
+  step 200/350, iter_time(ms)=2842
+  step 300/350, iter_time(ms)=2843
+  images/sec: 0
+  99th_percentile(ms): 2853.32
+  total_time(s): 995.7
+  latency_mean(ms): 2843.76
+  latency_median(ms): 2843.79
+  latency_min(ms): 2830.30
+Info: Shutdown time: 59.05 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_fp32.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.11 ms
+
+Interpreter:  1 640 640 3
+First Inference : 2659.36 ms
+  step 100/350, iter_time(ms)=2232
+  step 200/350, iter_time(ms)=2231
+  step 300/350, iter_time(ms)=2239
+  images/sec: 0
+  99th_percentile(ms): 2250.01
+  total_time(s): 784.1
+  latency_mean(ms): 2238.66
+  latency_median(ms): 2238.52
+  latency_min(ms): 2226.81
+Info: Shutdown time: 59.85 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_fp32.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.29 ms
+
+Interpreter:  1 640 640 3
+First Inference : 2419.74 ms
+  step 100/350, iter_time(ms)=2017
+  step 200/350, iter_time(ms)=2024
+  step 300/350, iter_time(ms)=2015
+  images/sec: 0
+  99th_percentile(ms): 2037.18
+  total_time(s): 706.9
+  latency_mean(ms): 2018.51
+  latency_median(ms): 2017.64
+  latency_min(ms): 2003.99
+Info: Shutdown time: 59.34 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_fp32.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.34 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_fp32.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.28 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_fp32.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.29 ms
+
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_fp32.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.29 ms
+

@@ -13,6 +13,9 @@
     - INT8: [TensorFlow Lite 2.5.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.5.0)
   - OpenCV 4.5.2 (Self build)
   - Python3 3.7.3
+  - ARM NN Delegate
+    - Arm NN v21.05
+    - Arm Compute Library v21.05
 
 ## Dataset
 - [COCO2017](https://cocodataset.org/#home)
@@ -102,3 +105,59 @@ FP32: XNNPACK delegate
 |                     |       |            |        2 |    2244.46 |
 |                     |       |            |        3 |    1659.16 |
 |                     |       |            |        4 |    1360.11 |
+
+## ARM NN Delegate Latency mean (ms)
+- Delegate Parameter : `{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': 'N', 'enable-fast-math': 'true'}`  
+  N: Num of Threads
+- *: Segmantation fault
+
+| Model               |Input  |Kind        |Threads   |RasPi4 64bit|
+|:--------------------|:----  |:-----------|---------:|-----------:|
+| EfficientDet-lite0  |320x320|FP32        |        1 |     520.00 |
+|                     |       |            |        2 |     320.08 |
+|                     |       |            |        3 |     258.25 |
+|                     |       |            |        4 |     229.91 |
+|                     |       |INT8        |        1 |    1187.71 |
+|                     |       |            |        2 |     636.04 |
+|                     |       |            |        3 |     464.67 |
+|                     |       |            |        4 |     363.14 |
+| EfficientDet-lite1  |384x384|FP32        |        1 |     917.73 |
+|                     |       |            |        2 |     568.35 |
+|                     |       |            |        3 |     454.73 |
+|                     |       |            |        4 |     413.50 |
+|                     |       |INT8        |        1 |    2300.32 |
+|                     |       |            |        2 |    1215.24 |
+|                     |       |            |        3 |     849.08 |
+|                     |       |            |        4 |     676.47 |
+| EfficientDet-lite2  |448x448|FP32        |        1 |    1419.79 |
+|                     |       |            |        2 |     884.95 |
+|                     |       |            |        3 |     706.44 |
+|                     |       |            |        4 |     624.21 |
+|                     |       |INT8        |        1 |    3524.52 |
+|                     |       |            |        2 |    1850.40 |
+|                     |       |            |        3 |    1315.06 |
+|                     |       |            |        4 |    1016.84 |
+| EfficientDet-lite3  |512x512|FP32        |        1 |    2772.21 |
+|                     |       |            |        2 |    1665.98 |
+|                     |       |            |        3 |    1348.81 |
+|                     |       |            |        4 |    1190.78 |
+|                     |       |INT8        |        1 |    6244.21 |
+|                     |       |            |        2 |    3241.10 |
+|                     |       |            |        3 |    2297.68 |
+|                     |       |            |        4 |    1751.42 |
+| EfficientDet-lite3x |640x640|FP32        |        1 |    4699.25 |
+|                     |       |            |        2 |    2843.76 |
+|                     |       |            |        3 |    2238.66 |
+|                     |       |            |        4 |    2018.51 |
+|                     |       |INT8        |        1 |   10737.77 |
+|                     |       |            |        2 |    5561.44 |
+|                     |       |            |        3 |    3907.89 |
+|                     |       |            |        4 |    3001.89 |
+| EfficientDet-lite4  |640x640|FP32        |        1 |          - |
+|                     |       |            |        2 |          - |
+|                     |       |            |        3 |          - |
+|                     |       |            |        4 |          - |
+|                     |       |INT8        |        1 |   14074.93 |
+|                     |       |            |        2 |    7238.01 |
+|                     |       |            |        3 |    5070.61 |
+|                     |       |            |        4 |    3883.23 |
