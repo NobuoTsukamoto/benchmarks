@@ -1,0 +1,39 @@
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_quant_coco_edgetpu.tflite, param num_threads: 1, delegate: None
+EdgeTpu delegate
+Interpreter:  1 300 300 3
+First Inference : 41.54 ms
+  step 100/350, iter_time(ms)=15
+  step 200/350, iter_time(ms)=14
+  step 300/350, iter_time(ms)=15
+  images/sec: 68
+  99th_percentile(ms): 20.49
+  total_time(s): 5.2
+  latency_mean(ms): 14.75
+  latency_median(ms): 14.95
+  latency_min(ms): 13.66
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_edgetpu_coco_quant_edgetpu.tflite, param num_threads: 1, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 43.44 ms
+  step 100/350, iter_time(ms)=15
+  step 200/350, iter_time(ms)=18
+  step 300/350, iter_time(ms)=16
+  images/sec: 67
+  99th_percentile(ms): 18.28
+  total_time(s): 5.2
+  latency_mean(ms): 14.83
+  latency_median(ms): 14.59
+  latency_min(ms): 14.38
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_edgetpu_320x320_quant_coco_edgetpu.tflite, param num_threads: 1, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 37.69 ms
+  step 100/350, iter_time(ms)=15
+  step 200/350, iter_time(ms)=15
+  step 300/350, iter_time(ms)=15
+  images/sec: 67
+  99th_percentile(ms): 17.35
+  total_time(s): 5.3
+  latency_mean(ms): 14.75
+  latency_median(ms): 14.57
+  latency_min(ms): 14.37

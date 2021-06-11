@@ -13,6 +13,7 @@
     - INT8: [TensorFlow Lite 2.5.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.5.0)
   - OpenCV 4.5.2 (Self build)
   - Python3 3.7.3
+  - Edge TPU runtime Frogfish 
 
 ## Dataset
 - [COCO2017](https://cocodataset.org/#home)
@@ -36,24 +37,26 @@ Models
 
 ## COCO2017VAL mAP
 
-FP32: XNNPACK delegate
+- FP32: XNNPACK delegate
+- EdgeTPU: EdgeTPU delegate, maximum frequency (500 MHz)
 
-| Model                      |Input  |mAP(FP32) |mAP(INT8) |
-|:---------------------------|:----  |---------:|---------:|
-| SSD Mobilenet v2           |300x300|    23.36 |          |
-| SSDLite Mobilenet v2       |300x300|    23.93 |    22.44 |
-| SSD Mobilenet v1 FPN       |640x640|    32.2  |          |
-| SSD Resnet 50 v1 FPN       |640x640|     ???? |          |
-| SSDLite MobileDet-CPU      |320x320|    25.66 |          |
-| SSDLite MobileDet-EdgeTPU  |320x320|          |    26.82 |
-| SSD MnasFPN                |320x320|    32.64 |          |
-| SSDLite Mobilenet v3 large |320x320|    25.45 |          |
-| SSDLite Mobilenet v3 small |320x320|    15.99 |          |
-| SSDLite MobileNetEdgeTPU   |320x320|          |    26.96 |
+| Model                      |Input  |     FP32 |     INT8 |  EdgeTPU |
+|:---------------------------|:----  |---------:|---------:|---------:|
+| SSD Mobilenet v2           |300x300|    23.36 |          |          |
+| SSDLite Mobilenet v2       |300x300|    23.93 |    22.44 |    22.37 |
+| SSD Mobilenet v1 FPN       |640x640|    32.2  |          |          |
+| SSD Resnet 50 v1 FPN       |640x640|     ???? |          |          |
+| SSDLite MobileDet-CPU      |320x320|    25.66 |          |          |
+| SSDLite MobileDet-EdgeTPU  |320x320|          |    26.82 |    26.96 |
+| SSD MnasFPN                |320x320|    32.64 |          |          |
+| SSDLite Mobilenet v3 large |320x320|    25.45 |          |          |
+| SSDLite Mobilenet v3 small |320x320|    15.99 |          |          |
+| SSDLite MobileNetEdgeTPU   |320x320|          |    26.96 |    26.9  |
 
 ## Latency mean (ms)
 
-FP32: XNNPACK delegate
+- FP32: XNNPACK delegate
+- EdgeTPU: EdgeTPU delegate, maximum frequency (500 MHz)
 
 |Model name                 |Input  |Kind   |Threads|RasPi4 64bit|
 |:--                        |:--    |:--    |--:    |--:         |
@@ -69,6 +72,7 @@ FP32: XNNPACK delegate
 ||||2|93.39|
 ||||3|69.49|
 ||||4|57.36|
+|                           |       |EdgeTPU|      1|       14.75|
 |SSD Mobilenet v1 FPN       |640x640|FP32   |      1|    15478.10|
 ||||2|9843.06|
 ||||3|8119.81|
@@ -85,6 +89,7 @@ FP32: XNNPACK delegate
 ||||2|153.73|
 ||||3|113.04|
 ||||4| 95.02|
+|                           |       |EdgeTPU|      1|       14.75|
 |SSD MnasFPN                |320x320|FP32   |      1|      306.79|
 ||||2|198.85|
 ||||3|170.20|
@@ -101,3 +106,4 @@ FP32: XNNPACK delegate
 ||||2|186.01|
 ||||3|136.34|
 ||||4|112.04|
+|                           |       |EdgeTPU|      1|       14.83|
