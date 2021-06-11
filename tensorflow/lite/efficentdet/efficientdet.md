@@ -40,16 +40,16 @@ Models
 - [All results](./results)
 
 ## COCO2017VAL mAP
-FP32: XNNPACK delegate  
+- -: Segmantation fault
 
-| Model               |Input  | FP32       | INT8       |
-|:--------------------|:----  |-----------:|-----------:|
-| EfficientDet-lite0  |320x320|      26.03 |      25.65 |
-| EfficientDet-lite1  |384x384|      30.16 |      29.61 |
-| EfficientDet-lite2  |448x448|      33.16 |      32.72 |
-| EfficientDet-lite3  |512x512|      33.16 |      36    |
-| EfficientDet-lite3x |640x640|      36.32 |      38.24 |
-| EfficientDet-lite4  |640x640|      39.7  |      39.38 |
+| Model               |Input  | FP32<br>XNNPACK delegate | FP32<br>ARM NN delegate | INT8       |
+|:--------------------|:----  |-------------------------:|------------------------:|-----------:|
+| EfficientDet-lite0  |320x320|                    26.03 |                   26.03 |      25.65 |
+| EfficientDet-lite1  |384x384|                    30.16 |                   30.16 |      29.61 |
+| EfficientDet-lite2  |448x448|                    33.16 |                   33.16 |      32.72 |
+| EfficientDet-lite3  |512x512|                    36.32 |                   36.32 |      36    |
+| EfficientDet-lite3x |640x640|      　　　　　　　38.68 |                   38.68 |      38.24 |
+| EfficientDet-lite4  |640x640|      　　　　　　　39.7  |                       - |      39.38 |
 
 
 ## Latency mean (ms)
@@ -109,7 +109,7 @@ FP32: XNNPACK delegate
 ## ARM NN Delegate Latency mean (ms)
 - Delegate Parameter : `{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': 'N', 'enable-fast-math': 'true'}`  
   N: Num of Threads
-- *: Segmantation fault
+- -: Segmantation fault
 
 | Model               |Input  |Kind        |Threads   |RasPi4 64bit|
 |:--------------------|:----  |:-----------|---------:|-----------:|

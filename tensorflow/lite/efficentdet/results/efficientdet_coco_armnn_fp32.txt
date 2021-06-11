@@ -1,0 +1,426 @@
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 320 320 3
+loading annotations into memory...
+Done (t=2.17s)
+creating index...
+index created!
+  step 100/5000, iter_time(ms)=227
+  step 200/5000, iter_time(ms)=227
+  step 300/5000, iter_time(ms)=227
+  step 400/5000, iter_time(ms)=236
+  step 500/5000, iter_time(ms)=226
+  step 600/5000, iter_time(ms)=230
+  step 700/5000, iter_time(ms)=230
+  step 800/5000, iter_time(ms)=228
+  step 900/5000, iter_time(ms)=228
+  step 1000/5000, iter_time(ms)=229
+  step 1100/5000, iter_time(ms)=228
+  step 1200/5000, iter_time(ms)=228
+  step 1300/5000, iter_time(ms)=227
+  step 1400/5000, iter_time(ms)=227
+  step 1500/5000, iter_time(ms)=238
+  step 1600/5000, iter_time(ms)=228
+  step 1700/5000, iter_time(ms)=227
+  step 1800/5000, iter_time(ms)=227
+  step 1900/5000, iter_time(ms)=228
+  step 2000/5000, iter_time(ms)=228
+  step 2100/5000, iter_time(ms)=226
+  step 2200/5000, iter_time(ms)=227
+  step 2300/5000, iter_time(ms)=240
+  step 2400/5000, iter_time(ms)=221
+  step 2500/5000, iter_time(ms)=221
+  step 2600/5000, iter_time(ms)=221
+  step 2700/5000, iter_time(ms)=221
+  step 2800/5000, iter_time(ms)=221
+  step 2900/5000, iter_time(ms)=234
+  step 3000/5000, iter_time(ms)=222
+  step 3100/5000, iter_time(ms)=222
+  step 3200/5000, iter_time(ms)=224
+  step 3300/5000, iter_time(ms)=221
+  step 3400/5000, iter_time(ms)=222
+  step 3500/5000, iter_time(ms)=224
+  step 3600/5000, iter_time(ms)=234
+  step 3700/5000, iter_time(ms)=230
+  step 3800/5000, iter_time(ms)=221
+  step 3900/5000, iter_time(ms)=222
+  step 4000/5000, iter_time(ms)=221
+  step 4100/5000, iter_time(ms)=223
+  step 4200/5000, iter_time(ms)=221
+  step 4300/5000, iter_time(ms)=223
+  step 4400/5000, iter_time(ms)=220
+  step 4500/5000, iter_time(ms)=236
+  step 4600/5000, iter_time(ms)=225
+  step 4700/5000, iter_time(ms)=223
+  step 4800/5000, iter_time(ms)=238
+  step 4900/5000, iter_time(ms)=221
+  step 5000/5000, iter_time(ms)=225
+Loading and preparing results...
+DONE (t=2.86s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=100.74s).
+Accumulating evaluation results...
+DONE (t=15.30s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.260
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.422
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.269
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.072
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.290
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.439
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.228
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.329
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.338
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.093
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.381
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.558
+Info: Shutdown time: 11.12 ms
+
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 384 384 3
+loading annotations into memory...
+Done (t=1.77s)
+creating index...
+index created!
+  step 100/5000, iter_time(ms)=401
+  step 200/5000, iter_time(ms)=405
+  step 300/5000, iter_time(ms)=413
+  step 400/5000, iter_time(ms)=405
+  step 500/5000, iter_time(ms)=411
+  step 600/5000, iter_time(ms)=411
+  step 700/5000, iter_time(ms)=411
+  step 800/5000, iter_time(ms)=395
+  step 900/5000, iter_time(ms)=396
+  step 1000/5000, iter_time(ms)=394
+  step 1100/5000, iter_time(ms)=396
+  step 1200/5000, iter_time(ms)=397
+  step 1300/5000, iter_time(ms)=393
+  step 1400/5000, iter_time(ms)=403
+  step 1500/5000, iter_time(ms)=395
+  step 1600/5000, iter_time(ms)=398
+  step 1700/5000, iter_time(ms)=393
+  step 1800/5000, iter_time(ms)=396
+  step 1900/5000, iter_time(ms)=395
+  step 2000/5000, iter_time(ms)=397
+  step 2100/5000, iter_time(ms)=393
+  step 2200/5000, iter_time(ms)=395
+  step 2300/5000, iter_time(ms)=396
+  step 2400/5000, iter_time(ms)=395
+  step 2500/5000, iter_time(ms)=395
+  step 2600/5000, iter_time(ms)=396
+  step 2700/5000, iter_time(ms)=395
+  step 2800/5000, iter_time(ms)=393
+  step 2900/5000, iter_time(ms)=396
+  step 3000/5000, iter_time(ms)=395
+  step 3100/5000, iter_time(ms)=395
+  step 3200/5000, iter_time(ms)=395
+  step 3300/5000, iter_time(ms)=393
+  step 3400/5000, iter_time(ms)=395
+  step 3500/5000, iter_time(ms)=396
+  step 3600/5000, iter_time(ms)=397
+  step 3700/5000, iter_time(ms)=394
+  step 3800/5000, iter_time(ms)=401
+  step 3900/5000, iter_time(ms)=412
+  step 4000/5000, iter_time(ms)=396
+  step 4100/5000, iter_time(ms)=396
+  step 4200/5000, iter_time(ms)=397
+  step 4300/5000, iter_time(ms)=397
+  step 4400/5000, iter_time(ms)=391
+  step 4500/5000, iter_time(ms)=395
+  step 4600/5000, iter_time(ms)=396
+  step 4700/5000, iter_time(ms)=394
+  step 4800/5000, iter_time(ms)=395
+  step 4900/5000, iter_time(ms)=394
+  step 5000/5000, iter_time(ms)=402
+Loading and preparing results...
+DONE (t=2.89s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=103.36s).
+Accumulating evaluation results...
+DONE (t=15.54s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.302
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.473
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.315
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.110
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.336
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.477
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.255
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.374
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.384
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.139
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.429
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.595
+Info: Shutdown time: 15.39 ms
+
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.28 ms
+
+Interpreter:  1 448 448 3
+loading annotations into memory...
+Done (t=1.84s)
+creating index...
+index created!
+  step 100/5000, iter_time(ms)=597
+  step 200/5000, iter_time(ms)=618
+  step 300/5000, iter_time(ms)=599
+  step 400/5000, iter_time(ms)=597
+  step 500/5000, iter_time(ms)=598
+  step 600/5000, iter_time(ms)=603
+  step 700/5000, iter_time(ms)=612
+  step 800/5000, iter_time(ms)=599
+  step 900/5000, iter_time(ms)=607
+  step 1000/5000, iter_time(ms)=598
+  step 1100/5000, iter_time(ms)=616
+  step 1200/5000, iter_time(ms)=609
+  step 1300/5000, iter_time(ms)=599
+  step 1400/5000, iter_time(ms)=604
+  step 1500/5000, iter_time(ms)=613
+  step 1600/5000, iter_time(ms)=608
+  step 1700/5000, iter_time(ms)=598
+  step 1800/5000, iter_time(ms)=598
+  step 1900/5000, iter_time(ms)=600
+  step 2000/5000, iter_time(ms)=612
+  step 2100/5000, iter_time(ms)=599
+  step 2200/5000, iter_time(ms)=599
+  step 2300/5000, iter_time(ms)=600
+  step 2400/5000, iter_time(ms)=609
+  step 2500/5000, iter_time(ms)=611
+  step 2600/5000, iter_time(ms)=600
+  step 2700/5000, iter_time(ms)=599
+  step 2800/5000, iter_time(ms)=610
+  step 2900/5000, iter_time(ms)=600
+  step 3000/5000, iter_time(ms)=600
+  step 3100/5000, iter_time(ms)=600
+  step 3200/5000, iter_time(ms)=613
+  step 3300/5000, iter_time(ms)=606
+  step 3400/5000, iter_time(ms)=601
+  step 3500/5000, iter_time(ms)=598
+  step 3600/5000, iter_time(ms)=598
+  step 3700/5000, iter_time(ms)=612
+  step 3800/5000, iter_time(ms)=610
+  step 3900/5000, iter_time(ms)=599
+  step 4000/5000, iter_time(ms)=600
+  step 4100/5000, iter_time(ms)=597
+  step 4200/5000, iter_time(ms)=601
+  step 4300/5000, iter_time(ms)=612
+  step 4400/5000, iter_time(ms)=602
+  step 4500/5000, iter_time(ms)=599
+  step 4600/5000, iter_time(ms)=599
+  step 4700/5000, iter_time(ms)=603
+  step 4800/5000, iter_time(ms)=613
+  step 4900/5000, iter_time(ms)=599
+  step 5000/5000, iter_time(ms)=600
+Loading and preparing results...
+DONE (t=2.94s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=97.94s).
+Accumulating evaluation results...
+DONE (t=15.74s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.332
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.507
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.352
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.139
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.369
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.506
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.276
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.406
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.416
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.182
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.464
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.615
+Info: Shutdown time: 19.62 ms
+
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.13 ms
+
+Interpreter:  1 512 512 3
+loading annotations into memory...
+Done (t=1.75s)
+creating index...
+index created!
+  step 100/5000, iter_time(ms)=1142
+  step 200/5000, iter_time(ms)=1146
+  step 300/5000, iter_time(ms)=1164
+  step 400/5000, iter_time(ms)=1137
+  step 500/5000, iter_time(ms)=1159
+  step 600/5000, iter_time(ms)=1258
+  step 700/5000, iter_time(ms)=1146
+  step 800/5000, iter_time(ms)=1147
+  step 900/5000, iter_time(ms)=1149
+  step 1000/5000, iter_time(ms)=1150
+  step 1100/5000, iter_time(ms)=1157
+  step 1200/5000, iter_time(ms)=1141
+  step 1300/5000, iter_time(ms)=1148
+  step 1400/5000, iter_time(ms)=1152
+  step 1500/5000, iter_time(ms)=1139
+  step 1600/5000, iter_time(ms)=1155
+  step 1700/5000, iter_time(ms)=1147
+  step 1800/5000, iter_time(ms)=1135
+  step 1900/5000, iter_time(ms)=1153
+  step 2000/5000, iter_time(ms)=1151
+  step 2100/5000, iter_time(ms)=1141
+  step 2200/5000, iter_time(ms)=1147
+  step 2300/5000, iter_time(ms)=1151
+  step 2400/5000, iter_time(ms)=1141
+  step 2500/5000, iter_time(ms)=1166
+  step 2600/5000, iter_time(ms)=1158
+  step 2700/5000, iter_time(ms)=1148
+  step 2800/5000, iter_time(ms)=1143
+  step 2900/5000, iter_time(ms)=1149
+  step 3000/5000, iter_time(ms)=1150
+  step 3100/5000, iter_time(ms)=1139
+  step 3200/5000, iter_time(ms)=1165
+  step 3300/5000, iter_time(ms)=1148
+  step 3400/5000, iter_time(ms)=1140
+  step 3500/5000, iter_time(ms)=1169
+  step 3600/5000, iter_time(ms)=1141
+  step 3700/5000, iter_time(ms)=1149
+  step 3800/5000, iter_time(ms)=1146
+  step 3900/5000, iter_time(ms)=1152
+  step 4000/5000, iter_time(ms)=1142
+  step 4100/5000, iter_time(ms)=1151
+  step 4200/5000, iter_time(ms)=1145
+  step 4300/5000, iter_time(ms)=1140
+  step 4400/5000, iter_time(ms)=1145
+  step 4500/5000, iter_time(ms)=1148
+  step 4600/5000, iter_time(ms)=1139
+  step 4700/5000, iter_time(ms)=1146
+  step 4800/5000, iter_time(ms)=1152
+  step 4900/5000, iter_time(ms)=1139
+  step 5000/5000, iter_time(ms)=1149
+Loading and preparing results...
+DONE (t=2.84s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=101.68s).
+Accumulating evaluation results...
+DONE (t=15.87s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.363
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.536
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.389
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.150
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.412
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.540
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.294
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.440
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.451
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.194
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.510
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.662
+Info: Shutdown time: 33.12 ms
+
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.12 ms
+
+Interpreter:  1 640 640 3
+loading annotations into memory...
+Done (t=1.81s)
+creating index...
+index created!
+  step 100/5000, iter_time(ms)=1987
+  step 200/5000, iter_time(ms)=2004
+  step 300/5000, iter_time(ms)=1988
+  step 400/5000, iter_time(ms)=1985
+  step 500/5000, iter_time(ms)=1982
+  step 600/5000, iter_time(ms)=1980
+  step 700/5000, iter_time(ms)=2014
+  step 800/5000, iter_time(ms)=2010
+  step 900/5000, iter_time(ms)=1994
+  step 1000/5000, iter_time(ms)=2000
+  step 1100/5000, iter_time(ms)=1998
+  step 1200/5000, iter_time(ms)=2012
+  step 1300/5000, iter_time(ms)=2001
+  step 1400/5000, iter_time(ms)=2001
+  step 1500/5000, iter_time(ms)=2000
+  step 1600/5000, iter_time(ms)=1980
+  step 1700/5000, iter_time(ms)=1996
+  step 1800/5000, iter_time(ms)=2013
+  step 1900/5000, iter_time(ms)=1993
+  step 2000/5000, iter_time(ms)=1997
+  step 2100/5000, iter_time(ms)=1995
+  step 2200/5000, iter_time(ms)=2016
+  step 2300/5000, iter_time(ms)=2006
+  step 2400/5000, iter_time(ms)=1989
+  step 2500/5000, iter_time(ms)=1991
+  step 2600/5000, iter_time(ms)=1990
+  step 2700/5000, iter_time(ms)=2016
+  step 2800/5000, iter_time(ms)=1997
+  step 2900/5000, iter_time(ms)=2010
+  step 3000/5000, iter_time(ms)=2016
+  step 3100/5000, iter_time(ms)=2005
+  step 3200/5000, iter_time(ms)=2030
+  step 3300/5000, iter_time(ms)=1982
+  step 3400/5000, iter_time(ms)=2006
+  step 3500/5000, iter_time(ms)=2029
+  step 3600/5000, iter_time(ms)=1974
+  step 3700/5000, iter_time(ms)=2010
+  step 3800/5000, iter_time(ms)=1988
+  step 3900/5000, iter_time(ms)=1987
+  step 4000/5000, iter_time(ms)=2018
+  step 4100/5000, iter_time(ms)=2011
+  step 4200/5000, iter_time(ms)=1984
+  step 4300/5000, iter_time(ms)=2005
+  step 4400/5000, iter_time(ms)=1974
+  step 4500/5000, iter_time(ms)=2007
+  step 4600/5000, iter_time(ms)=2008
+  step 4700/5000, iter_time(ms)=1999
+  step 4800/5000, iter_time(ms)=1993
+  step 4900/5000, iter_time(ms)=1987
+  step 5000/5000, iter_time(ms)=1984
+Loading and preparing results...
+DONE (t=2.88s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=105.24s).
+Accumulating evaluation results...
+DONE (t=16.21s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.387
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.573
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.412
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.200
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.430
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.545
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.308
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.468
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.480
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.259
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.527
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.660
+Info: Shutdown time: 60.32 ms
+
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.11 ms
+
