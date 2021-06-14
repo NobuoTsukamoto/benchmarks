@@ -1,0 +1,237 @@
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+loading annotations into memory...
+Done (t=2.31s)
+creating index...
+index created!
+  step 100/5000, iter_time(ms)=92
+  step 200/5000, iter_time(ms)=95
+  step 300/5000, iter_time(ms)=96
+  step 400/5000, iter_time(ms)=94
+  step 500/5000, iter_time(ms)=91
+  step 600/5000, iter_time(ms)=103
+  step 700/5000, iter_time(ms)=91
+  step 800/5000, iter_time(ms)=103
+  step 900/5000, iter_time(ms)=91
+  step 1000/5000, iter_time(ms)=98
+  step 1100/5000, iter_time(ms)=92
+  step 1200/5000, iter_time(ms)=91
+  step 1300/5000, iter_time(ms)=91
+  step 1400/5000, iter_time(ms)=95
+  step 1500/5000, iter_time(ms)=95
+  step 1600/5000, iter_time(ms)=103
+  step 1700/5000, iter_time(ms)=91
+  step 1800/5000, iter_time(ms)=104
+  step 1900/5000, iter_time(ms)=97
+  step 2000/5000, iter_time(ms)=91
+  step 2100/5000, iter_time(ms)=95
+  step 2200/5000, iter_time(ms)=90
+  step 2300/5000, iter_time(ms)=91
+  step 2400/5000, iter_time(ms)=91
+  step 2500/5000, iter_time(ms)=95
+  step 2600/5000, iter_time(ms)=96
+  step 2700/5000, iter_time(ms)=91
+  step 2800/5000, iter_time(ms)=96
+  step 2900/5000, iter_time(ms)=96
+  step 3000/5000, iter_time(ms)=96
+  step 3100/5000, iter_time(ms)=95
+  step 3200/5000, iter_time(ms)=97
+  step 3300/5000, iter_time(ms)=91
+  step 3400/5000, iter_time(ms)=91
+  step 3500/5000, iter_time(ms)=91
+  step 3600/5000, iter_time(ms)=91
+  step 3700/5000, iter_time(ms)=92
+  step 3800/5000, iter_time(ms)=91
+  step 3900/5000, iter_time(ms)=91
+  step 4000/5000, iter_time(ms)=90
+  step 4100/5000, iter_time(ms)=103
+  step 4200/5000, iter_time(ms)=102
+  step 4300/5000, iter_time(ms)=102
+  step 4400/5000, iter_time(ms)=90
+  step 4500/5000, iter_time(ms)=94
+  step 4600/5000, iter_time(ms)=94
+  step 4700/5000, iter_time(ms)=95
+  step 4800/5000, iter_time(ms)=94
+  step 4900/5000, iter_time(ms)=90
+  step 5000/5000, iter_time(ms)=92
+Loading and preparing results...
+DONE (t=3.20s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=97.48s).
+Accumulating evaluation results...
+DONE (t=15.46s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.255
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.418
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.264
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.070
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.286
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.429
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.225
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.324
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.332
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.089
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.376
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.550
+EdgeTpu delegate
+Interpreter:  1 384 384 3
+loading annotations into memory...
+Done (t=1.85s)
+creating index...
+index created!
+  step 100/5000, iter_time(ms)=148
+  step 200/5000, iter_time(ms)=136
+  step 300/5000, iter_time(ms)=136
+  step 400/5000, iter_time(ms)=129
+  step 500/5000, iter_time(ms)=136
+  step 600/5000, iter_time(ms)=130
+  step 700/5000, iter_time(ms)=137
+  step 800/5000, iter_time(ms)=138
+  step 900/5000, iter_time(ms)=138
+  step 1000/5000, iter_time(ms)=136
+  step 1100/5000, iter_time(ms)=131
+  step 1200/5000, iter_time(ms)=137
+  step 1300/5000, iter_time(ms)=129
+  step 1400/5000, iter_time(ms)=137
+  step 1500/5000, iter_time(ms)=130
+  step 1600/5000, iter_time(ms)=136
+  step 1700/5000, iter_time(ms)=137
+  step 1800/5000, iter_time(ms)=130
+  step 1900/5000, iter_time(ms)=135
+  step 2000/5000, iter_time(ms)=131
+  step 2100/5000, iter_time(ms)=147
+  step 2200/5000, iter_time(ms)=129
+  step 2300/5000, iter_time(ms)=130
+  step 2400/5000, iter_time(ms)=136
+  step 2500/5000, iter_time(ms)=129
+  step 2600/5000, iter_time(ms)=130
+  step 2700/5000, iter_time(ms)=129
+  step 2800/5000, iter_time(ms)=131
+  step 2900/5000, iter_time(ms)=137
+  step 3000/5000, iter_time(ms)=130
+  step 3100/5000, iter_time(ms)=131
+  step 3200/5000, iter_time(ms)=130
+  step 3300/5000, iter_time(ms)=151
+  step 3400/5000, iter_time(ms)=137
+  step 3500/5000, iter_time(ms)=130
+  step 3600/5000, iter_time(ms)=134
+  step 3700/5000, iter_time(ms)=137
+  step 3800/5000, iter_time(ms)=130
+  step 3900/5000, iter_time(ms)=131
+  step 4000/5000, iter_time(ms)=137
+  step 4100/5000, iter_time(ms)=137
+  step 4200/5000, iter_time(ms)=136
+  step 4300/5000, iter_time(ms)=136
+  step 4400/5000, iter_time(ms)=136
+  step 4500/5000, iter_time(ms)=129
+  step 4600/5000, iter_time(ms)=136
+  step 4700/5000, iter_time(ms)=160
+  step 4800/5000, iter_time(ms)=138
+  step 4900/5000, iter_time(ms)=129
+  step 5000/5000, iter_time(ms)=137
+Loading and preparing results...
+DONE (t=3.09s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=101.48s).
+Accumulating evaluation results...
+DONE (t=15.46s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.297
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.468
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.312
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.108
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.333
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.471
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.251
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.368
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.379
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.137
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.425
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.583
+EdgeTpu delegate
+Interpreter:  1 448 448 3
+loading annotations into memory...
+Done (t=1.81s)
+creating index...
+index created!
+  step 100/5000, iter_time(ms)=211
+  step 200/5000, iter_time(ms)=213
+  step 300/5000, iter_time(ms)=211
+  step 400/5000, iter_time(ms)=199
+  step 500/5000, iter_time(ms)=212
+  step 600/5000, iter_time(ms)=210
+  step 700/5000, iter_time(ms)=200
+  step 800/5000, iter_time(ms)=199
+  step 900/5000, iter_time(ms)=202
+  step 1000/5000, iter_time(ms)=201
+  step 1100/5000, iter_time(ms)=202
+  step 1200/5000, iter_time(ms)=200
+  step 1300/5000, iter_time(ms)=199
+  step 1400/5000, iter_time(ms)=212
+  step 1500/5000, iter_time(ms)=211
+  step 1600/5000, iter_time(ms)=200
+  step 1700/5000, iter_time(ms)=213
+  step 1800/5000, iter_time(ms)=211
+  step 1900/5000, iter_time(ms)=201
+  step 2000/5000, iter_time(ms)=212
+  step 2100/5000, iter_time(ms)=211
+  step 2200/5000, iter_time(ms)=200
+  step 2300/5000, iter_time(ms)=212
+  step 2400/5000, iter_time(ms)=212
+  step 2500/5000, iter_time(ms)=212
+  step 2600/5000, iter_time(ms)=212
+  step 2700/5000, iter_time(ms)=212
+  step 2800/5000, iter_time(ms)=214
+  step 2900/5000, iter_time(ms)=211
+  step 3000/5000, iter_time(ms)=200
+  step 3100/5000, iter_time(ms)=199
+  step 3200/5000, iter_time(ms)=228
+  step 3300/5000, iter_time(ms)=229
+  step 3400/5000, iter_time(ms)=213
+  step 3500/5000, iter_time(ms)=203
+  step 3600/5000, iter_time(ms)=211
+  step 3700/5000, iter_time(ms)=202
+  step 3800/5000, iter_time(ms)=199
+  step 3900/5000, iter_time(ms)=199
+  step 4000/5000, iter_time(ms)=203
+  step 4100/5000, iter_time(ms)=211
+  step 4200/5000, iter_time(ms)=211
+  step 4300/5000, iter_time(ms)=200
+  step 4400/5000, iter_time(ms)=203
+  step 4500/5000, iter_time(ms)=212
+  step 4600/5000, iter_time(ms)=200
+  step 4700/5000, iter_time(ms)=200
+  step 4800/5000, iter_time(ms)=201
+  step 4900/5000, iter_time(ms)=199
+  step 5000/5000, iter_time(ms)=202
+Loading and preparing results...
+DONE (t=3.05s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=100.49s).
+Accumulating evaluation results...
+DONE (t=16.21s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.285
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.458
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.300
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.131
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.333
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.409
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.247
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.366
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.374
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.171
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.429
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.532
+EdgeTpu delegate
+Interpreter:  1 640 640 3
+loading annotations into memory...
+Done (t=1.85s)
+creating index...
+index created!

@@ -16,6 +16,9 @@
   - ARM NN Delegate
     - Arm NN v21.05
     - Arm Compute Library v21.05
+  - Coral EdgeTPU Delegate
+    - libEdgeTPU Release Frogfish
+    - Edge TPU Compiler version 15.0.340273435
 
 ## Dataset
 - [COCO2017](https://cocodataset.org/#home)
@@ -41,19 +44,24 @@ Models
 
 ## COCO2017VAL mAP
 - -: Segmantation fault
+- *: Edge TPU Compiler Internal compiler error. Aborting!
+- **: Transfer on tag 1 failed. Abort. Deadline exceeded: USB transfer error 2 [LibUsbDataOutCallback].   
+  See details (https://github.com/google-coral/edgetpu/issues/11).
 
-| Model               |Input  | FP32<br>XNNPACK delegate | FP32<br>ARM NN delegate | INT8       |
-|:--------------------|:----  |-------------------------:|------------------------:|-----------:|
-| EfficientDet-lite0  |320x320|                    26.03 |                   26.03 |      25.65 |
-| EfficientDet-lite1  |384x384|                    30.16 |                   30.16 |      29.61 |
-| EfficientDet-lite2  |448x448|                    33.16 |                   33.16 |      32.72 |
-| EfficientDet-lite3  |512x512|                    36.32 |                   36.32 |      36    |
-| EfficientDet-lite3x |640x640|      　　　　　　　38.68 |                   38.68 |      38.24 |
-| EfficientDet-lite4  |640x640|      　　　　　　　39.7  |                       - |      39.38 |
+| Model               |Input  | FP32<br>XNNPACK delegate | FP32<br>ARM NN delegate | INT8       | EdgeTPU    |
+|:--------------------|:----  |-------------------------:|------------------------:|-----------:|-----------:|
+| EfficientDet-lite0  |320x320|                    26.03 |                   26.03 |      25.65 |      25.54 |
+| EfficientDet-lite1  |384x384|                    30.16 |                   30.16 |      29.61 |      29.7  |
+| EfficientDet-lite2  |448x448|                    33.16 |                   33.16 |      32.72 |      28.5  |
+| EfficientDet-lite3  |512x512|                    36.32 |                   36.32 |      36    |          * |
+| EfficientDet-lite3x |640x640|      　　　　　　　38.68 |                   38.68 |      38.24 |         ** |
+| EfficientDet-lite4  |640x640|      　　　　　　　39.7  |                       - |      39.38 |          * |
 
 
 ## Latency mean (ms)
-FP32: XNNPACK delegate
+- FP32: XNNPACK delegate
+- *: Transfer on tag 1 failed. Abort. Deadline exceeded: USB transfer error 2 [LibUsbDataOutCallback].   
+  See details (https://github.com/google-coral/edgetpu/issues/11).
 
 | Model               |Input  |Kind        |Threads   |RasPi4 64bit|
 |:--------------------|:----  |:-----------|---------:|-----------:|
@@ -65,6 +73,7 @@ FP32: XNNPACK delegate
 |                     |       |            |        2 |     232.77 |
 |                     |       |            |        3 |     143.85 |
 |                     |       |            |        4 |     122.06 |
+|                     |       |EdgeTPU     |        1 |      99.77 |
 | EfficientDet-lite1  |384x384|FP32        |        1 |     691.68 |
 |                     |       |            |        2 |     424.00 |
 |                     |       |            |        3 |     362.36 |
@@ -73,6 +82,7 @@ FP32: XNNPACK delegate
 |                     |       |            |        2 |     324.85 |
 |                     |       |            |        3 |     251.86 |
 |                     |       |            |        4 |     211.73 |
+|                     |       |EdgeTPU     |        1 |     141.15 |
 | EfficientDet-lite2  |448x448|FP32        |        1 |    1098.97 |
 |                     |       |            |        2 |     690.23 |
 |                     |       |            |        3 |     589.15 |
@@ -81,6 +91,7 @@ FP32: XNNPACK delegate
 |                     |       |            |        2 |     505.17 |
 |                     |       |            |        3 |     394.94 |
 |                     |       |            |        4 |     331.20 |
+|                     |       |EdgeTPU     |        1 |     219.76 |
 | EfficientDet-lite3  |512x512|FP32        |        1 |    2308.64 |
 |                     |       |            |        2 |    1370.47 |
 |                     |       |            |        3 |    1167.75 |
@@ -97,6 +108,7 @@ FP32: XNNPACK delegate
 |                     |       |            |        2 |    1685.61 |
 |                     |       |            |        3 |    1267.22 |
 |                     |       |            |        4 |    1050.79 |
+|                     |       |EdgeTPU     |        1 |          * |
 | EfficientDet-lite4  |640x640|FP32        |        1 |    5743.08 |
 |                     |       |            |        2 |    3399.70 |
 |                     |       |            |        3 |    2835.45 |
