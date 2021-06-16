@@ -4,7 +4,7 @@
 
 - HW
   - Raspberry Pi 4 Model B Rev 1.2 4GB
-  - Raspberry Pi 4 Model B+ 2GB
+  - Raspberry Pi 3 Model B+ 2GB
 - OS
   - Raspberry Pi OS 64bit (raspios_arm64-2021-04-09)
     Linux raspberrypi 5.10.36-v8+ #1418 SMP PREEMPT Thu May 13 18:19:53 BST 2021 aarch64 GNU/Linux
