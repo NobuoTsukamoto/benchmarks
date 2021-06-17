@@ -113,6 +113,7 @@ Models
 - Delegate Parameter : `{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': 'N', 'enable-fast-math': 'true'}`  
   N: Num of Threads
 - -: RuntimeError: Tensor numDimensions must be less than or equal to MaxNumOfTensorDimensions at function CheckValidNumDimensions [/home/pi/ArmNNDelegate/armnn/src/armnn/Tensor.cpp:293]
+
 |Model name                 |Input  |Kind   |Threads|RasPi3 64bit|RasPi4 64bit|
 |:--                        |:--    |:--    |--:    |--:         |--:         |
 |SSD Mobilenet v2           |300x300|FP32   |      1|     594.36 |    |
