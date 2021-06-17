@@ -108,3 +108,54 @@ Models
 |                           |       |       |      3|     255.97 |      136.34|
 |                           |       |       |      4|     207.27 |      112.04|
 |                           |       |EdgeTPU|      1|      74.45 |       14.83|
+
+## ARM NN Delegate Latency mean (ms)
+- Delegate Parameter : `{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': 'N', 'enable-fast-math': 'true'}`  
+  N: Num of Threads
+- -: RuntimeError: Tensor numDimensions must be less than or equal to MaxNumOfTensorDimensions at function CheckValidNumDimensions [/home/pi/ArmNNDelegate/armnn/src/armnn/Tensor.cpp:293]
+|Model name                 |Input  |Kind   |Threads|RasPi3 64bit|RasPi4 64bit|
+|:--                        |:--    |:--    |--:    |--:         |--:         |
+|SSD Mobilenet v2           |300x300|FP32   |      1|     594.36 |    |
+|                           |       |       |      2|     372.15 |    |
+|                           |       |       |      3|     327.36 |    |
+|                           |       |       |      4|     309.59 |    |
+|SSDLite Mobilenet v2       |300x300|FP32   |      1|     418.45 |    |
+|                           |       |       |      2|     256.14 |    |
+|                           |       |       |      3|     212.09 |    |
+|                           |       |       |      4|     198.27 |    |
+|                           |       |INT8   |      1|     328.67 |    |
+|                           |       |       |      2|     188.87 |    |
+|                           |       |       |      3|     145.87 |    |
+|                           |       |       |      4|     124.49 |    |
+|SSD Mobilenet v1 FPN       |640x640|FP32   |      1|          - |    |
+|                           |       |       |      2|          - |    |
+|                           |       |       |      3|          - |    |
+|                           |       |       |      4|          - |    |
+|SSD Resnet 50 v1 FPN       |640x640|FP32   |      1|            |    |
+|                           |       |       |      2|            |    |
+|                           |       |       |      3|            |    |
+|                           |       |       |      4|            |    |
+|SSDLite MobileDet-CPU      |320x320|FP32   |      1|     884.18 |    |
+|                           |       |       |      2|     527.78 |    |
+|                           |       |       |      3|     436.93 |    |
+|                           |       |       |      4|     380.36 |    |
+|SSDLite MobileDet-EdgeTPU  |320x320|INT8   |      1|     530.66 |    |
+|                           |       |       |      2|     293.96 |    |
+|                           |       |       |      3|     245.89 |    |
+|                           |       |       |      4|     208.19 |    |
+|SSD MnasFPN                |320x320|FP32   |      1|     980.23 |    |
+|                           |       |       |      2|     600.04 |    |
+|                           |       |       |      3|     492.19 |    |
+|                           |       |       |      4|     443.87 |    |
+|SSDLite Mobilenet v3 large |320x320|FP32   |      1|     566.57 |    |
+|                           |       |       |      2|     369.69 |    |
+|                           |       |       |      3|     318.85 |    |
+|                           |       |       |      4|     291.93 |    |
+|SSDLite Mobilenet v3 small |320x320|FP32   |      1|     321.16 |    |
+|                           |       |       |      2|     199.56 |    |
+|                           |       |       |      3|     167.38 |    |
+|                           |       |       |      4|     150.36 |    |
+|SSDLite MobileNetEdgeTPU   |320x320|INT8   |      1|     635.03 |    |
+|                           |       |       |      2|     355.39 |    |
+|                           |       |       |      3|     267.93 |    |
+|                           |       |       |      4|     215.30 |    |

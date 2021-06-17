@@ -1,0 +1,756 @@
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_large_320x320_coco.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.24 ms
+
+Interpreter:  1 320 320 3
+First Inference : 712.58 ms
+  step 100/350, iter_time(ms)=564
+  step 200/350, iter_time(ms)=566
+  step 300/350, iter_time(ms)=569
+  images/sec: 1
+  99th_percentile(ms): 571.62
+  total_time(s): 198.5
+  latency_mean(ms): 566.57
+  latency_median(ms): 565.39
+  latency_min(ms): 563.21
+Info: Shutdown time: 25.26 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_large_320x320_coco.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.27 ms
+
+Interpreter:  1 320 320 3
+First Inference : 464.89 ms
+  step 100/350, iter_time(ms)=369
+  step 200/350, iter_time(ms)=369
+  step 300/350, iter_time(ms)=368
+  images/sec: 2
+  99th_percentile(ms): 377.80
+  total_time(s): 129.5
+  latency_mean(ms): 369.69
+  latency_median(ms): 368.44
+  latency_min(ms): 366.91
+Info: Shutdown time: 24.82 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_large_320x320_coco.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.20 ms
+
+Interpreter:  1 320 320 3
+First Inference : 413.20 ms
+  step 100/350, iter_time(ms)=317
+  step 200/350, iter_time(ms)=316
+  step 300/350, iter_time(ms)=329
+  images/sec: 3
+  99th_percentile(ms): 331.49
+  total_time(s): 111.7
+  latency_mean(ms): 318.85
+  latency_median(ms): 316.98
+  latency_min(ms): 315.13
+Info: Shutdown time: 25.54 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_large_320x320_coco.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.67 ms
+
+Interpreter:  1 320 320 3
+First Inference : 396.78 ms
+  step 100/350, iter_time(ms)=307
+  step 200/350, iter_time(ms)=306
+  step 300/350, iter_time(ms)=309
+  images/sec: 3
+  99th_percentile(ms): 311.23
+  total_time(s): 102.3
+  latency_mean(ms): 291.93
+  latency_median(ms): 288.32
+  latency_min(ms): 286.63
+Info: Shutdown time: 25.44 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_small_320x320_coco.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.23 ms
+
+Interpreter:  1 320 320 3
+First Inference : 400.64 ms
+  step 100/350, iter_time(ms)=341
+  step 200/350, iter_time(ms)=314
+  step 300/350, iter_time(ms)=319
+  images/sec: 3
+  99th_percentile(ms): 345.65
+  total_time(s): 113.5
+  latency_mean(ms): 321.16
+  latency_median(ms): 315.51
+  latency_min(ms): 313.95
+Info: Shutdown time: 13.42 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_small_320x320_coco.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.18 ms
+
+Interpreter:  1 320 320 3
+First Inference : 248.79 ms
+  step 100/350, iter_time(ms)=199
+  step 200/350, iter_time(ms)=199
+  step 300/350, iter_time(ms)=199
+  images/sec: 5
+  99th_percentile(ms): 205.21
+  total_time(s): 69.9
+  latency_mean(ms): 199.56
+  latency_median(ms): 199.13
+  latency_min(ms): 198.14
+Info: Shutdown time: 13.18 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_small_320x320_coco.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.50 ms
+
+Interpreter:  1 320 320 3
+First Inference : 216.13 ms
+  step 100/350, iter_time(ms)=166
+  step 200/350, iter_time(ms)=166
+  step 300/350, iter_time(ms)=167
+  images/sec: 5
+  99th_percentile(ms): 178.19
+  total_time(s): 58.6
+  latency_mean(ms): 167.38
+  latency_median(ms): 166.68
+  latency_min(ms): 165.63
+Info: Shutdown time: 14.66 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_small_320x320_coco.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.17 ms
+
+Interpreter:  1 320 320 3
+First Inference : 199.12 ms
+  step 100/350, iter_time(ms)=150
+  step 200/350, iter_time(ms)=149
+  step 300/350, iter_time(ms)=149
+  images/sec: 6
+  99th_percentile(ms): 169.25
+  total_time(s): 52.7
+  latency_mean(ms): 150.36
+  latency_median(ms): 148.96
+  latency_min(ms): 148.08
+Info: Shutdown time: 13.43 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_cpu_320x320_coco.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.17 ms
+
+Interpreter:  1 320 320 3
+First Inference : 982.28 ms
+  step 100/350, iter_time(ms)=886
+  step 200/350, iter_time(ms)=883
+  step 300/350, iter_time(ms)=884
+  images/sec: 1
+  99th_percentile(ms): 887.95
+  total_time(s): 309.6
+  latency_mean(ms): 884.18
+  latency_median(ms): 884.15
+  latency_min(ms): 880.74
+Info: Shutdown time: 25.62 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_cpu_320x320_coco.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.55 ms
+
+Interpreter:  1 320 320 3
+First Inference : 622.29 ms
+  step 100/350, iter_time(ms)=526
+  step 200/350, iter_time(ms)=531
+  step 300/350, iter_time(ms)=527
+  images/sec: 1
+  99th_percentile(ms): 532.50
+  total_time(s): 184.8
+  latency_mean(ms): 527.78
+  latency_median(ms): 527.10
+  latency_min(ms): 525.18
+Info: Shutdown time: 25.78 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_cpu_320x320_coco.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.23 ms
+
+Interpreter:  1 320 320 3
+First Inference : 535.28 ms
+  step 100/350, iter_time(ms)=435
+  step 200/350, iter_time(ms)=439
+  step 300/350, iter_time(ms)=435
+  images/sec: 2
+  99th_percentile(ms): 446.95
+  total_time(s): 153.0
+  latency_mean(ms): 436.93
+  latency_median(ms): 435.78
+  latency_min(ms): 433.98
+Info: Shutdown time: 25.83 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_cpu_320x320_coco.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.52 ms
+
+Interpreter:  1 320 320 3
+First Inference : 470.08 ms
+  step 100/350, iter_time(ms)=377
+  step 200/350, iter_time(ms)=377
+  step 300/350, iter_time(ms)=375
+  images/sec: 2
+  99th_percentile(ms): 396.67
+  total_time(s): 133.2
+  latency_mean(ms): 380.36
+  latency_median(ms): 375.96
+  latency_min(ms): 374.07
+Info: Shutdown time: 25.56 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.47 ms
+
+Interpreter:  1 320 320 3
+First Inference : 1203.44 ms
+  step 100/350, iter_time(ms)=981
+  step 200/350, iter_time(ms)=978
+  step 300/350, iter_time(ms)=978
+  images/sec: 1
+  99th_percentile(ms): 986.18
+  total_time(s): 343.3
+  latency_mean(ms): 980.23
+  latency_median(ms): 979.90
+  latency_min(ms): 976.57
+Info: Shutdown time: 36.89 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.17 ms
+
+Interpreter:  1 320 320 3
+First Inference : 780.53 ms
+  step 100/350, iter_time(ms)=605
+  step 200/350, iter_time(ms)=598
+  step 300/350, iter_time(ms)=604
+  images/sec: 1
+  99th_percentile(ms): 609.13
+  total_time(s): 210.2
+  latency_mean(ms): 600.04
+  latency_median(ms): 599.19
+  latency_min(ms): 596.53
+Info: Shutdown time: 37.13 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.18 ms
+
+Interpreter:  1 320 320 3
+First Inference : 678.29 ms
+  step 100/350, iter_time(ms)=495
+  step 200/350, iter_time(ms)=489
+  step 300/350, iter_time(ms)=493
+  images/sec: 2
+  99th_percentile(ms): 498.77
+  total_time(s): 172.4
+  latency_mean(ms): 492.19
+  latency_median(ms): 490.77
+  latency_min(ms): 488.30
+Info: Shutdown time: 36.91 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.18 ms
+
+Interpreter:  1 320 320 3
+First Inference : 619.22 ms
+  step 100/350, iter_time(ms)=440
+  step 200/350, iter_time(ms)=439
+  step 300/350, iter_time(ms)=438
+  images/sec: 2
+  99th_percentile(ms): 464.28
+  total_time(s): 155.6
+  latency_mean(ms): 443.87
+  latency_median(ms): 439.57
+  latency_min(ms): 437.60
+Info: Shutdown time: 36.85 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.17 ms
+
+Info: Shutdown time: 0.03 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.52 ms
+
+Info: Shutdown time: 0.11 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.44 ms
+
+Info: Shutdown time: 0.04 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.17 ms
+
+Info: Shutdown time: 0.03 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_coco.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.17 ms
+
+Interpreter:  1 300 300 3
+First Inference : 641.11 ms
+  step 100/350, iter_time(ms)=595
+  step 200/350, iter_time(ms)=595
+  step 300/350, iter_time(ms)=594
+  images/sec: 1
+  99th_percentile(ms): 598.86
+  total_time(s): 208.1
+  latency_mean(ms): 594.36
+  latency_median(ms): 593.71
+  latency_min(ms): 591.57
+Info: Shutdown time: 72.32 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_coco.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.18 ms
+
+Interpreter:  1 300 300 3
+First Inference : 415.22 ms
+  step 100/350, iter_time(ms)=369
+  step 200/350, iter_time(ms)=370
+  step 300/350, iter_time(ms)=377
+  images/sec: 2
+  99th_percentile(ms): 384.52
+  total_time(s): 130.3
+  latency_mean(ms): 372.15
+  latency_median(ms): 370.86
+  latency_min(ms): 368.65
+Info: Shutdown time: 69.21 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_coco.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.44 ms
+
+Interpreter:  1 300 300 3
+First Inference : 371.47 ms
+  step 100/350, iter_time(ms)=326
+  step 200/350, iter_time(ms)=325
+  step 300/350, iter_time(ms)=326
+  images/sec: 3
+  99th_percentile(ms): 343.06
+  total_time(s): 114.6
+  latency_mean(ms): 327.36
+  latency_median(ms): 325.62
+  latency_min(ms): 323.73
+Info: Shutdown time: 69.51 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_coco.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.55 ms
+
+Interpreter:  1 300 300 3
+First Inference : 351.54 ms
+  step 100/350, iter_time(ms)=305
+  step 200/350, iter_time(ms)=305
+  step 300/350, iter_time(ms)=306
+  images/sec: 3
+  99th_percentile(ms): 342.38
+  total_time(s): 108.4
+  latency_mean(ms): 309.59
+  latency_median(ms): 305.35
+  latency_min(ms): 303.32
+Info: Shutdown time: 69.92 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_v2_coco.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.48 ms
+
+Interpreter:  1 300 300 3
+First Inference : 485.87 ms
+  step 100/350, iter_time(ms)=418
+  step 200/350, iter_time(ms)=419
+  step 300/350, iter_time(ms)=418
+  images/sec: 2
+  99th_percentile(ms): 421.95
+  total_time(s): 146.5
+  latency_mean(ms): 418.45
+  latency_median(ms): 417.92
+  latency_min(ms): 416.79
+Info: Shutdown time: 21.10 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_v2_coco.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.40 ms
+
+Interpreter:  1 300 300 3
+First Inference : 330.21 ms
+  step 100/350, iter_time(ms)=255
+  step 200/350, iter_time(ms)=254
+  step 300/350, iter_time(ms)=255
+  images/sec: 3
+  99th_percentile(ms): 262.73
+  total_time(s): 89.7
+  latency_mean(ms): 256.14
+  latency_median(ms): 255.33
+  latency_min(ms): 254.04
+Info: Shutdown time: 21.19 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_v2_coco.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.44 ms
+
+Interpreter:  1 300 300 3
+First Inference : 278.05 ms
+  step 100/350, iter_time(ms)=210
+  step 200/350, iter_time(ms)=211
+  step 300/350, iter_time(ms)=218
+  images/sec: 4
+  99th_percentile(ms): 224.37
+  total_time(s): 74.3
+  latency_mean(ms): 212.09
+  latency_median(ms): 210.85
+  latency_min(ms): 209.88
+Info: Shutdown time: 21.56 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_v2_coco.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.20 ms
+
+Interpreter:  1 300 300 3
+First Inference : 264.59 ms
+  step 100/350, iter_time(ms)=205
+  step 200/350, iter_time(ms)=196
+  step 300/350, iter_time(ms)=195
+  images/sec: 5
+  99th_percentile(ms): 216.48
+  total_time(s): 69.5
+  latency_mean(ms): 198.27
+  latency_median(ms): 195.87
+  latency_min(ms): 194.56
+Info: Shutdown time: 22.34 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_quant_coco.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.44 ms
+
+Interpreter:  1 300 300 3
+First Inference : 403.29 ms
+  step 100/350, iter_time(ms)=329
+  step 200/350, iter_time(ms)=330
+  step 300/350, iter_time(ms)=329
+  images/sec: 3
+  99th_percentile(ms): 330.83
+  total_time(s): 115.1
+  latency_mean(ms): 328.67
+  latency_median(ms): 328.46
+  latency_min(ms): 327.17
+Info: Shutdown time: 13.49 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_quant_coco.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.45 ms
+
+Interpreter:  1 300 300 3
+First Inference : 263.96 ms
+  step 100/350, iter_time(ms)=189
+  step 200/350, iter_time(ms)=189
+  step 300/350, iter_time(ms)=189
+  images/sec: 5
+  99th_percentile(ms): 191.69
+  total_time(s): 66.2
+  latency_mean(ms): 188.87
+  latency_median(ms): 188.66
+  latency_min(ms): 187.93
+Info: Shutdown time: 13.39 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_quant_coco.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.43 ms
+
+Interpreter:  1 300 300 3
+First Inference : 221.04 ms
+  step 100/350, iter_time(ms)=145
+  step 200/350, iter_time(ms)=145
+  step 300/350, iter_time(ms)=145
+  images/sec: 6
+  99th_percentile(ms): 151.64
+  total_time(s): 51.2
+  latency_mean(ms): 145.87
+  latency_median(ms): 145.50
+  latency_min(ms): 144.85
+Info: Shutdown time: 13.58 ms
+
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_quant_coco.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.19 ms
+
+Interpreter:  1 300 300 3
+First Inference : 198.18 ms
+  step 100/350, iter_time(ms)=123
+  step 200/350, iter_time(ms)=122
+  step 300/350, iter_time(ms)=123
+  images/sec: 8
+  99th_percentile(ms): 143.24
+  total_time(s): 43.7
+  latency_mean(ms): 124.49
+  latency_median(ms): 122.85
+  latency_min(ms): 122.18
+Info: Shutdown time: 13.85 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_edgetpu_320x320_quant_coco.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.40 ms
+
+Interpreter:  1 320 320 3
+First Inference : 570.06 ms
+  step 100/350, iter_time(ms)=533
+  step 200/350, iter_time(ms)=531
+  step 300/350, iter_time(ms)=532
+  images/sec: 1
+  99th_percentile(ms): 532.92
+  total_time(s): 185.8
+  latency_mean(ms): 530.66
+  latency_median(ms): 530.58
+  latency_min(ms): 528.68
+Info: Shutdown time: 8.05 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_edgetpu_320x320_quant_coco.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.39 ms
+
+Interpreter:  1 320 320 3
+First Inference : 336.81 ms
+  step 100/350, iter_time(ms)=296
+  step 200/350, iter_time(ms)=296
+  step 300/350, iter_time(ms)=294
+  images/sec: 3
+  99th_percentile(ms): 296.27
+  total_time(s): 103.0
+  latency_mean(ms): 293.96
+  latency_median(ms): 293.76
+  latency_min(ms): 292.62
+Info: Shutdown time: 8.13 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_edgetpu_320x320_quant_coco.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.18 ms
+
+Interpreter:  1 320 320 3
+First Inference : 263.07 ms
+  step 100/350, iter_time(ms)=242
+  step 200/350, iter_time(ms)=243
+  step 300/350, iter_time(ms)=242
+  images/sec: 4
+  99th_percentile(ms): 284.10
+  total_time(s): 86.6
+  latency_mean(ms): 245.89
+  latency_median(ms): 242.28
+  latency_min(ms): 240.51
+Info: Shutdown time: 9.72 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_edgetpu_320x320_quant_coco.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.61 ms
+
+Interpreter:  1 320 320 3
+First Inference : 254.31 ms
+  step 100/350, iter_time(ms)=205
+  step 200/350, iter_time(ms)=206
+  step 300/350, iter_time(ms)=214
+  images/sec: 4
+  99th_percentile(ms): 235.63
+  total_time(s): 72.9
+  latency_mean(ms): 208.19
+  latency_median(ms): 205.03
+  latency_min(ms): 203.92
+Info: Shutdown time: 9.79 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_edgetpu_coco_quant.tflite, param num_threads: 1, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '1', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.57 ms
+
+Interpreter:  1 320 320 3
+First Inference : 677.10 ms
+  step 100/350, iter_time(ms)=636
+  step 200/350, iter_time(ms)=637
+  step 300/350, iter_time(ms)=637
+  images/sec: 1
+  99th_percentile(ms): 637.74
+  total_time(s): 222.3
+  latency_mean(ms): 635.03
+  latency_median(ms): 635.00
+  latency_min(ms): 632.40
+Info: Shutdown time: 8.85 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_edgetpu_coco_quant.tflite, param num_threads: 2, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '2', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.68 ms
+
+Interpreter:  1 320 320 3
+First Inference : 398.14 ms
+  step 100/350, iter_time(ms)=354
+  step 200/350, iter_time(ms)=355
+  step 300/350, iter_time(ms)=357
+  images/sec: 2
+  99th_percentile(ms): 358.66
+  total_time(s): 124.5
+  latency_mean(ms): 355.39
+  latency_median(ms): 354.97
+  latency_min(ms): 353.42
+Info: Shutdown time: 9.22 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_edgetpu_coco_quant.tflite, param num_threads: 3, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '3', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.63 ms
+
+Interpreter:  1 320 320 3
+First Inference : 310.46 ms
+  step 100/350, iter_time(ms)=266
+  step 200/350, iter_time(ms)=271
+  step 300/350, iter_time(ms)=267
+  images/sec: 3
+  99th_percentile(ms): 277.94
+  total_time(s): 93.8
+  latency_mean(ms): 267.93
+  latency_median(ms): 267.10
+  latency_min(ms): 265.76
+Info: Shutdown time: 9.29 ms
+
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_edgetpu_coco_quant.tflite, param num_threads: 4, delegate: libarmnnDelegate.so
+libarmnnDelegate delegate
+{'backends': 'CpuAcc', 'logging-severity': 'info', 'number-of-threads': '4', 'enable-fast-math': 'true'}
+Info: ArmNN v25.0.0
+
+Info: Initialization time: 0.54 ms
+
+Interpreter:  1 320 320 3
+First Inference : 266.77 ms
+  step 100/350, iter_time(ms)=224
+  step 200/350, iter_time(ms)=226
+  step 300/350, iter_time(ms)=202
+  images/sec: 4
+  99th_percentile(ms): 246.24
+  total_time(s): 76.0
+  latency_mean(ms): 215.30
+  latency_median(ms): 222.14
+  latency_min(ms): 201.17
+Info: Shutdown time: 11.59 ms
+
