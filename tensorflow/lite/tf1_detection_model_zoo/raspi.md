@@ -14,7 +14,12 @@
     - INT8: [TensorFlow Lite 2.5.0](https://github.com/tensorflow/tensorflow/releases/tag/v2.5.0)
   - OpenCV 4.5.2 (Self build)
   - Python3 3.7.3
-  - Edge TPU runtime Frogfish 
+  - ARM NN Delegate
+    - Arm NN v21.05
+    - Arm Compute Library v21.05
+  - Coral EdgeTPU Delegate
+    - libEdgeTPU Release Frogfish
+    - Edge TPU Compiler version 15.0.340273435
 
 ## Dataset
 - [COCO2017](https://cocodataset.org/#home)
@@ -41,18 +46,18 @@ Models
 - FP32: XNNPACK delegate
 - EdgeTPU: EdgeTPU delegate, maximum frequency (500 MHz)
 
-| Model                      |Input  |     FP32 |     INT8 |  EdgeTPU |
-|:---------------------------|:----  |---------:|---------:|---------:|
-| SSD Mobilenet v2           |300x300|    23.36 |          |          |
-| SSDLite Mobilenet v2       |300x300|    23.93 |    22.44 |    22.37 |
-| SSD Mobilenet v1 FPN       |640x640|    32.2  |          |          |
-| SSD Resnet 50 v1 FPN       |640x640|     ???? |          |          |
-| SSDLite MobileDet-CPU      |320x320|    25.66 |          |          |
-| SSDLite MobileDet-EdgeTPU  |320x320|          |    26.82 |    26.96 |
-| SSD MnasFPN                |320x320|    32.64 |          |          |
-| SSDLite Mobilenet v3 large |320x320|    25.45 |          |          |
-| SSDLite Mobilenet v3 small |320x320|    15.99 |          |          |
-| SSDLite MobileNetEdgeTPU   |320x320|          |    26.96 |    26.9  |
+| Model                      |Input  |     FP32 |FP32<br>ARM NN delegate |     INT8 |INT8<br>ARM NN delegate |  EdgeTPU |
+|:---------------------------|:----  |---------:|-----------------------:|---------:|-----------------------:|---------:|
+| SSD Mobilenet v2           |300x300|    23.36 |                  23.93 |          |                        |          |
+| SSDLite Mobilenet v2       |300x300|    23.93 |                  23.36 |    22.44 |                  22.41 |    22.37 |
+| SSD Mobilenet v1 FPN       |640x640|    32.2  |                        |          |                        |          |
+| SSD Resnet 50 v1 FPN       |640x640|     ???? |                        |          |                        |          |
+| SSDLite MobileDet-CPU      |320x320|    25.66 |                  25.66 |          |                        |          |
+| SSDLite MobileDet-EdgeTPU  |320x320|          |                        |    26.82 |                  26.84 |    26.96 |
+| SSD MnasFPN                |320x320|    32.64 |                  32.64 |          |                        |          |
+| SSDLite Mobilenet v3 large |320x320|    25.45 |                  25.45 |          |                        |          |
+| SSDLite Mobilenet v3 small |320x320|    15.99 |                  15.99 |          |                        |          |
+| SSDLite MobileNetEdgeTPU   |320x320|          |                        |    26.96 |                  26.9  |    26.9  |
 
 ## Latency mean (ms)
 
@@ -116,47 +121,47 @@ Models
 
 |Model name                 |Input  |Kind   |Threads|RasPi3 64bit|RasPi4 64bit|
 |:--                        |:--    |:--    |--:    |--:         |--:         |
-|SSD Mobilenet v2           |300x300|FP32   |      1|     594.36 |    |
-|                           |       |       |      2|     372.15 |    |
-|                           |       |       |      3|     327.36 |    |
-|                           |       |       |      4|     309.59 |    |
-|SSDLite Mobilenet v2       |300x300|FP32   |      1|     418.45 |    |
-|                           |       |       |      2|     256.14 |    |
-|                           |       |       |      3|     212.09 |    |
-|                           |       |       |      4|     198.27 |    |
-|                           |       |INT8   |      1|     328.67 |    |
-|                           |       |       |      2|     188.87 |    |
-|                           |       |       |      3|     145.87 |    |
-|                           |       |       |      4|     124.49 |    |
-|SSD Mobilenet v1 FPN       |640x640|FP32   |      1|          - |    |
-|                           |       |       |      2|          - |    |
-|                           |       |       |      3|          - |    |
-|                           |       |       |      4|          - |    |
-|SSD Resnet 50 v1 FPN       |640x640|FP32   |      1|            |    |
-|                           |       |       |      2|            |    |
-|                           |       |       |      3|            |    |
-|                           |       |       |      4|            |    |
-|SSDLite MobileDet-CPU      |320x320|FP32   |      1|     884.18 |    |
-|                           |       |       |      2|     527.78 |    |
-|                           |       |       |      3|     436.93 |    |
-|                           |       |       |      4|     380.36 |    |
-|SSDLite MobileDet-EdgeTPU  |320x320|INT8   |      1|     530.66 |    |
-|                           |       |       |      2|     293.96 |    |
-|                           |       |       |      3|     245.89 |    |
-|                           |       |       |      4|     208.19 |    |
-|SSD MnasFPN                |320x320|FP32   |      1|     980.23 |    |
-|                           |       |       |      2|     600.04 |    |
-|                           |       |       |      3|     492.19 |    |
-|                           |       |       |      4|     443.87 |    |
-|SSDLite Mobilenet v3 large |320x320|FP32   |      1|     566.57 |    |
-|                           |       |       |      2|     369.69 |    |
-|                           |       |       |      3|     318.85 |    |
-|                           |       |       |      4|     291.93 |    |
-|SSDLite Mobilenet v3 small |320x320|FP32   |      1|     321.16 |    |
-|                           |       |       |      2|     199.56 |    |
-|                           |       |       |      3|     167.38 |    |
-|                           |       |       |      4|     150.36 |    |
-|SSDLite MobileNetEdgeTPU   |320x320|INT8   |      1|     635.03 |    |
-|                           |       |       |      2|     355.39 |    |
-|                           |       |       |      3|     267.93 |    |
-|                           |       |       |      4|     215.30 |    |
+|SSD Mobilenet v2           |300x300|FP32   |      1|     594.36 |     335.69 |
+|                           |       |       |      2|     372.15 |     218.16 |
+|                           |       |       |      3|     327.36 |     184.19 |
+|                           |       |       |      4|     309.59 |     175.40 |
+|SSDLite Mobilenet v2       |300x300|FP32   |      1|     418.45 |     230.25 |
+|                           |       |       |      2|     256.14 |     145.21 |
+|                           |       |       |      3|     212.09 |     120.18 |
+|                           |       |       |      4|     198.27 |     111.85 |
+|                           |       |INT8   |      1|     328.67 |     199.09 |
+|                           |       |       |      2|     188.87 |     115.64 |
+|                           |       |       |      3|     145.87 |      82.53 |
+|                           |       |       |      4|     124.49 |      69.45 |
+|SSD Mobilenet v1 FPN       |640x640|FP32   |      1|          - |          - |
+|                           |       |       |      2|          - |          - |
+|                           |       |       |      3|          - |          - |
+|                           |       |       |      4|          - |          - |
+|SSD Resnet 50 v1 FPN       |640x640|FP32   |      1|            |            |
+|                           |       |       |      2|            |            |
+|                           |       |       |      3|            |            |
+|                           |       |       |      4|            |            |
+|SSDLite MobileDet-CPU      |320x320|FP32   |      1|     884.18 |     416.97 |
+|                           |       |       |      2|     527.78 |     277.66 |
+|                           |       |       |      3|     436.93 |     237.00 |
+|                           |       |       |      4|     380.36 |     209.88 |
+|SSDLite MobileDet-EdgeTPU  |320x320|INT8   |      1|     530.66 |     327.92 |
+|                           |       |       |      2|     293.96 |     180.72 |
+|                           |       |       |      3|     245.89 |     130.23 |
+|                           |       |       |      4|     208.19 |     105.97 |
+|SSD MnasFPN                |320x320|FP32   |      1|     980.23 |     505.48 |
+|                           |       |       |      2|     600.04 |     320.27 |
+|                           |       |       |      3|     492.19 |     267.38 |
+|                           |       |       |      4|     443.87 |     252.25 |
+|SSDLite Mobilenet v3 large |320x320|FP32   |      1|     566.57 |     252.39 |
+|                           |       |       |      2|     369.69 |     174.67 |
+|                           |       |       |      3|     318.85 |     150.27 |
+|                           |       |       |      4|     291.93 |     135.99 |
+|SSDLite Mobilenet v3 small |320x320|FP32   |      1|     321.16 |     145.02 |
+|                           |       |       |      2|     199.56 |     100.34 |
+|                           |       |       |      3|     167.38 |      85.69 |
+|                           |       |       |      4|     150.36 |      78.51 |
+|SSDLite MobileNetEdgeTPU   |320x320|INT8   |      1|     635.03 |     378.45 |
+|                           |       |       |      2|     355.39 |     205.51 |
+|                           |       |       |      3|     267.93 |     148.41 |
+|                           |       |       |      4|     215.30 |     119.06 |
