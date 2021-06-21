@@ -1,0 +1,144 @@
+Model name: ssd_mobilenet_v2_300x300_quant_coco, param num_threads: 1
+Interpreter:  1 300 300 3
+First Inference : 260.64 ms
+  step 100/350, iter_time(ms)=249
+  step 200/350, iter_time(ms)=249
+  step 300/350, iter_time(ms)=249
+  images/sec: 4
+  99th_percentile(ms): 250.98
+  total_time(s): 87.2
+  latency_mean(ms): 248.99
+  latency_median(ms): 248.90
+  latency_min(ms): 248.65
+Model name: ssd_mobilenet_v2_300x300_quant_coco, param num_threads: 2
+Interpreter:  1 300 300 3
+First Inference : 150.21 ms
+  step 100/350, iter_time(ms)=140
+  step 200/350, iter_time(ms)=140
+  step 300/350, iter_time(ms)=141
+  images/sec: 7
+  99th_percentile(ms): 141.37
+  total_time(s): 49.0
+  latency_mean(ms): 140.03
+  latency_median(ms): 140.00
+  latency_min(ms): 139.66
+Model name: ssd_mobilenet_v2_300x300_quant_coco, param num_threads: 3
+Interpreter:  1 300 300 3
+First Inference : 110.89 ms
+  step 100/350, iter_time(ms)=102
+  step 200/350, iter_time(ms)=102
+  step 300/350, iter_time(ms)=102
+  images/sec: 9
+  99th_percentile(ms): 103.52
+  total_time(s): 35.8
+  latency_mean(ms): 102.24
+  latency_median(ms): 102.20
+  latency_min(ms): 101.94
+Model name: ssd_mobilenet_v2_300x300_quant_coco, param num_threads: 4
+Interpreter:  1 300 300 3
+First Inference : 94.92 ms
+  step 100/350, iter_time(ms)=82
+  step 200/350, iter_time(ms)=82
+  step 300/350, iter_time(ms)=82
+  images/sec: 12
+  99th_percentile(ms): 94.79
+  total_time(s): 28.8
+  latency_mean(ms): 82.39
+  latency_median(ms): 82.17
+  latency_min(ms): 81.82
+Model name: ssdlite_mobiledet_edgetpu_320x320_quant_coco, param num_threads: 1
+Interpreter:  1 320 320 3
+First Inference : 361.29 ms
+  step 100/350, iter_time(ms)=352
+  step 200/350, iter_time(ms)=352
+  step 300/350, iter_time(ms)=352
+  images/sec: 2
+  99th_percentile(ms): 353.19
+  total_time(s): 123.2
+  latency_mean(ms): 351.94
+  latency_median(ms): 351.90
+  latency_min(ms): 351.37
+Model name: ssdlite_mobiledet_edgetpu_320x320_quant_coco, param num_threads: 2
+Interpreter:  1 320 320 3
+First Inference : 207.25 ms
+  step 100/350, iter_time(ms)=198
+  step 200/350, iter_time(ms)=198
+  step 300/350, iter_time(ms)=198
+  images/sec: 5
+  99th_percentile(ms): 199.91
+  total_time(s): 69.5
+  latency_mean(ms): 198.43
+  latency_median(ms): 198.44
+  latency_min(ms): 197.52
+Model name: ssdlite_mobiledet_edgetpu_320x320_quant_coco, param num_threads: 3
+Interpreter:  1 320 320 3
+First Inference : 155.11 ms
+  step 100/350, iter_time(ms)=147
+  step 200/350, iter_time(ms)=148
+  step 300/350, iter_time(ms)=148
+  images/sec: 6
+  99th_percentile(ms): 148.38
+  total_time(s): 51.6
+  latency_mean(ms): 147.33
+  latency_median(ms): 147.30
+  latency_min(ms): 146.81
+Model name: ssdlite_mobiledet_edgetpu_320x320_quant_coco, param num_threads: 4
+Interpreter:  1 320 320 3
+First Inference : 130.84 ms
+  step 100/350, iter_time(ms)=119
+  step 200/350, iter_time(ms)=120
+  step 300/350, iter_time(ms)=120
+  images/sec: 8
+  99th_percentile(ms): 120.40
+  total_time(s): 42.0
+  latency_mean(ms): 119.89
+  latency_median(ms): 119.67
+  latency_min(ms): 119.26
+Model name: ssdlite_mobilenet_edgetpu_coco_quant, param num_threads: 1
+Interpreter:  1 320 320 3
+First Inference : 431.21 ms
+  step 100/350, iter_time(ms)=420
+  step 200/350, iter_time(ms)=420
+  step 300/350, iter_time(ms)=418
+  images/sec: 2
+  99th_percentile(ms): 420.47
+  total_time(s): 146.6
+  latency_mean(ms): 418.68
+  latency_median(ms): 419.16
+  latency_min(ms): 417.31
+Model name: ssdlite_mobilenet_edgetpu_coco_quant, param num_threads: 2
+Interpreter:  1 320 320 3
+First Inference : 240.11 ms
+  step 100/350, iter_time(ms)=231
+  step 200/350, iter_time(ms)=230
+  step 300/350, iter_time(ms)=231
+  images/sec: 4
+  99th_percentile(ms): 231.58
+  total_time(s): 80.7
+  latency_mean(ms): 230.56
+  latency_median(ms): 230.53
+  latency_min(ms): 230.10
+Model name: ssdlite_mobilenet_edgetpu_coco_quant, param num_threads: 3
+Interpreter:  1 320 320 3
+First Inference : 178.06 ms
+  step 100/350, iter_time(ms)=170
+  step 200/350, iter_time(ms)=169
+  step 300/350, iter_time(ms)=169
+  images/sec: 5
+  99th_percentile(ms): 170.74
+  total_time(s): 59.3
+  latency_mean(ms): 169.27
+  latency_median(ms): 169.25
+  latency_min(ms): 168.86
+Model name: ssdlite_mobilenet_edgetpu_coco_quant, param num_threads: 4
+Interpreter:  1 320 320 3
+First Inference : 148.58 ms
+  step 100/350, iter_time(ms)=138
+  step 200/350, iter_time(ms)=138
+  step 300/350, iter_time(ms)=138
+  images/sec: 7
+  99th_percentile(ms): 150.49
+  total_time(s): 48.4
+  latency_mean(ms): 138.37
+  latency_median(ms): 137.81
+  latency_min(ms): 137.30

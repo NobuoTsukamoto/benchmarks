@@ -25,3 +25,4 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, etc...
 - [The Arm NN TensorFlow Lite delegate](https://github.com/ARM-software/armnn/tree/branches/armnn_21_05/delegate)
 - [ARM Compute Librarry](https://github.com/ARM-software/ComputeLibrary)
 - [Coral EdgeTPU](https://coral.ai/)
+- [PINTO0309/Bazel_bin](https://github.com/PINTO0309/Bazel_bin)

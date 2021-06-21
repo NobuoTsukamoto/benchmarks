@@ -1,0 +1,384 @@
+Model name: ssd_mobilenet_v3_large_320x320_coco, param num_threads: 1
+Interpreter:  1 320 320 3
+First Inference : 226.51 ms
+  step 100/350, iter_time(ms)=193
+  step 200/350, iter_time(ms)=193
+  step 300/350, iter_time(ms)=192
+  images/sec: 5
+  99th_percentile(ms): 195.00
+  total_time(s): 67.4
+  latency_mean(ms): 192.55
+  latency_median(ms): 192.48
+  latency_min(ms): 191.88
+Model name: ssd_mobilenet_v3_large_320x320_coco, param num_threads: 2
+Interpreter:  1 320 320 3
+First Inference : 154.20 ms
+  step 100/350, iter_time(ms)=126
+  step 200/350, iter_time(ms)=127
+  step 300/350, iter_time(ms)=126
+  images/sec: 7
+  99th_percentile(ms): 130.40
+  total_time(s): 44.1
+  latency_mean(ms): 125.97
+  latency_median(ms): 125.74
+  latency_min(ms): 125.12
+Model name: ssd_mobilenet_v3_large_320x320_coco, param num_threads: 3
+Interpreter:  1 320 320 3
+First Inference : 136.39 ms
+  step 100/350, iter_time(ms)=111
+  step 200/350, iter_time(ms)=111
+  step 300/350, iter_time(ms)=111
+  images/sec: 9
+  99th_percentile(ms): 115.65
+  total_time(s): 38.9
+  latency_mean(ms): 111.01
+  latency_median(ms): 110.81
+  latency_min(ms): 110.14
+Model name: ssd_mobilenet_v3_large_320x320_coco, param num_threads: 4
+Interpreter:  1 320 320 3
+First Inference : 130.64 ms
+  step 100/350, iter_time(ms)=107
+  step 200/350, iter_time(ms)=106
+  step 300/350, iter_time(ms)=107
+  images/sec: 9
+  99th_percentile(ms): 118.30
+  total_time(s): 37.4
+  latency_mean(ms): 106.83
+  latency_median(ms): 106.61
+  latency_min(ms): 105.82
+Model name: ssd_mobilenet_v3_small_320x320_coco, param num_threads: 1
+Interpreter:  1 320 320 3
+First Inference : 103.88 ms
+  step 100/350, iter_time(ms)=80
+  step 200/350, iter_time(ms)=80
+  step 300/350, iter_time(ms)=80
+  images/sec: 12
+  99th_percentile(ms): 81.74
+  total_time(s): 27.9
+  latency_mean(ms): 79.75
+  latency_median(ms): 79.72
+  latency_min(ms): 79.32
+Model name: ssd_mobilenet_v3_small_320x320_coco, param num_threads: 2
+Interpreter:  1 320 320 3
+First Inference : 79.66 ms
+  step 100/350, iter_time(ms)=56
+  step 200/350, iter_time(ms)=57
+  step 300/350, iter_time(ms)=57
+  images/sec: 17
+  99th_percentile(ms): 60.16
+  total_time(s): 19.8
+  latency_mean(ms): 56.44
+  latency_median(ms): 56.43
+  latency_min(ms): 55.72
+Model name: ssd_mobilenet_v3_small_320x320_coco, param num_threads: 3
+Interpreter:  1 320 320 3
+First Inference : 72.38 ms
+  step 100/350, iter_time(ms)=49
+  step 200/350, iter_time(ms)=50
+  step 300/350, iter_time(ms)=49
+  images/sec: 20
+  99th_percentile(ms): 50.70
+  total_time(s): 17.3
+  latency_mean(ms): 49.44
+  latency_median(ms): 49.48
+  latency_min(ms): 48.57
+Model name: ssd_mobilenet_v3_small_320x320_coco, param num_threads: 4
+Interpreter:  1 320 320 3
+First Inference : 68.93 ms
+  step 100/350, iter_time(ms)=48
+  step 200/350, iter_time(ms)=48
+  step 300/350, iter_time(ms)=48
+  images/sec: 20
+  99th_percentile(ms): 48.58
+  total_time(s): 16.8
+  latency_mean(ms): 47.84
+  latency_median(ms): 47.58
+  latency_min(ms): 46.93
+Model name: ssdlite_mobiledet_cpu_320x320_coco, param num_threads: 1
+Interpreter:  1 320 320 3
+First Inference : 255.76 ms
+  step 100/350, iter_time(ms)=215
+  step 200/350, iter_time(ms)=215
+  step 300/350, iter_time(ms)=215
+  images/sec: 4
+  99th_percentile(ms): 218.62
+  total_time(s): 75.3
+  latency_mean(ms): 214.92
+  latency_median(ms): 214.86
+  latency_min(ms): 214.28
+Model name: ssdlite_mobiledet_cpu_320x320_coco, param num_threads: 2
+Interpreter:  1 320 320 3
+First Inference : 181.45 ms
+  step 100/350, iter_time(ms)=151
+  step 200/350, iter_time(ms)=150
+  step 300/350, iter_time(ms)=150
+  images/sec: 6
+  99th_percentile(ms): 154.02
+  total_time(s): 52.6
+  latency_mean(ms): 150.08
+  latency_median(ms): 149.99
+  latency_min(ms): 149.25
+Model name: ssdlite_mobiledet_cpu_320x320_coco, param num_threads: 3
+Interpreter:  1 320 320 3
+First Inference : 160.07 ms
+  step 100/350, iter_time(ms)=131
+  step 200/350, iter_time(ms)=131
+  step 300/350, iter_time(ms)=131
+  images/sec: 7
+  99th_percentile(ms): 136.79
+  total_time(s): 45.8
+  latency_mean(ms): 130.86
+  latency_median(ms): 130.74
+  latency_min(ms): 130.08
+Model name: ssdlite_mobiledet_cpu_320x320_coco, param num_threads: 4
+Interpreter:  1 320 320 3
+First Inference : 157.73 ms
+  step 100/350, iter_time(ms)=130
+  step 200/350, iter_time(ms)=130
+  step 300/350, iter_time(ms)=130
+  images/sec: 7
+  99th_percentile(ms): 148.50
+  total_time(s): 45.6
+  latency_mean(ms): 130.42
+  latency_median(ms): 129.82
+  latency_min(ms): 128.77
+Model name: ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco, param num_threads: 1
+Interpreter:  1 320 320 3
+First Inference : 455.83 ms
+  step 100/350, iter_time(ms)=353
+  step 200/350, iter_time(ms)=354
+  step 300/350, iter_time(ms)=348
+  images/sec: 2
+  99th_percentile(ms): 355.04
+  total_time(s): 123.1
+  latency_mean(ms): 350.98
+  latency_median(ms): 352.25
+  latency_min(ms): 345.65
+Model name: ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco, param num_threads: 2
+Interpreter:  1 320 320 3
+First Inference : 295.22 ms
+  step 100/350, iter_time(ms)=227
+  step 200/350, iter_time(ms)=229
+  step 300/350, iter_time(ms)=228
+  images/sec: 4
+  99th_percentile(ms): 232.98
+  total_time(s): 80.1
+  latency_mean(ms): 228.64
+  latency_median(ms): 228.63
+  latency_min(ms): 226.78
+Model name: ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco, param num_threads: 3
+Interpreter:  1 320 320 3
+First Inference : 252.84 ms
+  step 100/350, iter_time(ms)=195
+  step 200/350, iter_time(ms)=199
+  step 300/350, iter_time(ms)=196
+  images/sec: 5
+  99th_percentile(ms): 199.67
+  total_time(s): 68.7
+  latency_mean(ms): 196.02
+  latency_median(ms): 195.92
+  latency_min(ms): 195.28
+Model name: ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco, param num_threads: 4
+Interpreter:  1 320 320 3
+First Inference : 236.13 ms
+  step 100/350, iter_time(ms)=186
+  step 200/350, iter_time(ms)=187
+  step 300/350, iter_time(ms)=188
+  images/sec: 5
+  99th_percentile(ms): 212.90
+  total_time(s): 65.6
+  latency_mean(ms): 187.31
+  latency_median(ms): 186.67
+  latency_min(ms): 185.41
+Model name: ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco, param num_threads: 1
+Interpreter:  1 640 640 3
+First Inference : 15513.28 ms
+  step 100/350, iter_time(ms)=15195
+  step 200/350, iter_time(ms)=15179
+  step 300/350, iter_time(ms)=15187
+  images/sec: 0
+  99th_percentile(ms): 15205.96
+  total_time(s): 5316.2
+  latency_mean(ms): 15187.53
+  latency_median(ms): 15186.34
+  latency_min(ms): 15174.98
+Model name: ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco, param num_threads: 2
+Interpreter:  1 640 640 3
+First Inference : 11148.51 ms
+  step 100/350, iter_time(ms)=10150
+  step 200/350, iter_time(ms)=10245
+  step 300/350, iter_time(ms)=9902
+  images/sec: 0
+  99th_percentile(ms): 11132.04
+  total_time(s): 3647.0
+  latency_mean(ms): 10420.25
+  latency_median(ms): 10435.07
+  latency_min(ms): 9475.52
+Model name: ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco, param num_threads: 3
+Interpreter:  1 640 640 3
+First Inference : 8515.13 ms
+  step 100/350, iter_time(ms)=9402
+  step 200/350, iter_time(ms)=9411
+  step 300/350, iter_time(ms)=9474
+  images/sec: 0
+  99th_percentile(ms): 9592.44
+  total_time(s): 3302.5
+  latency_mean(ms): 9435.79
+  latency_median(ms): 9428.17
+  latency_min(ms): 9274.02
+Model name: ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco, param num_threads: 4
+Interpreter:  1 640 640 3
+First Inference : 8350.53 ms
+  step 100/350, iter_time(ms)=8188
+  step 200/350, iter_time(ms)=8184
+  step 300/350, iter_time(ms)=8185
+  images/sec: 0
+  99th_percentile(ms): 8252.82
+  total_time(s): 2867.1
+  latency_mean(ms): 8191.94
+  latency_median(ms): 8188.65
+  latency_min(ms): 8154.14
+Model name: ssd_mobilenet_v2_300x300_coco, param num_threads: 1
+Interpreter:  1 300 300 3
+First Inference : 542.43 ms
+  step 100/350, iter_time(ms)=504
+  step 200/350, iter_time(ms)=504
+  step 300/350, iter_time(ms)=504
+  images/sec: 1
+  99th_percentile(ms): 513.93
+  total_time(s): 176.5
+  latency_mean(ms): 504.20
+  latency_median(ms): 503.98
+  latency_min(ms): 503.29
+Model name: ssd_mobilenet_v2_300x300_coco, param num_threads: 2
+Interpreter:  1 300 300 3
+First Inference : 347.57 ms
+  step 100/350, iter_time(ms)=321
+  step 200/350, iter_time(ms)=321
+  step 300/350, iter_time(ms)=321
+  images/sec: 3
+  99th_percentile(ms): 334.77
+  total_time(s): 112.6
+  latency_mean(ms): 321.72
+  latency_median(ms): 320.93
+  latency_min(ms): 320.26
+Model name: ssd_mobilenet_v2_300x300_coco, param num_threads: 3
+Interpreter:  1 300 300 3
+First Inference : 344.04 ms
+  step 100/350, iter_time(ms)=312
+  step 200/350, iter_time(ms)=331
+  step 300/350, iter_time(ms)=321
+  images/sec: 3
+  99th_percentile(ms): 360.61
+  total_time(s): 112.2
+  latency_mean(ms): 321.78
+  latency_median(ms): 322.40
+  latency_min(ms): 301.24
+Model name: ssd_mobilenet_v2_300x300_coco, param num_threads: 4
+Interpreter:  1 300 300 3
+First Inference : 318.87 ms
+  step 100/350, iter_time(ms)=288
+  step 200/350, iter_time(ms)=287
+  step 300/350, iter_time(ms)=288
+  images/sec: 3
+  99th_percentile(ms): 337.37
+  total_time(s): 102.5
+  latency_mean(ms): 291.66
+  latency_median(ms): 287.64
+  latency_min(ms): 283.97
+Model name: ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco, param num_threads: 1
+Interpreter:  1 640 640 3
+First Inference : 22385.43 ms
+  step 100/350, iter_time(ms)=21641
+  step 200/350, iter_time(ms)=21627
+  step 300/350, iter_time(ms)=21629
+  images/sec: 0
+  99th_percentile(ms): 21649.86
+  total_time(s): 7571.0
+  latency_mean(ms): 21629.62
+  latency_median(ms): 21629.40
+  latency_min(ms): 21611.97
+Model name: ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco, param num_threads: 2
+Interpreter:  1 640 640 3
+First Inference : 13137.60 ms
+  step 100/350, iter_time(ms)=13674
+  step 200/350, iter_time(ms)=14706
+  step 300/350, iter_time(ms)=14045
+  images/sec: 0
+  99th_percentile(ms): 14922.58
+  total_time(s): 4955.3
+  latency_mean(ms): 14206.31
+  latency_median(ms): 14198.46
+  latency_min(ms): 12611.06
+Model name: ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco, param num_threads: 3
+Interpreter:  1 640 640 3
+First Inference : 12790.86 ms
+  step 100/350, iter_time(ms)=12379
+  step 200/350, iter_time(ms)=12451
+  step 300/350, iter_time(ms)=12378
+  images/sec: 0
+  99th_percentile(ms): 12568.70
+  total_time(s): 4316.2
+  latency_mean(ms): 12329.81
+  latency_median(ms): 12348.59
+  latency_min(ms): 11758.94
+Model name: ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco, param num_threads: 4
+Interpreter:  1 640 640 3
+First Inference : 11543.80 ms
+  step 100/350, iter_time(ms)=11181
+  step 200/350, iter_time(ms)=11171
+  step 300/350, iter_time(ms)=11206
+  images/sec: 0
+  99th_percentile(ms): 11309.19
+  total_time(s): 3923.1
+  latency_mean(ms): 11208.88
+  latency_median(ms): 11203.11
+  latency_min(ms): 11144.94
+Model name: ssdlite_mobilenet_v2_coco, param num_threads: 1
+Interpreter:  1 300 300 3
+First Inference : 264.01 ms
+  step 100/350, iter_time(ms)=225
+  step 200/350, iter_time(ms)=225
+  step 300/350, iter_time(ms)=226
+  images/sec: 4
+  99th_percentile(ms): 226.51
+  total_time(s): 78.9
+  latency_mean(ms): 225.44
+  latency_median(ms): 225.39
+  latency_min(ms): 224.66
+Model name: ssdlite_mobilenet_v2_coco, param num_threads: 2
+Interpreter:  1 300 300 3
+First Inference : 162.15 ms
+  step 100/350, iter_time(ms)=136
+  step 200/350, iter_time(ms)=136
+  step 300/350, iter_time(ms)=136
+  images/sec: 7
+  99th_percentile(ms): 139.21
+  total_time(s): 47.7
+  latency_mean(ms): 136.29
+  latency_median(ms): 136.17
+  latency_min(ms): 135.57
+Model name: ssdlite_mobilenet_v2_coco, param num_threads: 3
+Interpreter:  1 300 300 3
+First Inference : 132.78 ms
+  step 100/350, iter_time(ms)=111
+  step 200/350, iter_time(ms)=111
+  step 300/350, iter_time(ms)=112
+  images/sec: 8
+  99th_percentile(ms): 114.85
+  total_time(s): 39.0
+  latency_mean(ms): 111.38
+  latency_median(ms): 111.25
+  latency_min(ms): 109.79
+Model name: ssdlite_mobilenet_v2_coco, param num_threads: 4
+Interpreter:  1 300 300 3
+First Inference : 124.65 ms
+  step 100/350, iter_time(ms)=105
+  step 200/350, iter_time(ms)=105
+  step 300/350, iter_time(ms)=104
+  images/sec: 9
+  99th_percentile(ms): 120.68
+  total_time(s): 36.8
+  latency_mean(ms): 105.13
+  latency_median(ms): 104.68
+  latency_min(ms): 103.34
