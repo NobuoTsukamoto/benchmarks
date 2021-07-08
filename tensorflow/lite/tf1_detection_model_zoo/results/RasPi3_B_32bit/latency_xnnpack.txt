@@ -1,0 +1,288 @@
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_large_320x320_coco.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 486.63 ms
+  step 100/350, iter_time(ms)=454
+  step 200/350, iter_time(ms)=451
+  step 300/350, iter_time(ms)=451
+  images/sec: 2
+  99th_percentile(ms): 456.59
+  total_time(s): 158.5
+  latency_mean(ms): 452.54
+  latency_median(ms): 452.38
+  latency_min(ms): 450.52
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_large_320x320_coco.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 316.33 ms
+  step 100/350, iter_time(ms)=285
+  step 200/350, iter_time(ms)=285
+  step 300/350, iter_time(ms)=287
+  images/sec: 3
+  99th_percentile(ms): 292.35
+  total_time(s): 100.2
+  latency_mean(ms): 286.26
+  latency_median(ms): 285.92
+  latency_min(ms): 282.80
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_large_320x320_coco.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 260.20 ms
+  step 100/350, iter_time(ms)=236
+  step 200/350, iter_time(ms)=236
+  step 300/350, iter_time(ms)=237
+  images/sec: 4
+  99th_percentile(ms): 250.11
+  total_time(s): 83.1
+  latency_mean(ms): 237.21
+  latency_median(ms): 236.50
+  latency_min(ms): 234.36
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_large_320x320_coco.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 238.02 ms
+  step 100/350, iter_time(ms)=217
+  step 200/350, iter_time(ms)=226
+  step 300/350, iter_time(ms)=217
+  images/sec: 4
+  99th_percentile(ms): 251.43
+  total_time(s): 77.0
+  latency_mean(ms): 219.75
+  latency_median(ms): 217.48
+  latency_min(ms): 214.77
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_small_320x320_coco.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 201.35 ms
+  step 100/350, iter_time(ms)=182
+  step 200/350, iter_time(ms)=180
+  step 300/350, iter_time(ms)=181
+  images/sec: 5
+  99th_percentile(ms): 184.07
+  total_time(s): 63.3
+  latency_mean(ms): 180.93
+  latency_median(ms): 180.79
+  latency_min(ms): 179.84
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_small_320x320_coco.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 144.29 ms
+  step 100/350, iter_time(ms)=120
+  step 200/350, iter_time(ms)=120
+  step 300/350, iter_time(ms)=120
+  images/sec: 8
+  99th_percentile(ms): 124.46
+  total_time(s): 42.4
+  latency_mean(ms): 120.99
+  latency_median(ms): 120.82
+  latency_min(ms): 119.83
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_small_320x320_coco.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 124.07 ms
+  step 100/350, iter_time(ms)=102
+  step 200/350, iter_time(ms)=102
+  step 300/350, iter_time(ms)=102
+  images/sec: 9
+  99th_percentile(ms): 107.86
+  total_time(s): 35.7
+  latency_mean(ms): 101.84
+  latency_median(ms): 102.59
+  latency_min(ms): 91.71
+Model name: /home/pi/tflite_models/ssd_mobilenet_v3_small_320x320_coco.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 103.79 ms
+  step 100/350, iter_time(ms)=86
+  step 200/350, iter_time(ms)=86
+  step 300/350, iter_time(ms)=85
+  images/sec: 11
+  99th_percentile(ms): 106.10
+  total_time(s): 30.0
+  latency_mean(ms): 85.83
+  latency_median(ms): 85.02
+  latency_min(ms): 83.71
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_cpu_320x320_coco.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 476.99 ms
+  step 100/350, iter_time(ms)=427
+  step 200/350, iter_time(ms)=428
+  step 300/350, iter_time(ms)=428
+  images/sec: 2
+  99th_percentile(ms): 429.72
+  total_time(s): 149.4
+  latency_mean(ms): 426.80
+  latency_median(ms): 426.68
+  latency_min(ms): 425.41
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_cpu_320x320_coco.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 305.41 ms
+  step 100/350, iter_time(ms)=280
+  step 200/350, iter_time(ms)=279
+  step 300/350, iter_time(ms)=281
+  images/sec: 3
+  99th_percentile(ms): 285.89
+  total_time(s): 98.2
+  latency_mean(ms): 280.39
+  latency_median(ms): 279.82
+  latency_min(ms): 277.85
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_cpu_320x320_coco.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 263.63 ms
+  step 100/350, iter_time(ms)=238
+  step 200/350, iter_time(ms)=240
+  step 300/350, iter_time(ms)=240
+  images/sec: 4
+  99th_percentile(ms): 250.11
+  total_time(s): 83.7
+  latency_mean(ms): 239.01
+  latency_median(ms): 238.46
+  latency_min(ms): 236.42
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_cpu_320x320_coco.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 250.38 ms
+  step 100/350, iter_time(ms)=222
+  step 200/350, iter_time(ms)=222
+  step 300/350, iter_time(ms)=222
+  images/sec: 4
+  99th_percentile(ms): 233.62
+  total_time(s): 78.4
+  latency_mean(ms): 223.90
+  latency_median(ms): 223.12
+  latency_min(ms): 221.53
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 795.79 ms
+  step 100/350, iter_time(ms)=708
+  step 200/350, iter_time(ms)=718
+  step 300/350, iter_time(ms)=716
+  images/sec: 1
+  99th_percentile(ms): 723.35
+  total_time(s): 250.6
+  latency_mean(ms): 715.69
+  latency_median(ms): 715.78
+  latency_min(ms): 707.68
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 477.37 ms
+  step 100/350, iter_time(ms)=435
+  step 200/350, iter_time(ms)=437
+  step 300/350, iter_time(ms)=437
+  images/sec: 2
+  99th_percentile(ms): 446.70
+  total_time(s): 153.3
+  latency_mean(ms): 437.24
+  latency_median(ms): 436.70
+  latency_min(ms): 435.00
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 394.18 ms
+  step 100/350, iter_time(ms)=358
+  step 200/350, iter_time(ms)=356
+  step 300/350, iter_time(ms)=353
+  images/sec: 2
+  99th_percentile(ms): 365.70
+  total_time(s): 124.9
+  latency_mean(ms): 356.79
+  latency_median(ms): 356.38
+  latency_min(ms): 353.08
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_mnasfpn_shared_box_predictor_320x320_coco.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 357.29 ms
+  step 100/350, iter_time(ms)=320
+  step 200/350, iter_time(ms)=320
+  step 300/350, iter_time(ms)=317
+  images/sec: 3
+  99th_percentile(ms): 355.05
+  total_time(s): 112.2
+  latency_mean(ms): 320.44
+  latency_median(ms): 317.91
+  latency_min(ms): 315.67
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_coco.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 300 300 3
+First Inference : 1007.01 ms
+  step 100/350, iter_time(ms)=971
+  step 200/350, iter_time(ms)=975
+  step 300/350, iter_time(ms)=977
+  images/sec: 1
+  99th_percentile(ms): 982.85
+  total_time(s): 341.2
+  latency_mean(ms): 974.94
+  latency_median(ms): 974.97
+  latency_min(ms): 970.41
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_coco.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 300 300 3
+First Inference : 590.58 ms
+  step 100/350, iter_time(ms)=573
+  step 200/350, iter_time(ms)=581
+  step 300/350, iter_time(ms)=576
+  images/sec: 1
+  99th_percentile(ms): 668.81
+  total_time(s): 201.7
+  latency_mean(ms): 576.12
+  latency_median(ms): 573.76
+  latency_min(ms): 569.86
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_coco.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 300 300 3
+First Inference : 468.45 ms
+  step 100/350, iter_time(ms)=453
+  step 200/350, iter_time(ms)=593
+  step 300/350, iter_time(ms)=494
+  images/sec: 2
+  99th_percentile(ms): 580.25
+  total_time(s): 171.7
+  latency_mean(ms): 487.71
+  latency_median(ms): 470.45
+  latency_min(ms): 451.30
+Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_coco.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 300 300 3
+First Inference : 594.01 ms
+  step 100/350, iter_time(ms)=433
+  step 200/350, iter_time(ms)=622
+  step 300/350, iter_time(ms)=524
+  images/sec: 2
+  99th_percentile(ms): 714.69
+  total_time(s): 171.8
+  latency_mean(ms): 491.05
+  latency_median(ms): 459.31
+  latency_min(ms): 398.64
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_v2_coco.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 300 300 3
+First Inference : 535.68 ms
+  step 100/350, iter_time(ms)=493
+  step 200/350, iter_time(ms)=487
+  step 300/350, iter_time(ms)=486
+  images/sec: 2
+  99th_percentile(ms): 497.65
+  total_time(s): 171.2
+  latency_mean(ms): 488.89
+  latency_median(ms): 488.53
+  latency_min(ms): 484.29
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_v2_coco.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 300 300 3
+First Inference : 292.64 ms
+  step 100/350, iter_time(ms)=288
+  step 200/350, iter_time(ms)=279
+  step 300/350, iter_time(ms)=277
+  images/sec: 3
+  99th_percentile(ms): 287.72
+  total_time(s): 96.1
+  latency_mean(ms): 274.48
+  latency_median(ms): 273.32
+  latency_min(ms): 271.37
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_v2_coco.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 300 300 3
+First Inference : 226.96 ms
+  step 100/350, iter_time(ms)=209
+  step 200/350, iter_time(ms)=211
+  step 300/350, iter_time(ms)=209
+  images/sec: 4
+  99th_percentile(ms): 220.25
+  total_time(s): 73.9
+  latency_mean(ms): 211.11
+  latency_median(ms): 210.45
+  latency_min(ms): 208.47
+Model name: /home/pi/tflite_models/ssdlite_mobilenet_v2_coco.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 300 300 3
+First Inference : 202.09 ms
+  step 100/350, iter_time(ms)=181
+  step 200/350, iter_time(ms)=184
+  step 300/350, iter_time(ms)=181
+  images/sec: 5
+  99th_percentile(ms): 221.80
+  total_time(s): 64.5
+  latency_mean(ms): 184.20
+  latency_median(ms): 181.80
+  latency_min(ms): 180.15
