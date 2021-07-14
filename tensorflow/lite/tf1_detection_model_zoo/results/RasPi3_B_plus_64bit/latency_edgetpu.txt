@@ -1,39 +1,39 @@
 Model name: /home/pi/tflite_models/ssd_mobilenet_v2_300x300_quant_coco_edgetpu.tflite, param num_threads: 1, delegate: None
 EdgeTpu delegate
 Interpreter:  1 300 300 3
-First Inference : 253.49 ms
+First Inference : 251.61 ms
   step 100/350, iter_time(ms)=60
-  step 200/350, iter_time(ms)=59
+  step 200/350, iter_time(ms)=60
   step 300/350, iter_time(ms)=60
   images/sec: 16
-  99th_percentile(ms): 71.00
+  99th_percentile(ms): 69.58
   total_time(s): 21.4
-  latency_mean(ms): 60.62
-  latency_median(ms): 59.99
-  latency_min(ms): 58.78
+  latency_mean(ms): 60.41
+  latency_median(ms): 59.98
+  latency_min(ms): 58.95
 Model name: /home/pi/tflite_models/ssdlite_mobilenet_edgetpu_coco_quant_edgetpu.tflite, param num_threads: 1, delegate: None
 EdgeTpu delegate
 Interpreter:  1 320 320 3
-First Inference : 211.77 ms
-  step 100/350, iter_time(ms)=64
-  step 200/350, iter_time(ms)=63
-  step 300/350, iter_time(ms)=63
-  images/sec: 15
-  99th_percentile(ms): 71.39
-  total_time(s): 22.3
-  latency_mean(ms): 63.34
-  latency_median(ms): 62.99
-  latency_min(ms): 62.16
-Model name: /home/pi/tflite_models/ssdlite_mobiledet_edgetpu_320x320_quant_coco_edgetpu.tflite, param num_threads: 1, delegate: None
-EdgeTpu delegate
-Interpreter:  1 320 320 3
-First Inference : 223.47 ms
+First Inference : 203.71 ms
   step 100/350, iter_time(ms)=63
   step 200/350, iter_time(ms)=63
   step 300/350, iter_time(ms)=63
   images/sec: 15
-  99th_percentile(ms): 74.45
+  99th_percentile(ms): 77.08
+  total_time(s): 22.4
+  latency_mean(ms): 63.70
+  latency_median(ms): 63.12
+  latency_min(ms): 62.18
+Model name: /home/pi/tflite_models/ssdlite_mobiledet_edgetpu_320x320_quant_coco_edgetpu.tflite, param num_threads: 1, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 218.45 ms
+  step 100/350, iter_time(ms)=63
+  step 200/350, iter_time(ms)=63
+  step 300/350, iter_time(ms)=63
+  images/sec: 15
+  99th_percentile(ms): 72.27
   total_time(s): 22.5
-  latency_mean(ms): 63.73
-  latency_median(ms): 63.03
-  latency_min(ms): 62.14
+  latency_mean(ms): 63.63
+  latency_median(ms): 63.26
+  latency_min(ms): 62.47

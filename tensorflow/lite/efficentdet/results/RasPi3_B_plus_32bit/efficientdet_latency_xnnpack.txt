@@ -1,0 +1,288 @@
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_fp32.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 874.52 ms
+  step 100/350, iter_time(ms)=785
+  step 200/350, iter_time(ms)=781
+  step 300/350, iter_time(ms)=781
+  images/sec: 1
+  99th_percentile(ms): 788.38
+  total_time(s): 273.6
+  latency_mean(ms): 781.42
+  latency_median(ms): 781.10
+  latency_min(ms): 779.67
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_fp32.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 552.72 ms
+  step 100/350, iter_time(ms)=503
+  step 200/350, iter_time(ms)=504
+  step 300/350, iter_time(ms)=503
+  images/sec: 1
+  99th_percentile(ms): 515.99
+  total_time(s): 176.5
+  latency_mean(ms): 504.12
+  latency_median(ms): 503.68
+  latency_min(ms): 502.38
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_fp32.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 464.73 ms
+  step 100/350, iter_time(ms)=418
+  step 200/350, iter_time(ms)=419
+  step 300/350, iter_time(ms)=419
+  images/sec: 2
+  99th_percentile(ms): 433.23
+  total_time(s): 147.0
+  latency_mean(ms): 419.68
+  latency_median(ms): 419.34
+  latency_min(ms): 417.41
+Model name: /home/pi/efficientdet-lite/efficientdet-lite0_fp32.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 419.34 ms
+  step 100/350, iter_time(ms)=377
+  step 200/350, iter_time(ms)=378
+  step 300/350, iter_time(ms)=378
+  images/sec: 2
+  99th_percentile(ms): 401.18
+  total_time(s): 132.6
+  latency_mean(ms): 378.83
+  latency_median(ms): 377.93
+  latency_min(ms): 376.60
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_fp32.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 384 384 3
+First Inference : 1647.55 ms
+  step 100/350, iter_time(ms)=1531
+  step 200/350, iter_time(ms)=1533
+  step 300/350, iter_time(ms)=1531
+  images/sec: 0
+  99th_percentile(ms): 1544.37
+  total_time(s): 536.8
+  latency_mean(ms): 1532.98
+  latency_median(ms): 1532.42
+  latency_min(ms): 1530.66
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_fp32.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 384 384 3
+First Inference : 1049.30 ms
+  step 100/350, iter_time(ms)=987
+  step 200/350, iter_time(ms)=987
+  step 300/350, iter_time(ms)=993
+  images/sec: 1
+  99th_percentile(ms): 1000.93
+  total_time(s): 345.6
+  latency_mean(ms): 987.37
+  latency_median(ms): 986.85
+  latency_min(ms): 984.66
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_fp32.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 384 384 3
+First Inference : 856.91 ms
+  step 100/350, iter_time(ms)=804
+  step 200/350, iter_time(ms)=807
+  step 300/350, iter_time(ms)=803
+  images/sec: 1
+  99th_percentile(ms): 820.85
+  total_time(s): 282.3
+  latency_mean(ms): 806.23
+  latency_median(ms): 806.26
+  latency_min(ms): 800.69
+Model name: /home/pi/efficientdet-lite/efficientdet-lite1_fp32.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 384 384 3
+First Inference : 771.33 ms
+  step 100/350, iter_time(ms)=712
+  step 200/350, iter_time(ms)=717
+  step 300/350, iter_time(ms)=715
+  images/sec: 1
+  99th_percentile(ms): 746.28
+  total_time(s): 251.4
+  latency_mean(ms): 718.50
+  latency_median(ms): 717.76
+  latency_min(ms): 710.95
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_fp32.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 448 448 3
+First Inference : 2625.39 ms
+  step 100/350, iter_time(ms)=2486
+  step 200/350, iter_time(ms)=2488
+  step 300/350, iter_time(ms)=2486
+  images/sec: 0
+  99th_percentile(ms): 2499.50
+  total_time(s): 870.8
+  latency_mean(ms): 2487.69
+  latency_median(ms): 2486.87
+  latency_min(ms): 2484.34
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_fp32.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 448 448 3
+First Inference : 1707.92 ms
+  step 100/350, iter_time(ms)=1609
+  step 200/350, iter_time(ms)=1610
+  step 300/350, iter_time(ms)=1610
+  images/sec: 0
+  99th_percentile(ms): 1621.88
+  total_time(s): 563.4
+  latency_mean(ms): 1609.35
+  latency_median(ms): 1608.72
+  latency_min(ms): 1605.95
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_fp32.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 448 448 3
+First Inference : 1373.88 ms
+  step 100/350, iter_time(ms)=1297
+  step 200/350, iter_time(ms)=1297
+  step 300/350, iter_time(ms)=1296
+  images/sec: 0
+  99th_percentile(ms): 1312.78
+  total_time(s): 454.3
+  latency_mean(ms): 1297.75
+  latency_median(ms): 1297.03
+  latency_min(ms): 1293.41
+Model name: /home/pi/efficientdet-lite/efficientdet-lite2_fp32.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 448 448 3
+First Inference : 1214.29 ms
+  step 100/350, iter_time(ms)=1149
+  step 200/350, iter_time(ms)=1144
+  step 300/350, iter_time(ms)=1145
+  images/sec: 0
+  99th_percentile(ms): 1177.25
+  total_time(s): 401.6
+  latency_mean(ms): 1147.47
+  latency_median(ms): 1146.05
+  latency_min(ms): 1143.16
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_fp32.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 512 512 3
+First Inference : 5637.13 ms
+  step 100/350, iter_time(ms)=5418
+  step 200/350, iter_time(ms)=5423
+  step 300/350, iter_time(ms)=5419
+  images/sec: 0
+  99th_percentile(ms): 5434.41
+  total_time(s): 1896.4
+  latency_mean(ms): 5417.56
+  latency_median(ms): 5415.95
+  latency_min(ms): 5410.73
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_fp32.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 512 512 3
+First Inference : 3286.38 ms
+  step 100/350, iter_time(ms)=3164
+  step 200/350, iter_time(ms)=3165
+  step 300/350, iter_time(ms)=3164
+  images/sec: 0
+  99th_percentile(ms): 3182.57
+  total_time(s): 1107.4
+  latency_mean(ms): 3163.71
+  latency_median(ms): 3162.85
+  latency_min(ms): 3155.66
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_fp32.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 512 512 3
+First Inference : 2619.71 ms
+  step 100/350, iter_time(ms)=2520
+  step 200/350, iter_time(ms)=2528
+  step 300/350, iter_time(ms)=2531
+  images/sec: 0
+  99th_percentile(ms): 2541.06
+  total_time(s): 883.2
+  latency_mean(ms): 2523.05
+  latency_median(ms): 2521.89
+  latency_min(ms): 2517.04
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3_fp32.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 512 512 3
+First Inference : 2267.57 ms
+  step 100/350, iter_time(ms)=2177
+  step 200/350, iter_time(ms)=2178
+  step 300/350, iter_time(ms)=2180
+  images/sec: 0
+  99th_percentile(ms): 2220.79
+  total_time(s): 763.4
+  latency_mean(ms): 2181.24
+  latency_median(ms): 2178.82
+  latency_min(ms): 2171.61
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_fp32.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 640 640 3
+First Inference : 10366.83 ms
+  step 100/350, iter_time(ms)=9415
+  step 200/350, iter_time(ms)=9321
+  step 300/350, iter_time(ms)=9409
+  images/sec: 0
+  99th_percentile(ms): 9418.60
+  total_time(s): 3276.8
+  latency_mean(ms): 9362.97
+  latency_median(ms): 9392.11
+  latency_min(ms): 9301.69
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_fp32.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 640 640 3
+First Inference : 5826.64 ms
+  step 100/350, iter_time(ms)=5615
+  step 200/350, iter_time(ms)=5616
+  step 300/350, iter_time(ms)=5606
+  images/sec: 0
+  99th_percentile(ms): 5630.46
+  total_time(s): 1963.4
+  latency_mean(ms): 5609.27
+  latency_median(ms): 5608.07
+  latency_min(ms): 5595.09
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_fp32.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 640 640 3
+First Inference : 4628.32 ms
+  step 100/350, iter_time(ms)=4458
+  step 200/350, iter_time(ms)=4460
+  step 300/350, iter_time(ms)=4462
+  images/sec: 0
+  99th_percentile(ms): 4483.06
+  total_time(s): 1562.7
+  latency_mean(ms): 4464.57
+  latency_median(ms): 4463.60
+  latency_min(ms): 4446.12
+Model name: /home/pi/efficientdet-lite/efficientdet-lite3x_fp32.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 640 640 3
+First Inference : 4002.86 ms
+  step 100/350, iter_time(ms)=3862
+  step 200/350, iter_time(ms)=3889
+  step 300/350, iter_time(ms)=3887
+  images/sec: 0
+  99th_percentile(ms): 3948.26
+  total_time(s): 1361.3
+  latency_mean(ms): 3889.91
+  latency_median(ms): 3888.97
+  latency_min(ms): 3857.17
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_fp32.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 640 640 3
+First Inference : 13868.48 ms
+  step 100/350, iter_time(ms)=13156
+  step 200/350, iter_time(ms)=13153
+  step 300/350, iter_time(ms)=13175
+  images/sec: 0
+  99th_percentile(ms): 13189.53
+  total_time(s): 4608.3
+  latency_mean(ms): 13163.81
+  latency_median(ms): 13158.69
+  latency_min(ms): 13148.66
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_fp32.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 640 640 3
+First Inference : 8030.53 ms
+  step 100/350, iter_time(ms)=7781
+  step 200/350, iter_time(ms)=7777
+  step 300/350, iter_time(ms)=7800
+  images/sec: 0
+  99th_percentile(ms): 7817.93
+  total_time(s): 2726.9
+  latency_mean(ms): 7790.65
+  latency_median(ms): 7788.52
+  latency_min(ms): 7773.33
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_fp32.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 640 640 3
+First Inference : 6258.93 ms
+  step 100/350, iter_time(ms)=6074
+  step 200/350, iter_time(ms)=6070
+  step 300/350, iter_time(ms)=6069
+  images/sec: 0
+  99th_percentile(ms): 6103.27
+  total_time(s): 2124.5
+  latency_mean(ms): 6069.23
+  latency_median(ms): 6069.15
+  latency_min(ms): 6029.03
+Model name: /home/pi/efficientdet-lite/efficientdet-lite4_fp32.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 640 640 3
+First Inference : 5385.23 ms
+  step 100/350, iter_time(ms)=5193
+  step 200/350, iter_time(ms)=5234
+  step 300/350, iter_time(ms)=5260
+  images/sec: 0
+  99th_percentile(ms): 5272.89
+  total_time(s): 1825.3
+  latency_mean(ms): 5214.19
+  latency_median(ms): 5211.01
+  latency_min(ms): 5182.16
