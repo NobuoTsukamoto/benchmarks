@@ -1,0 +1,96 @@
+Model name: /home/pi/tflite_models/yolox_nano_416x416.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 416 416 3
+First Inference : 295.53 ms
+  step 100/350, iter_time(ms)=228
+  step 200/350, iter_time(ms)=227
+  step 300/350, iter_time(ms)=227
+  images/sec: 4
+  99th_percentile(ms): 229.38
+  total_time(s): 79.7
+  latency_mean(ms): 227.39
+  latency_median(ms): 227.23
+  latency_min(ms): 226.63
+Model name: /home/pi/tflite_models/yolox_nano_416x416.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 416 416 3
+First Inference : 201.76 ms
+  step 100/350, iter_time(ms)=147
+  step 200/350, iter_time(ms)=147
+  step 300/350, iter_time(ms)=147
+  images/sec: 6
+  99th_percentile(ms): 150.47
+  total_time(s): 51.4
+  latency_mean(ms): 146.85
+  latency_median(ms): 146.71
+  latency_min(ms): 144.74
+Model name: /home/pi/tflite_models/yolox_nano_416x416.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 416 416 3
+First Inference : 172.91 ms
+  step 100/350, iter_time(ms)=127
+  step 200/350, iter_time(ms)=127
+  step 300/350, iter_time(ms)=127
+  images/sec: 7
+  99th_percentile(ms): 131.55
+  total_time(s): 44.5
+  latency_mean(ms): 127.04
+  latency_median(ms): 126.75
+  latency_min(ms): 126.02
+Model name: /home/pi/tflite_models/yolox_nano_416x416.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 416 416 3
+First Inference : 161.22 ms
+  step 100/350, iter_time(ms)=116
+  step 200/350, iter_time(ms)=116
+  step 300/350, iter_time(ms)=116
+  images/sec: 8
+  99th_percentile(ms): 130.78
+  total_time(s): 41.2
+  latency_mean(ms): 117.85
+  latency_median(ms): 116.77
+  latency_min(ms): 115.71
+Model name: /home/pi/tflite_models/yolox_tiny_416x416.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 416 416 3
+First Inference : 931.57 ms
+  step 100/350, iter_time(ms)=818
+  step 200/350, iter_time(ms)=818
+  step 300/350, iter_time(ms)=818
+  images/sec: 1
+  99th_percentile(ms): 821.93
+  total_time(s): 286.4
+  latency_mean(ms): 817.90
+  latency_median(ms): 817.60
+  latency_min(ms): 816.13
+Model name: /home/pi/tflite_models/yolox_tiny_416x416.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 416 416 3
+First Inference : 551.24 ms
+  step 100/350, iter_time(ms)=466
+  step 200/350, iter_time(ms)=468
+  step 300/350, iter_time(ms)=467
+  images/sec: 2
+  99th_percentile(ms): 476.56
+  total_time(s): 164.0
+  latency_mean(ms): 468.40
+  latency_median(ms): 467.84
+  latency_min(ms): 465.39
+Model name: /home/pi/tflite_models/yolox_tiny_416x416.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 416 416 3
+First Inference : 442.79 ms
+  step 100/350, iter_time(ms)=370
+  step 200/350, iter_time(ms)=374
+  step 300/350, iter_time(ms)=371
+  images/sec: 2
+  99th_percentile(ms): 379.14
+  total_time(s): 130.6
+  latency_mean(ms): 373.06
+  latency_median(ms): 372.77
+  latency_min(ms): 368.24
+Model name: /home/pi/tflite_models/yolox_tiny_416x416.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 416 416 3
+First Inference : 446.56 ms
+  step 100/350, iter_time(ms)=364
+  step 200/350, iter_time(ms)=369
+  step 300/350, iter_time(ms)=366
+  images/sec: 2
+  99th_percentile(ms): 380.94
+  total_time(s): 128.7
+  latency_mean(ms): 367.50
+  latency_median(ms): 366.36
+  latency_min(ms): 359.47
