@@ -59,3 +59,11 @@ Models
 |               |       |       |      2|          468.40 |
 |               |       |       |      3|          373.06 |
 |               |       |       |      4|          367.50 |
+
+### XNNPACK delegate bench (Latency vs Accuracy)
+
+![Latency_vs_Accuracy](./result/Latency_vs_Accuracy.png)
+
+### mAP details
+
+![mAP](./result/mAP.png)
