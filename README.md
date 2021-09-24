@@ -1,7 +1,7 @@
 # Benchmarks
 
 ## About
-Benchmarks such as TensorFlow, TensorFlow-Lite, etc...
+Benchmarks such as TensorFlow, TensorFlow-Lite, PyTorch, Torchvision, etc...
 
 ## Summary
 
@@ -14,6 +14,7 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, etc...
 |[TensorFlow 1 Detection Model Zoo<br>Raspberry Pi](tensorflow/lite/tf1_detection_model_zoo/raspi.md)|AP, Latency|TensorFlow Lite<br>XNNPACK delegate<br>ARM NN delegate<br>EdgeTPU delegate|
 |[EfficientDet-Lite<br>Raspberry Pi](tensorflow/lite/efficentdet/efficientdet.md)|AP, Latency|TensorFlow Lit<br>XNNPACK delegate<br>ARM NN delegate<br>EdgeTPU delegate|
 |[YOLOX TensorFlow LiteM<br>Raspberry Pi 4 64bit](tensorflow/lite/yolox)|AP, Latency|TensorFlow Lit<br>XNNPACK delegate|
+|[Torchvision detection models](pytorch/torchvision/README.md)|AP, Latancy, <br>YouTube video|PyTorch, Torchvision|
 
 
 ## Reference
@@ -27,3 +28,5 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, etc...
 - [ARM Compute Librarry](https://github.com/ARM-software/ComputeLibrary)
 - [Coral EdgeTPU](https://coral.ai/)
 - [PINTO0309/Bazel_bin](https://github.com/PINTO0309/Bazel_bin)
+- [PyTorch](https://pytorch.org/)
+- [Torchvision](https://pytorch.org/vision/stable/)
