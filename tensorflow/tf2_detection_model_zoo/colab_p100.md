@@ -5,7 +5,7 @@
 - Colab Pro
 - HW
     - CPU: Intel(R) Xeon(R) CPU @ 2.30GHz 4 cores
-    - GPU: NVIDIA Tesla V100
+    - GPU: NVIDIA Tesla P100
     - MEM: 25GB
 
 ## Dataset
