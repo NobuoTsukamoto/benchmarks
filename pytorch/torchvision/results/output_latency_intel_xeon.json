@@ -1,0 +1,66 @@
+{
+    "fasterrcnn_resnet50_fpn":  {
+        "total_time":  4420.216886425,  
+        "images_per_sec":  226.4934267010798,  
+        "99th_percentile":  4.533537787,  
+        "latency_mean":  4.415936685669474,  
+        "latency_median":  4.422217141499914,  
+        "latency_min":  4.198324655999841
+    },  
+    "fasterrcnn_mobilenet_v3_large_fpn":  {
+        "total_time":  480.67808743399655,  
+        "images_per_sec":  2080.702927355816,  
+        "99th_percentile":  0.5001779599997462,  
+        "latency_mean":  0.4810598164547293,  
+        "latency_median":  0.4801692930000172,  
+        "latency_min":  0.45484924399988813
+    },  
+    "fasterrcnn_mobilenet_v3_large_320_fpn":  {
+        "total_time":  106.65210098100397,  
+        "images_per_sec":  9385.766605544806,  
+        "99th_percentile":  0.11434392299997853,  
+        "latency_mean":  0.10660412327368919,  
+        "latency_median":  0.10633511299965903,  
+        "latency_min":  0.1010180200000832
+    },  
+    "retinanet_resnet50_fpn":  {
+        "total_time":  4562.057157472019,  
+        "images_per_sec":  219.43212128558181,  
+        "99th_percentile":  4.729244505000679,  
+        "latency_mean":  4.558589696163175,  
+        "latency_median":  4.556331578000027,  
+        "latency_min":  4.244458045001011
+    },  
+    "ssd300_vgg16":  {
+        "total_time":  624.1400123020103,  
+        "images_per_sec":  1601.528500177884,  
+        "99th_percentile":  0.6476234329984436,  
+        "latency_mean":  0.6245579415031668,  
+        "latency_median":  0.6244827069995154,  
+        "latency_min":  0.5992096640002273
+    },  
+    "ssdlite320_mobilenet_v3_large":  {
+        "total_time":  107.84091406905827,  
+        "images_per_sec":  9282.028432672541,  
+        "99th_percentile":  0.11583564699867566,  
+        "latency_mean":  0.10779641341479682,  
+        "latency_median":  0.10739737049971154,  
+        "latency_min":  0.10079985700031102
+    },  
+    "maskrcnn_resnet50_fpn":  {
+        "total_time":  4393.37090941299,  
+        "images_per_sec":  227.77522234817852,  
+        "99th_percentile":  4.469819298999937,  
+        "latency_mean":  4.3905840598063035,  
+        "latency_median":  4.389560104999873,  
+        "latency_min":  4.279010270998697
+    },  
+    "keypointrcnn_resnet50_fpn":  {
+        "total_time":  4382.396440554066,  
+        "images_per_sec":  228.23196396994913,  
+        "99th_percentile":  4.463986062997719,  
+        "latency_mean":  4.381798724262168,  
+        "latency_median":  4.382160689500779,  
+        "latency_min":  4.2598328509993735
+    }
+}

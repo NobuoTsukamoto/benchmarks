@@ -17,8 +17,8 @@
         - Torch: 1.9.0+cu102
         - Torchvision:  0.10.0+cu102
     - HW
-        - CPU: Intel(R) Xeon(R) CPU @ 2.30GHz 4 cores
-        - GPU: NVIDIA Tesla P100
+        - CPU: Intel(R) Xeon(R) CPU @ 2.30GHz 4 cores / AMD EPYC 7B12 @ 2.25GHz 4cores
+        - GPU: NVIDIA Tesla P100 / NVIDIA Tesla T4
         - MEM: 25GB
 
 ## Dataset
@@ -26,6 +26,7 @@
 
 ## How to benchmarks
 Source
+- https://github.com/NobuoTsukamoto/pytorch-examples/tree/master/python/benchmark
 
 ## Results
 - [All results](./results)
@@ -46,16 +47,16 @@ Source
 
 ## latency
 
-| Model                                  | NVIDIA GTX1070 (Local PC) | NVIDIA Tesla P100 (Colab) |
-|:---------------------------------------|--------------------------:|--------------------------:|
-| Faster R-CNN ResNet-50 FPN             |                    122.90 |                     80.13 |
-| Faster R-CNN MobileNetV3-Large FPN     |                     31.16 |                     20.73 |
-| Faster R-CNN MobileNetV3-Large 320 FPN |                     14.94 |                     13.33 |
-| RetinaNet ResNet-50 FPN                |                    126.74 |                     79.92 |
-| SSD300 VGG16                           |                     32.09 |                     27.97 |
-| SSDlite320 MobileNetV3-Large           |                     48.77 |                     47.55 |
-| Mask R-CNN ResNet-50 FPN               |                    118.05 |                     81.39 |
-| Keypoint R-CNN ResNet-50 FPN           |                    117.28 |                     80.80 |
+| Model                                  | NVIDIA GTX1070 (Local PC) | NVIDIA Tesla P100 (Colab) | NVIDIA Tesla T4 (Colab) | Intel Xeon CPU @ 2.3GHz (Colab) | AMD EPYC 7B12 @ 2.25GHz (Colab) |
+|:---------------------------------------|--------------------------:|--------------------------:|------------------------:|--------------------------------:|--------------------------------:|
+| Faster R-CNN ResNet-50 FPN             |                    122.90 |                     80.13 |                  114.95 |                         4415.93 |                         3510.95 |
+| Faster R-CNN MobileNetV3-Large FPN     |                     31.16 |                     20.73 |                   22.16 |                          481.05 |                          296.66 |
+| Faster R-CNN MobileNetV3-Large 320 FPN |                     14.94 |                     13.33 |                   14.49 |                          114.34 |                           68.21 |           
+| RetinaNet ResNet-50 FPN                |                    126.74 |                     79.92 |                  125.55 |                         4558.58 |                         3373.16 |
+| SSD300 VGG16                           |                     32.09 |                     27.97 |                   31.47 |                          624.55 |                          484.80 |
+| SSDlite320 MobileNetV3-Large           |                     48.77 |                     47.55 |                   51.10 |                          107.79 |                           75.45 |
+| Mask R-CNN ResNet-50 FPN               |                    118.05 |                     81.39 |                  119.06 |                         4390.58 |                         3613.13 |
+| Keypoint R-CNN ResNet-50 FPN           |                    117.28 |                     80.80 |                  120.83 |                         4381.79 |                         3642.74 |
 
 
 ## Youtube video
