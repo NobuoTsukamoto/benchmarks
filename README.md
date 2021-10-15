@@ -12,6 +12,7 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, PyTorch, Torchvision, etc...
 |[TF2 Detection Models<br>Colab Tesla V100](tensorflow/tf2_detection_model_zoo/colab_v100.md)|AP, Latency|TensorFlow|
 |[TF2 Detection Models<br>V100 vs P100 vs GTX1070](tensorflow/tf2_detection_model_zoo/v100_vs_p100_vs_gtx1070.md)|Latency|TensorFlow|
 |[TensorFlow 1 Detection Model Zoo<br>Raspberry Pi](tensorflow/lite/tf1_detection_model_zoo/raspi.md)|AP, Latency|TensorFlow Lite<br>XNNPACK delegate<br>ARM NN delegate<br>EdgeTPU delegate|
+|[EdgeTPU Models<br>Coral Dev Board](tensorflow/lite/tf1_detection_model_zoo/devboard.md)|Latency|TensorFlow Lite<br>EdgeTPU delegate|
 |[EfficientDet-Lite<br>Raspberry Pi](tensorflow/lite/efficentdet/efficientdet.md)|AP, Latency|TensorFlow Lit<br>XNNPACK delegate<br>ARM NN delegate<br>EdgeTPU delegate|
 |[YOLOX TensorFlow LiteM<br>Raspberry Pi 4 64bit](tensorflow/lite/yolox)|AP, Latency|TensorFlow Lit<br>XNNPACK delegate|
 |[Torchvision detection models](pytorch/torchvision/README.md)|AP, Latancy, <br>YouTube video|PyTorch, Torchvision|

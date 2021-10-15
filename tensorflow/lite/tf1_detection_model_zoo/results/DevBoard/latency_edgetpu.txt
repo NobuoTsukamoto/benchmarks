@@ -1,0 +1,153 @@
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/spaghettinet_edgetpu_s_edgetpu.tflite 
+Model name: /home/mendel/models/spaghettinet_edgetpu_s_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 33.15 ms
+  step 100/1000, iter_time(ms)=15
+  step 200/1000, iter_time(ms)=19
+  step 300/1000, iter_time(ms)=14
+  step 400/1000, iter_time(ms)=17
+  step 500/1000, iter_time(ms)=17
+  step 600/1000, iter_time(ms)=19
+  step 700/1000, iter_time(ms)=19
+  step 800/1000, iter_time(ms)=19
+  step 900/1000, iter_time(ms)=15
+  step 1000/1000, iter_time(ms)=19
+  images/sec: 60
+  99th_percentile(ms): 20.02
+  total_time(s): 16.6
+  latency_mean(ms): 16.64
+  latency_median(ms): 16.73
+  latency_min(ms): 13.77
+mendel@orange-calf:~/tflite-cv-example/benchmark$ mv ~/models/spaghettinet_edgetpu_m.tflite ~/models/spaghettinet_edgetpu_m_edgetpu.tflite
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/spaghettinet_edgetpu_m_edgetpu.tflite 
+Model name: /home/mendel/models/spaghettinet_edgetpu_m_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 38.64 ms
+  step 100/1000, iter_time(ms)=15
+  step 200/1000, iter_time(ms)=15
+  step 300/1000, iter_time(ms)=18
+  step 400/1000, iter_time(ms)=17
+  step 500/1000, iter_time(ms)=18
+  step 600/1000, iter_time(ms)=19
+  step 700/1000, iter_time(ms)=15
+  step 800/1000, iter_time(ms)=18
+  step 900/1000, iter_time(ms)=19
+  step 1000/1000, iter_time(ms)=15
+  images/sec: 60
+  99th_percentile(ms): 20.25
+  total_time(s): 16.9
+  latency_mean(ms): 16.83
+  latency_median(ms): 16.97
+  latency_min(ms): 14.23
+mendel@orange-calf:~/tflite-cv-example/benchmark$ mv ~/models/spaghettinet_edgetpu_l.tflite ~/models/spaghettinet_edgetpu_l_edgetpu.tflite
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/spaghettinet_edgetpu_l_edgetpu.tflite 
+Model name: /home/mendel/models/spaghettinet_edgetpu_l_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 45.78 ms
+  step 100/1000, iter_time(ms)=17
+  step 200/1000, iter_time(ms)=18
+  step 300/1000, iter_time(ms)=15
+  step 400/1000, iter_time(ms)=15
+  step 500/1000, iter_time(ms)=15
+  step 600/1000, iter_time(ms)=15
+  step 700/1000, iter_time(ms)=18
+  step 800/1000, iter_time(ms)=15
+  step 900/1000, iter_time(ms)=18
+  step 1000/1000, iter_time(ms)=18
+  images/sec: 57
+  99th_percentile(ms): 20.61
+  total_time(s): 17.8
+  latency_mean(ms): 17.71
+  latency_median(ms): 17.74
+  latency_min(ms): 14.71
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/ssdlite_mobiledet_edgetpu_320x320_quant_coco_edgetpu.tflite 
+Model name: /home/mendel/models/ssdlite_mobiledet_edgetpu_320x320_quant_coco_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 43.90 ms
+  step 100/1000, iter_time(ms)=19
+  step 200/1000, iter_time(ms)=17
+  step 300/1000, iter_time(ms)=16
+  step 400/1000, iter_time(ms)=19
+  step 500/1000, iter_time(ms)=20
+  step 600/1000, iter_time(ms)=20
+  step 700/1000, iter_time(ms)=21
+  step 800/1000, iter_time(ms)=21
+  step 900/1000, iter_time(ms)=16
+  step 1000/1000, iter_time(ms)=16
+  images/sec: 52
+  99th_percentile(ms): 21.74
+  total_time(s): 19.3
+  latency_mean(ms): 19.31
+  latency_median(ms): 19.60
+  latency_min(ms): 15.75
+$ python3 benchmark_tflite.py --model ~/models/ssdlite_mobilenet_edgetpu_coco_quant_edgetpu.tflite 
+Model name: /home/mendel/models/ssdlite_mobilenet_edgetpu_coco_quant_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 37.75 ms
+  step 100/1000, iter_time(ms)=18
+  step 200/1000, iter_time(ms)=17
+  step 300/1000, iter_time(ms)=19
+  step 400/1000, iter_time(ms)=19
+  step 500/1000, iter_time(ms)=19
+  step 600/1000, iter_time(ms)=19
+  step 700/1000, iter_time(ms)=20
+  step 800/1000, iter_time(ms)=18
+  step 900/1000, iter_time(ms)=19
+  step 1000/1000, iter_time(ms)=18
+  images/sec: 51
+  99th_percentile(ms): 21.73
+  total_time(s): 19.4
+  latency_mean(ms): 19.38
+  latency_median(ms): 19.59
+  latency_min(ms): 15.78
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/ssd_mobilenet_v1_300x300_quant_coco_edgetpu.tflite 
+Model name: /home/mendel/models/ssd_mobilenet_v1_300x300_quant_coco_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 300 300 3
+First Inference : 45.94 ms
+  step 100/1000, iter_time(ms)=13
+  step 200/1000, iter_time(ms)=17
+  step 300/1000, iter_time(ms)=16
+  step 400/1000, iter_time(ms)=16
+  step 500/1000, iter_time(ms)=15
+  step 600/1000, iter_time(ms)=16
+  step 700/1000, iter_time(ms)=16
+  step 800/1000, iter_time(ms)=15
+  step 900/1000, iter_time(ms)=17
+  step 1000/1000, iter_time(ms)=16
+  images/sec: 68
+  99th_percentile(ms): 17.46
+  total_time(s): 14.8
+  latency_mean(ms): 14.78
+  latency_median(ms): 15.50
+  latency_min(ms): 12.67
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/ssd_mobilenet_v2_300x300_quant_coco_edgetpu.tflite
+Model name: /home/mendel/models/ssd_mobilenet_v2_300x300_quant_coco_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 300 300 3
+First Inference : 52.61 ms
+  step 100/1000, iter_time(ms)=15
+  step 200/1000, iter_time(ms)=15
+  step 300/1000, iter_time(ms)=19
+  step 400/1000, iter_time(ms)=15
+  step 500/1000, iter_time(ms)=20
+  step 600/1000, iter_time(ms)=18
+  step 700/1000, iter_time(ms)=18
+  step 800/1000, iter_time(ms)=15
+  step 900/1000, iter_time(ms)=17
+  step 1000/1000, iter_time(ms)=15
+  images/sec: 58
+  99th_percentile(ms): 20.98
+  total_time(s): 17.5
+  latency_mean(ms): 17.49
+  latency_median(ms): 18.17
+  latency_min(ms): 14.43
+mendel@orange-calf:~/tflite-cv-example/benchmark$ 
+
+
+
