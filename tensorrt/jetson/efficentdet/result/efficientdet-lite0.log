@@ -1,0 +1,399 @@
+&&&& RUNNING TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/tensorrt-examples/cpp/efficientdet/efficientdet-lite0.onnx --workspace=200 --fp16
+[11/17/2021-21:44:30] [I] === Model Options ===
+[11/17/2021-21:44:30] [I] Format: ONNX
+[11/17/2021-21:44:30] [I] Model: /home/jetson/tensorrt-examples/cpp/efficientdet/efficientdet-lite0.onnx
+[11/17/2021-21:44:30] [I] Output:
+[11/17/2021-21:44:30] [I] === Build Options ===
+[11/17/2021-21:44:30] [I] Max batch: explicit
+[11/17/2021-21:44:30] [I] Workspace: 200 MiB
+[11/17/2021-21:44:30] [I] minTiming: 1
+[11/17/2021-21:44:30] [I] avgTiming: 8
+[11/17/2021-21:44:30] [I] Precision: FP32+FP16
+[11/17/2021-21:44:30] [I] Calibration: 
+[11/17/2021-21:44:30] [I] Refit: Disabled
+[11/17/2021-21:44:30] [I] Sparsity: Disabled
+[11/17/2021-21:44:30] [I] Safe mode: Disabled
+[11/17/2021-21:44:30] [I] Restricted mode: Disabled
+[11/17/2021-21:44:30] [I] Save engine: 
+[11/17/2021-21:44:30] [I] Load engine: 
+[11/17/2021-21:44:30] [I] NVTX verbosity: 0
+[11/17/2021-21:44:30] [I] Tactic sources: Using default tactic sources
+[11/17/2021-21:44:30] [I] timingCacheMode: local
+[11/17/2021-21:44:30] [I] timingCacheFile: 
+[11/17/2021-21:44:30] [I] Input(s)s format: fp32:CHW
+[11/17/2021-21:44:30] [I] Output(s)s format: fp32:CHW
+[11/17/2021-21:44:30] [I] Input build shapes: model
+[11/17/2021-21:44:30] [I] Input calibration shapes: model
+[11/17/2021-21:44:30] [I] === System Options ===
+[11/17/2021-21:44:30] [I] Device: 0
+[11/17/2021-21:44:30] [I] DLACore: 
+[11/17/2021-21:44:30] [I] Plugins:
+[11/17/2021-21:44:30] [I] === Inference Options ===
+[11/17/2021-21:44:30] [I] Batch: Explicit
+[11/17/2021-21:44:30] [I] Input inference shapes: model
+[11/17/2021-21:44:30] [I] Iterations: 10
+[11/17/2021-21:44:30] [I] Duration: 3s (+ 200ms warm up)
+[11/17/2021-21:44:30] [I] Sleep time: 0ms
+[11/17/2021-21:44:30] [I] Streams: 1
+[11/17/2021-21:44:30] [I] ExposeDMA: Disabled
+[11/17/2021-21:44:30] [I] Data transfers: Enabled
+[11/17/2021-21:44:30] [I] Spin-wait: Disabled
+[11/17/2021-21:44:30] [I] Multithreading: Disabled
+[11/17/2021-21:44:30] [I] CUDA Graph: Disabled
+[11/17/2021-21:44:30] [I] Separate profiling: Disabled
+[11/17/2021-21:44:30] [I] Time Deserialize: Disabled
+[11/17/2021-21:44:30] [I] Time Refit: Disabled
+[11/17/2021-21:44:30] [I] Skip inference: Disabled
+[11/17/2021-21:44:30] [I] Inputs:
+[11/17/2021-21:44:30] [I] === Reporting Options ===
+[11/17/2021-21:44:30] [I] Verbose: Disabled
+[11/17/2021-21:44:30] [I] Averages: 10 inferences
+[11/17/2021-21:44:30] [I] Percentile: 99
+[11/17/2021-21:44:30] [I] Dump refittable layers:Disabled
+[11/17/2021-21:44:30] [I] Dump output: Disabled
+[11/17/2021-21:44:30] [I] Profile: Disabled
+[11/17/2021-21:44:30] [I] Export timing to JSON file: 
+[11/17/2021-21:44:30] [I] Export output to JSON file: 
+[11/17/2021-21:44:30] [I] Export profile to JSON file: 
+[11/17/2021-21:44:30] [I] 
+[11/17/2021-21:44:30] [I] === Device Information ===
+[11/17/2021-21:44:30] [I] Selected Device: NVIDIA Tegra X1
+[11/17/2021-21:44:30] [I] Compute Capability: 5.3
+[11/17/2021-21:44:30] [I] SMs: 1
+[11/17/2021-21:44:30] [I] Compute Clock Rate: 0.9216 GHz
+[11/17/2021-21:44:30] [I] Device Global Memory: 3964 MiB
+[11/17/2021-21:44:30] [I] Shared Memory per SM: 64 KiB
+[11/17/2021-21:44:30] [I] Memory Bus Width: 64 bits (ECC disabled)
+[11/17/2021-21:44:30] [I] Memory Clock Rate: 0.01275 GHz
+[11/17/2021-21:44:30] [I] 
+[11/17/2021-21:44:30] [I] TensorRT version: 8001
+[11/17/2021-21:44:33] [I] [TRT] [MemUsageChange] Init CUDA: CPU +203, GPU +0, now: CPU 221, GPU 2665 (MiB)
+[11/17/2021-21:44:33] [I] Start parsing network model
+[11/17/2021-21:44:33] [I] [TRT] ----------------------------------------------------------------
+[11/17/2021-21:44:33] [I] [TRT] Input filename:   /home/jetson/tensorrt-examples/cpp/efficientdet/efficientdet-lite0.onnx
+[11/17/2021-21:44:33] [I] [TRT] ONNX IR version:  0.0.7
+[11/17/2021-21:44:33] [I] [TRT] Opset version:    11
+[11/17/2021-21:44:33] [I] [TRT] Producer name:    
+[11/17/2021-21:44:33] [I] [TRT] Producer version: 
+[11/17/2021-21:44:33] [I] [TRT] Domain:           
+[11/17/2021-21:44:33] [I] [TRT] Model version:    0
+[11/17/2021-21:44:33] [I] [TRT] Doc string:       
+[11/17/2021-21:44:33] [I] [TRT] ----------------------------------------------------------------
+[11/17/2021-21:44:33] [11/17/2021-21:44:34] [I] [TRT] No importer registered for op: EfficientNMS_TRT. Attempting to import as plugin.
+[11/17/2021-21:44:34] [I] [TRT] Searching for plugin: EfficientNMS_TRT, plugin_version: 1, plugin_namespace: 
+[11/17/2021-21:44:34] [I] [TRT] Successfully created plugin: EfficientNMS_TRT
+[11/17/2021-21:44:34] [I] Finish parsing network model
+[11/17/2021-21:44:34] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 237, GPU 2708 (MiB)
+[11/17/2021-21:44:34] [I] [TRT] [MemUsageSnapshot] Builder begin: CPU 248 MiB, GPU 2736 MiB
+[11/17/2021-21:44:34] [I] [TRT] ---------- Layers Running on DLA ----------
+[11/17/2021-21:44:34] [I] [TRT] ---------- Layers Running on GPU ----------
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] preprocessor/transpose
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] preprocessor/scale_value:0 + preprocessor/scale + preprocessor/mean_value:0 + preprocessor/mean
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/stem/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/stem/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_0/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_0/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_0/conv2d/Conv2D
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_1/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_1/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_1/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_1/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_1/conv2d_1/Conv2D
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_2/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_2/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_2/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_2/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_2/conv2d_1/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_2/Add
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_3/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_3/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_3/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_3/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_3/conv2d_1/Conv2D
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_4/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_4/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_4/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_4/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_4/conv2d_1/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_4/Add
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_5/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_5/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_5/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_5/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_5/conv2d_1/Conv2D
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_6/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_6/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_6/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_6/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_6/conv2d_1/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_6/Add
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_7/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_7/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_7/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_7/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_7/conv2d_1/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_7/Add
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_8/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_8/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_8/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_8/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_8/conv2d_1/Conv2D
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_9/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_9/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_9/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_9/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_9/conv2d_1/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_9/Add
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_10/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_10/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_10/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_10/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_10/conv2d_1/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_10/Add
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_11/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_11/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_11/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_11/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_11/conv2d_1/Conv2D
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_12/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_12/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_12/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_12/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_12/conv2d_1/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_12/Add
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_13/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_13/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_13/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_13/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_13/conv2d_1/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_13/Add
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_14/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_14/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_14/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_14/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_14/conv2d_1/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_14/Add
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_15/conv2d/Conv2D + StatefulPartitionedCall/efficientnet-lite0/blocks_15/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_15/depthwise_conv2d/depthwise + StatefulPartitionedCall/efficientnet-lite0/blocks_15/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/efficientnet-lite0/blocks_15/conv2d_1/Conv2D
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/resample_p6/conv2d/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/resample_p6/max_pooling2d/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/resample_p7/max_pooling2d_1/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__784
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_0/fnode0/add_n/add, StatefulPartitionedCall/fpn_cells/cell_0/fnode0/op_after_combine5/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode0/op_after_combine5/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode0/op_after_combine5/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__804
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode1/resample_0_2_6/conv2d/BiasAdd + StatefulPartitionedCall/fpn_cells/cell_0/fnode1/add_n/add + StatefulPartitionedCall/fpn_cells/cell_0/fnode1/op_after_combine6/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode1/op_after_combine6/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode1/op_after_combine6/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode5/resample_0_2_10/conv2d/BiasAdd + StatefulPartitionedCall/fpn_cells/cell_0/fnode5/add_n/add
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__846
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode2/resample_0_1_7/conv2d/BiasAdd + StatefulPartitionedCall/fpn_cells/cell_0/fnode2/add_n/add + StatefulPartitionedCall/fpn_cells/cell_0/fnode2/op_after_combine7/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode2/op_after_combine7/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode2/op_after_combine7/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode4/resample_0_1_9/conv2d/BiasAdd + StatefulPartitionedCall/fpn_cells/cell_0/fnode4/add_n/add
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__864
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode3/resample_0_0_8/conv2d/BiasAdd + StatefulPartitionedCall/fpn_cells/cell_0/fnode3/add_n/add + StatefulPartitionedCall/fpn_cells/cell_0/fnode3/op_after_combine8/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode3/op_after_combine8/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode3/op_after_combine8/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode4/resample_2_8_9/max_pooling2d_2/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_0/fnode4/add_n/add_1, StatefulPartitionedCall/fpn_cells/cell_0/fnode4/op_after_combine9/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode4/op_after_combine9/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode4/op_after_combine9/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode5/resample_2_9_10/max_pooling2d_3/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_0/fnode5/add_n/add_1, StatefulPartitionedCall/fpn_cells/cell_0/fnode5/op_after_combine10/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode5/op_after_combine10/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode5/op_after_combine10/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode6/resample_2_10_11/max_pooling2d_4/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(PWN(StatefulPartitionedCall/fpn_cells/cell_0/fnode6/add_n/add, StatefulPartitionedCall/fpn_cells/cell_0/fnode6/add_n/add_1), StatefulPartitionedCall/fpn_cells/cell_0/fnode6/op_after_combine11/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode6/op_after_combine11/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode6/op_after_combine11/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode7/resample_1_11_12/max_pooling2d_5/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_0/fnode7/add_n/add, StatefulPartitionedCall/fpn_cells/cell_0/fnode7/op_after_combine12/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode7/op_after_combine12/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_0/fnode7/op_after_combine12/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__922
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_1/fnode0/add_n/add, StatefulPartitionedCall/fpn_cells/cell_1/fnode0/op_after_combine5/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode0/op_after_combine5/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode0/op_after_combine5/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__940
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_1/fnode1/add_n/add, StatefulPartitionedCall/fpn_cells/cell_1/fnode1/op_after_combine6/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode1/op_after_combine6/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode1/op_after_combine6/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__958
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_1/fnode2/add_n/add, StatefulPartitionedCall/fpn_cells/cell_1/fnode2/op_after_combine7/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode2/op_after_combine7/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode2/op_after_combine7/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__976
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_1/fnode3/add_n/add, StatefulPartitionedCall/fpn_cells/cell_1/fnode3/op_after_combine8/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode3/op_after_combine8/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode3/op_after_combine8/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode4/resample_2_8_9/max_pooling2d_6/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(PWN(StatefulPartitionedCall/fpn_cells/cell_1/fnode4/add_n/add, StatefulPartitionedCall/fpn_cells/cell_1/fnode4/add_n/add_1), StatefulPartitionedCall/fpn_cells/cell_1/fnode4/op_after_combine9/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode4/op_after_combine9/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode4/op_after_combine9/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode5/resample_2_9_10/max_pooling2d_7/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(PWN(StatefulPartitionedCall/fpn_cells/cell_1/fnode5/add_n/add, StatefulPartitionedCall/fpn_cells/cell_1/fnode5/add_n/add_1), StatefulPartitionedCall/fpn_cells/cell_1/fnode5/op_after_combine10/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode5/op_after_combine10/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode5/op_after_combine10/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode6/resample_2_10_11/max_pooling2d_8/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(PWN(StatefulPartitionedCall/fpn_cells/cell_1/fnode6/add_n/add, StatefulPartitionedCall/fpn_cells/cell_1/fnode6/add_n/add_1), StatefulPartitionedCall/fpn_cells/cell_1/fnode6/op_after_combine11/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode6/op_after_combine11/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode6/op_after_combine11/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode7/resample_1_11_12/max_pooling2d_9/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_1/fnode7/add_n/add, StatefulPartitionedCall/fpn_cells/cell_1/fnode7/op_after_combine12/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode7/op_after_combine12/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_1/fnode7/op_after_combine12/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__1034
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_2/fnode0/add_n/add, StatefulPartitionedCall/fpn_cells/cell_2/fnode0/op_after_combine5/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode0/op_after_combine5/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode0/op_after_combine5/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__1052
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_2/fnode1/add_n/add, StatefulPartitionedCall/fpn_cells/cell_2/fnode1/op_after_combine6/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode1/op_after_combine6/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode1/op_after_combine6/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__1070
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_2/fnode2/add_n/add, StatefulPartitionedCall/fpn_cells/cell_2/fnode2/op_after_combine7/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode2/op_after_combine7/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode2/op_after_combine7/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] Resize__1088
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_2/fnode3/add_n/add, StatefulPartitionedCall/fpn_cells/cell_2/fnode3/op_after_combine8/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode3/op_after_combine8/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode3/op_after_combine8/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode4/resample_2_8_9/max_pooling2d_10/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-0/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-0/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-0/BiasAdd + StatefulPartitionedCall/class_net/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-0/BiasAdd + StatefulPartitionedCall/box_net/Relu6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(PWN(StatefulPartitionedCall/fpn_cells/cell_2/fnode4/add_n/add, StatefulPartitionedCall/fpn_cells/cell_2/fnode4/add_n/add_1), StatefulPartitionedCall/fpn_cells/cell_2/fnode4/op_after_combine9/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode4/op_after_combine9/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode4/op_after_combine9/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-1/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-1/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-1/BiasAdd + StatefulPartitionedCall/class_net/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-1/BiasAdd + StatefulPartitionedCall/box_net/Relu6_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode5/resample_2_9_10/max_pooling2d_11/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-0/separable_conv2d_1/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-0/separable_conv2d_1/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-0/BiasAdd_1 + StatefulPartitionedCall/class_net/Relu6_3
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-0/BiasAdd_1 + StatefulPartitionedCall/box_net/Relu6_3
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(PWN(StatefulPartitionedCall/fpn_cells/cell_2/fnode5/add_n/add, StatefulPartitionedCall/fpn_cells/cell_2/fnode5/add_n/add_1), StatefulPartitionedCall/fpn_cells/cell_2/fnode5/op_after_combine10/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-2/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-2/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode5/op_after_combine10/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-2/BiasAdd + StatefulPartitionedCall/class_net/Relu6_2
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-2/BiasAdd + StatefulPartitionedCall/box_net/Relu6_2
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode5/op_after_combine10/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-1/separable_conv2d_1/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-1/separable_conv2d_1/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-1/BiasAdd_1 + StatefulPartitionedCall/class_net/Relu6_4
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-1/BiasAdd_1 + StatefulPartitionedCall/box_net/Relu6_4
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode6/resample_2_10_11/max_pooling2d_12/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-0/separable_conv2d_2/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-0/separable_conv2d_2/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-0/BiasAdd_2 + StatefulPartitionedCall/class_net/Relu6_6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-0/BiasAdd_2 + StatefulPartitionedCall/box_net/Relu6_6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(PWN(StatefulPartitionedCall/fpn_cells/cell_2/fnode6/add_n/add, StatefulPartitionedCall/fpn_cells/cell_2/fnode6/add_n/add_1), StatefulPartitionedCall/fpn_cells/cell_2/fnode6/op_after_combine11/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-2/separable_conv2d_1/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-2/separable_conv2d_1/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode6/op_after_combine11/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-2/BiasAdd_1 + StatefulPartitionedCall/class_net/Relu6_5
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-2/BiasAdd_1 + StatefulPartitionedCall/box_net/Relu6_5
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/BiasAdd__1396 + StatefulPartitionedCall/Reshape
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/BiasAdd__1434 + StatefulPartitionedCall/Reshape_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode6/op_after_combine11/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-1/separable_conv2d_2/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-1/separable_conv2d_2/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-1/BiasAdd_2 + StatefulPartitionedCall/class_net/Relu6_7
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-1/BiasAdd_2 + StatefulPartitionedCall/box_net/Relu6_7
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode7/resample_1_11_12/max_pooling2d_13/MaxPool
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-0/separable_conv2d_3/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-0/separable_conv2d_3/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/separable_conv2d_1/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/separable_conv2d_1/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-0/BiasAdd_3 + StatefulPartitionedCall/class_net/Relu6_9
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-0/BiasAdd_3 + StatefulPartitionedCall/box_net/Relu6_9
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/BiasAdd_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/BiasAdd_1
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] PWN(StatefulPartitionedCall/fpn_cells/cell_2/fnode7/add_n/add, StatefulPartitionedCall/fpn_cells/cell_2/fnode7/op_after_combine12/Relu6)
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-2/separable_conv2d_2/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-2/separable_conv2d_2/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode7/op_after_combine12/conv/separable_conv2d/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-2/BiasAdd_2 + StatefulPartitionedCall/class_net/Relu6_8
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-2/BiasAdd_2 + StatefulPartitionedCall/box_net/Relu6_8
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/BiasAdd_1__1338 + StatefulPartitionedCall/Reshape_2
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/BiasAdd_1__1367 + StatefulPartitionedCall/Reshape_3
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/fpn_cells/cell_2/fnode7/op_after_combine12/conv/BiasAdd
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-1/separable_conv2d_3/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-1/separable_conv2d_3/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-1/BiasAdd_3 + StatefulPartitionedCall/class_net/Relu6_10
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-1/BiasAdd_3 + StatefulPartitionedCall/box_net/Relu6_10
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-0/separable_conv2d_4/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-0/separable_conv2d_4/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/separable_conv2d_2/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/separable_conv2d_2/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-0/BiasAdd_4 + StatefulPartitionedCall/class_net/Relu6_12
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-0/BiasAdd_4 + StatefulPartitionedCall/box_net/Relu6_12
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/BiasAdd_2
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/BiasAdd_2
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-2/separable_conv2d_3/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-2/separable_conv2d_3/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-2/BiasAdd_3 + StatefulPartitionedCall/class_net/Relu6_11
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-2/BiasAdd_3 + StatefulPartitionedCall/box_net/Relu6_11
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/BiasAdd_2__1280 + StatefulPartitionedCall/Reshape_4
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/BiasAdd_2__1309 + StatefulPartitionedCall/Reshape_5
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-1/separable_conv2d_4/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-1/separable_conv2d_4/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-1/BiasAdd_4 + StatefulPartitionedCall/class_net/Relu6_13
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-1/BiasAdd_4 + StatefulPartitionedCall/box_net/Relu6_13
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/separable_conv2d_3/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/separable_conv2d_3/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/BiasAdd_3
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/BiasAdd_3
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-2/separable_conv2d_4/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-2/separable_conv2d_4/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-2/BiasAdd_4 + StatefulPartitionedCall/class_net/Relu6_14
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-2/BiasAdd_4 + StatefulPartitionedCall/box_net/Relu6_14
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/BiasAdd_3__1222 + StatefulPartitionedCall/Reshape_6
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/BiasAdd_3__1251 + StatefulPartitionedCall/Reshape_7
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/separable_conv2d_4/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/separable_conv2d_4/depthwise
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/BiasAdd_4
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/BiasAdd_4
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/class_net/class-predict/BiasAdd_4__1164 + StatefulPartitionedCall/Reshape_8
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/box_net/box-predict/BiasAdd_4__1193 + StatefulPartitionedCall/Reshape_9
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/Reshape:0 copy
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/Reshape_2:0 copy
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/Reshape_4:0 copy
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/Reshape_6:0 copy
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/Reshape_8:0 copy
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/Reshape_1:0 copy
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/Reshape_3:0 copy
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/Reshape_5:0 copy
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/Reshape_7:0 copy
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] StatefulPartitionedCall/Reshape_9:0 copy
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] nms/anchors:0
+[11/17/2021-21:44:34] [I] [TRT] [GpuLayer] nms/non_maximum_suppression
+[11/17/2021-21:44:36] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +280, now: CPU 409, GPU 3017 (MiB)
+[11/17/2021-21:44:39] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +241, GPU +414, now: CPU 650, GPU 3431 (MiB)
+[11/17/2021-21:44:39] [11/17/2021-21:45:35] [I] [TRT] Some tactics do not have sufficient workspace memory to run. Increasing workspace size may increase performance, please check verbose output.
+[11/17/2021-21:55:15] [I] [TRT] Detected 1 inputs and 4 output network tensors.
+[11/17/2021-21:55:16] [I] [TRT] Total Host Persistent Memory: 297536
+[11/17/2021-21:55:16] [I] [TRT] Total Device Persistent Memory: 7372288
+[11/17/2021-21:55:16] [I] [TRT] Total Scratch Memory: 34572544
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 12 MiB, GPU 195 MiB
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 910, GPU 3467 (MiB)
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 910, GPU 3467 (MiB)
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 910, GPU 3469 (MiB)
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 909, GPU 3469 (MiB)
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageSnapshot] Builder end: CPU 907 MiB, GPU 3469 MiB
+[11/17/2021-21:55:16] [I] [TRT] Loaded engine size: 10 MB
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine begin: CPU 912 MiB, GPU 3454 MiB
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 915, GPU 3454 (MiB)
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 915, GPU 3454 (MiB)
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 915, GPU 3454 (MiB)
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine end: CPU 915 MiB, GPU 3454 MiB
+[11/17/2021-21:55:16] [I] Engine built in 645.854 sec.
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageSnapshot] ExecutionContext creation begin: CPU 899 MiB, GPU 3454 MiB
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 899, GPU 3454 (MiB)
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 899, GPU 3454 (MiB)
+[11/17/2021-21:55:16] [I] [TRT] [MemUsageSnapshot] ExecutionContext creation end: CPU 899 MiB, GPU 3454 MiB
+[11/17/2021-21:55:16] [I] Created input binding for images:0 with dimensions 1x320x320x3
+[11/17/2021-21:55:16] [I] Created output binding for num_detections with dimensions 1x1
+[11/17/2021-21:55:16] [I] Created output binding for detection_boxes with dimensions 1x100x4
+[11/17/2021-21:55:16] [I] Created output binding for detection_scores with dimensions 1x100
+[11/17/2021-21:55:16] [I] Created output binding for detection_classes with dimensions 1x100
+[11/17/2021-21:55:16] [I] Starting inference
+[11/17/2021-21:55:19] [I] Warmup completed 5 queries over 200 ms
+[11/17/2021-21:55:19] [I] Timing trace has 77 queries over 3.10058 s
+[11/17/2021-21:55:19] [I] 
+[11/17/2021-21:55:19] [I] === Trace details ===
+[11/17/2021-21:55:19] [I] Trace averages of 10 runs:
+[11/17/2021-21:55:19] [I] Average on 10 runs - GPU latency: 40.1483 ms - Host latency: 40.2755 ms (end to end 40.2877 ms, enqueue 24.7855 ms)
+[11/17/2021-21:55:19] [I] Average on 10 runs - GPU latency: 40.1639 ms - Host latency: 40.2904 ms (end to end 40.3026 ms, enqueue 24.384 ms)
+[11/17/2021-21:55:19] [I] Average on 10 runs - GPU latency: 40.0623 ms - Host latency: 40.189 ms (end to end 40.2013 ms, enqueue 24.7327 ms)
+[11/17/2021-21:55:19] [I] Average on 10 runs - GPU latency: 40.1285 ms - Host latency: 40.2554 ms (end to end 40.2677 ms, enqueue 24.9642 ms)
+[11/17/2021-21:55:19] [I] Average on 10 runs - GPU latency: 40.1911 ms - Host latency: 40.3183 ms (end to end 40.3308 ms, enqueue 24.2809 ms)
+[11/17/2021-21:55:19] [I] Average on 10 runs - GPU latency: 40.0685 ms - Host latency: 40.1954 ms (end to end 40.2079 ms, enqueue 24.5699 ms)
+[11/17/2021-21:55:19] [I] Average on 10 runs - GPU latency: 40.1523 ms - Host latency: 40.2789 ms (end to end 40.2913 ms, enqueue 24.9581 ms)
+[11/17/2021-21:55:19] [I] 
+[11/17/2021-21:55:19] [I] === Performance summary ===
+[11/17/2021-21:55:19] [I] Throughput: 24.8341 qps
+[11/17/2021-21:55:19] [I] Latency: min = 40.0728 ms, max = 41.1985 ms, mean = 40.2544 ms, median = 40.1902 ms, percentile(99%) = 41.1985 ms
+[11/17/2021-21:55:19] [I] End-to-End Host Latency: min = 40.0854 ms, max = 41.211 ms, mean = 40.2667 ms, median = 40.2019 ms, percentile(99%) = 41.211 ms
+[11/17/2021-21:55:19] [I] Enqueue Time: min = 19.0697 ms, max = 25.4862 ms, mean = 24.6768 ms, median = 24.9651 ms, percentile(99%) = 25.4862 ms
+[11/17/2021-21:55:19] [I] H2D Latency: min = 0.117615 ms, max = 0.121613 ms, mean = 0.119112 ms, median = 0.118912 ms, percentile(99%) = 0.121613 ms
+[11/17/2021-21:55:19] [I] GPU Compute Time: min = 39.9463 ms, max = 41.0718 ms, mean = 40.1276 ms, median = 40.0618 ms, percentile(99%) = 41.0718 ms
+[11/17/2021-21:55:19] [I] D2H Latency: min = 0.00561523 ms, max = 0.00854492 ms, mean = 0.00765516 ms, median = 0.0078125 ms, percentile(99%) = 0.00854492 ms
+[11/17/2021-21:55:19] [I] Total Host Walltime: 3.10058 s
+[11/17/2021-21:55:19] [I] Total GPU Compute Time: 3.08983 s
+[11/17/2021-21:55:19] [I] Explanations of the performance metrics are printed in the verbose logs.
+[11/17/2021-21:55:19] [I] 
+&&&& PASSED TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/tensorrt-examples/cpp/efficientdet/efficientdet-lite0.onnx --workspace=200 --fp16
+[11/17/2021-21:55:19] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 899, GPU 3455 (MiB)
