@@ -15,8 +15,8 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, PyTorch, Torchvision, etc...
 |[EdgeTPU Models<br>Coral Dev Board](tensorflow/lite/tf1_detection_model_zoo/devboard.md)|Latency|TensorFlow Lite<br>EdgeTPU delegate|
 |[EfficientDet-Lite<br>Raspberry Pi](tensorflow/lite/efficentdet/efficientdet.md)|AP, Latency|TensorFlow Lit<br>XNNPACK delegate<br>ARM NN delegate<br>EdgeTPU delegate|
 |[YOLOX TensorFlow LiteM<br>Raspberry Pi 4 64bit](tensorflow/lite/yolox)|AP, Latency|TensorFlow Lit<br>XNNPACK delegate|
-|[Torchvision detection models](pytorch/torchvision/README.md)|AP, Latancy, <br>YouTube video|PyTorch, Torchvision|
-
+|[Torchvision detection models](pytorch/torchvision/README.md)|AP, Latency, <br>YouTube video|PyTorch, Torchvision|
+|[TensorRT EfficientDet-Lite<br>Jetson nano](tensorrt/jetson/efficentdet/efficientdet.md)| Latency,<br>YouTube video | TensorRT |
 
 ## Reference
 - [TensorFlow 1 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md)
@@ -31,3 +31,4 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, PyTorch, Torchvision, etc...
 - [PINTO0309/Bazel_bin](https://github.com/PINTO0309/Bazel_bin)
 - [PyTorch](https://pytorch.org/)
 - [Torchvision](https://pytorch.org/vision/stable/)
+- [TensorRT](https://github.com/NVIDIA/TensorRT)
