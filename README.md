@@ -14,9 +14,11 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, PyTorch, Torchvision, etc...
 |[TensorFlow 1 Detection Model Zoo<br>Raspberry Pi](tensorflow/lite/tf1_detection_model_zoo/raspi.md)|AP, Latency|TensorFlow Lite<br>XNNPACK delegate<br>ARM NN delegate<br>EdgeTPU delegate|
 |[EdgeTPU Models<br>Coral Dev Board](tensorflow/lite/tf1_detection_model_zoo/devboard.md)|Latency|TensorFlow Lite<br>EdgeTPU delegate|
 |[EfficientDet-Lite<br>Raspberry Pi](tensorflow/lite/efficentdet/efficientdet.md)|AP, Latency|TensorFlow Lit<br>XNNPACK delegate<br>ARM NN delegate<br>EdgeTPU delegate|
-|[YOLOX TensorFlow LiteM<br>Raspberry Pi 4 64bit](tensorflow/lite/yolox)|AP, Latency|TensorFlow Lit<br>XNNPACK delegate|
+|[YOLOX TensorFlow LiteM<br>Raspberry Pi 4 64bit](tensorflow/lite/yolox)|AP, Latency|TensorFlow Lite<br>XNNPACK delegate|
 |[Torchvision detection models](pytorch/torchvision/README.md)|AP, Latency, <br>YouTube video|PyTorch, Torchvision|
 |[TensorRT EfficientDet-Lite<br>Jetson nano](tensorrt/jetson/efficentdet/efficientdet.md)| Latency,<br>YouTube video | TensorRT |
+|[TF-Lite SpaghettiNet EdgeTpu Latency vs max_detections](tensorflow/lite/spaghettinet/latency_vs_map.md)|AP, Latency|TensorFlow Lite
+EdgeTPU delegate|
 
 ## Reference
 - [TensorFlow 1 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md)
