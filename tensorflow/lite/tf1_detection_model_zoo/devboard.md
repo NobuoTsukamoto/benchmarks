@@ -32,8 +32,8 @@ Models
 ## Latency mean (ms)
 
 - EdgeTPU: EdgeTPU delegate, maximum frequency (500 MHz)
-- -: Cannot be measured because it hangs during measurement.
 
+### Dev Bard (Edge TPU delegate)
 |Model name                 |Input  |Kind   |Dev Board |
 |:--------------------------|:------|:----- |:---------|
 |SSDLite Mobilenet v1       |300x300|EdgeTPU|    14.78 |
@@ -43,3 +43,12 @@ Models
 |SpaghettiNet for EdgeTpu S |300x300|EdgeTPU|    16.64 |
 |SpaghettiNet for EdgeTpu M |300x300|EdgeTPU|    16.83 |
 |SpaghettiNet for EdgeTpu L |300x300|EdgeTPU|    17.71 |
+
+
+### Dev Bard (SpaghettiNet for Edge TPU delegate)
+
+|Model name                 |Input  |no Post-processing|with Post-processing<br>max_detection=10|with Post-processing<br>max_detection=25|with Post-processing<br>max_detection=50|with Post-processing<br>max_detection=100|
+|:--------------------------|:------|:-----|:------|:------|:------|:------|
+|SpaghettiNet for EdgeTpu S |300x300| 10.98| 16.64 | 22.34 | 26.87 | 33.47 |
+|SpaghettiNet for EdgeTpu M |300x300| 12.15| 16.83 | 22.39 | 28.39 | 35.00 |
+|SpaghettiNet for EdgeTpu L |300x300| 12.50| 17.71 | 23.58 | 28.58 | 35.95 |

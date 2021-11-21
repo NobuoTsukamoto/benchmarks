@@ -1,0 +1,63 @@
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/spaghettinet_edgetpu_s_edgetpu.tflite 
+Model name: /home/mendel/models/spaghettinet_edgetpu_s_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 49.70 ms
+  step 100/1000, iter_time(ms)=22
+  step 200/1000, iter_time(ms)=28
+  step 300/1000, iter_time(ms)=28
+  step 400/1000, iter_time(ms)=28
+  step 500/1000, iter_time(ms)=28
+  step 600/1000, iter_time(ms)=27
+  step 700/1000, iter_time(ms)=25
+  step 800/1000, iter_time(ms)=27
+  step 900/1000, iter_time(ms)=24
+  step 1000/1000, iter_time(ms)=28
+  images/sec: 37
+  99th_percentile(ms): 29.47
+  total_time(s): 27.0
+  latency_mean(ms): 26.87
+  latency_median(ms): 27.23
+  latency_min(ms): 20.86
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/spaghettinet_edgetpu_m_edgetpu.tflite 
+Model name: /home/mendel/models/spaghettinet_edgetpu_m_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 52.01 ms
+  step 100/1000, iter_time(ms)=28
+  step 200/1000, iter_time(ms)=28
+  step 300/1000, iter_time(ms)=28
+  step 400/1000, iter_time(ms)=28
+  step 500/1000, iter_time(ms)=29
+  step 600/1000, iter_time(ms)=28
+  step 700/1000, iter_time(ms)=28
+  step 800/1000, iter_time(ms)=28
+  step 900/1000, iter_time(ms)=28
+  step 1000/1000, iter_time(ms)=29
+  images/sec: 35
+  99th_percentile(ms): 29.84
+  total_time(s): 28.4
+  latency_mean(ms): 28.39
+  latency_median(ms): 28.44
+  latency_min(ms): 25.45
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/spaghettinet_edgetpu_l_edgetpu.tflite 
+Model name: /home/mendel/models/spaghettinet_edgetpu_l_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 57.80 ms
+  step 100/1000, iter_time(ms)=28
+  step 200/1000, iter_time(ms)=29
+  step 300/1000, iter_time(ms)=28
+  step 400/1000, iter_time(ms)=28
+  step 500/1000, iter_time(ms)=29
+  step 600/1000, iter_time(ms)=28
+  step 700/1000, iter_time(ms)=28
+  step 800/1000, iter_time(ms)=29
+  step 900/1000, iter_time(ms)=28
+  step 1000/1000, iter_time(ms)=29
+  images/sec: 35
+  99th_percentile(ms): 30.12
+  total_time(s): 28.6
+  latency_mean(ms): 28.58
+  latency_median(ms): 28.52
+  latency_min(ms): 26.01

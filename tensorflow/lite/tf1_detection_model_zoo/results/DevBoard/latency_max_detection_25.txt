@@ -1,0 +1,64 @@
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/spaghettinet_edgetpu_s_edgetpu.tflite 
+Model name: /home/mendel/models/spaghettinet_edgetpu_s_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 42.77 ms
+  step 100/1000, iter_time(ms)=21
+  step 200/1000, iter_time(ms)=22
+  step 300/1000, iter_time(ms)=21
+  step 400/1000, iter_time(ms)=21
+  step 500/1000, iter_time(ms)=22
+  step 600/1000, iter_time(ms)=23
+  step 700/1000, iter_time(ms)=24
+  step 800/1000, iter_time(ms)=24
+  step 900/1000, iter_time(ms)=25
+  step 1000/1000, iter_time(ms)=23
+  images/sec: 44
+  99th_percentile(ms): 25.41
+  total_time(s): 22.4
+  latency_mean(ms): 22.34
+  latency_median(ms): 22.55
+  latency_min(ms): 17.88
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/spaghettinet_edgetpu_m_edgetpu.tflite 
+Model name: /home/mendel/models/spaghettinet_edgetpu_m_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 47.05 ms
+  step 100/1000, iter_time(ms)=25
+  step 200/1000, iter_time(ms)=22
+  step 300/1000, iter_time(ms)=23
+  step 400/1000, iter_time(ms)=23
+  step 500/1000, iter_time(ms)=21
+  step 600/1000, iter_time(ms)=22
+  step 700/1000, iter_time(ms)=21
+  step 800/1000, iter_time(ms)=25
+  step 900/1000, iter_time(ms)=20
+  step 1000/1000, iter_time(ms)=20
+  images/sec: 45
+  99th_percentile(ms): 25.85
+  total_time(s): 22.5
+  latency_mean(ms): 22.39
+  latency_median(ms): 23.08
+  latency_min(ms): 18.46
+mendel@orange-calf:~/tflite-cv-example/benchmark$ python3 benchmark_tflite.py --model ~/models/spaghettinet_edgetpu_l_edgetpu.tflite 
+Model name: /home/mendel/models/spaghettinet_edgetpu_l_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 49.91 ms
+  step 100/1000, iter_time(ms)=24
+  step 200/1000, iter_time(ms)=23
+  step 300/1000, iter_time(ms)=24
+  step 400/1000, iter_time(ms)=24
+  step 500/1000, iter_time(ms)=24
+  step 600/1000, iter_time(ms)=22
+  step 700/1000, iter_time(ms)=23
+  step 800/1000, iter_time(ms)=24
+  step 900/1000, iter_time(ms)=25
+  step 1000/1000, iter_time(ms)=24
+  images/sec: 42
+  99th_percentile(ms): 25.52
+  total_time(s): 23.6
+  latency_mean(ms): 23.58
+  latency_median(ms): 23.83
+  latency_min(ms): 19.72
+mendel@orange-calf:~/tflite-cv-example/benchmark$ 
