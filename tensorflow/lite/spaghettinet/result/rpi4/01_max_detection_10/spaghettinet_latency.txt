@@ -1,0 +1,288 @@
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_s.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 204.62 ms
+  step 100/1000, iter_time(ms)=194
+  step 200/1000, iter_time(ms)=194
+  step 300/1000, iter_time(ms)=194
+  step 400/1000, iter_time(ms)=194
+  step 500/1000, iter_time(ms)=194
+  step 600/1000, iter_time(ms)=194
+  step 700/1000, iter_time(ms)=194
+  step 800/1000, iter_time(ms)=194
+  step 900/1000, iter_time(ms)=194
+  step 1000/1000, iter_time(ms)=194
+  images/sec: 5
+  99th_percentile(ms): 195.00
+  total_time(s): 194.0
+  latency_mean(ms): 194.00
+  latency_median(ms): 193.92
+  latency_min(ms): 193.50
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_s.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 119.63 ms
+  step 100/1000, iter_time(ms)=110
+  step 200/1000, iter_time(ms)=110
+  step 300/1000, iter_time(ms)=111
+  step 400/1000, iter_time(ms)=110
+  step 500/1000, iter_time(ms)=110
+  step 600/1000, iter_time(ms)=110
+  step 700/1000, iter_time(ms)=110
+  step 800/1000, iter_time(ms)=110
+  step 900/1000, iter_time(ms)=110
+  step 1000/1000, iter_time(ms)=111
+  images/sec: 9
+  99th_percentile(ms): 111.43
+  total_time(s): 110.1
+  latency_mean(ms): 110.10
+  latency_median(ms): 110.03
+  latency_min(ms): 109.32
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_s.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 92.27 ms
+  step 100/1000, iter_time(ms)=83
+  step 200/1000, iter_time(ms)=84
+  step 300/1000, iter_time(ms)=83
+  step 400/1000, iter_time(ms)=84
+  step 500/1000, iter_time(ms)=83
+  step 600/1000, iter_time(ms)=83
+  step 700/1000, iter_time(ms)=84
+  step 800/1000, iter_time(ms)=83
+  step 900/1000, iter_time(ms)=83
+  step 1000/1000, iter_time(ms)=87
+  images/sec: 11
+  99th_percentile(ms): 84.82
+  total_time(s): 83.5
+  latency_mean(ms): 83.47
+  latency_median(ms): 83.37
+  latency_min(ms): 82.98
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_s.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 76.04 ms
+  step 100/1000, iter_time(ms)=67
+  step 200/1000, iter_time(ms)=67
+  step 300/1000, iter_time(ms)=68
+  step 400/1000, iter_time(ms)=68
+  step 500/1000, iter_time(ms)=67
+  step 600/1000, iter_time(ms)=67
+  step 700/1000, iter_time(ms)=67
+  step 800/1000, iter_time(ms)=67
+  step 900/1000, iter_time(ms)=67
+  step 1000/1000, iter_time(ms)=68
+  images/sec: 14
+  99th_percentile(ms): 82.22
+  total_time(s): 68.1
+  latency_mean(ms): 68.07
+  latency_median(ms): 67.48
+  latency_min(ms): 67.17
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_m.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 239.91 ms
+  step 100/1000, iter_time(ms)=227
+  step 200/1000, iter_time(ms)=227
+  step 300/1000, iter_time(ms)=228
+  step 400/1000, iter_time(ms)=227
+  step 500/1000, iter_time(ms)=227
+  step 600/1000, iter_time(ms)=227
+  step 700/1000, iter_time(ms)=227
+  step 800/1000, iter_time(ms)=227
+  step 900/1000, iter_time(ms)=228
+  step 1000/1000, iter_time(ms)=227
+  images/sec: 4
+  99th_percentile(ms): 227.98
+  total_time(s): 227.0
+  latency_mean(ms): 226.99
+  latency_median(ms): 226.90
+  latency_min(ms): 226.47
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_m.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 138.17 ms
+  step 100/1000, iter_time(ms)=128
+  step 200/1000, iter_time(ms)=128
+  step 300/1000, iter_time(ms)=127
+  step 400/1000, iter_time(ms)=128
+  step 500/1000, iter_time(ms)=127
+  step 600/1000, iter_time(ms)=128
+  step 700/1000, iter_time(ms)=128
+  step 800/1000, iter_time(ms)=127
+  step 900/1000, iter_time(ms)=127
+  step 1000/1000, iter_time(ms)=127
+  images/sec: 7
+  99th_percentile(ms): 128.72
+  total_time(s): 127.6
+  latency_mean(ms): 127.60
+  latency_median(ms): 127.53
+  latency_min(ms): 127.13
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_m.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 105.67 ms
+  step 100/1000, iter_time(ms)=97
+  step 200/1000, iter_time(ms)=97
+  step 300/1000, iter_time(ms)=97
+  step 400/1000, iter_time(ms)=97
+  step 500/1000, iter_time(ms)=97
+  step 600/1000, iter_time(ms)=97
+  step 700/1000, iter_time(ms)=97
+  step 800/1000, iter_time(ms)=97
+  step 900/1000, iter_time(ms)=97
+  step 1000/1000, iter_time(ms)=97
+  images/sec: 10
+  99th_percentile(ms): 98.42
+  total_time(s): 97.3
+  latency_mean(ms): 97.28
+  latency_median(ms): 97.19
+  latency_min(ms): 96.75
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_m.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 87.62 ms
+  step 100/1000, iter_time(ms)=79
+  step 200/1000, iter_time(ms)=79
+  step 300/1000, iter_time(ms)=79
+  step 400/1000, iter_time(ms)=79
+  step 500/1000, iter_time(ms)=79
+  step 600/1000, iter_time(ms)=79
+  step 700/1000, iter_time(ms)=79
+  step 800/1000, iter_time(ms)=79
+  step 900/1000, iter_time(ms)=79
+  step 1000/1000, iter_time(ms)=79
+  images/sec: 12
+  99th_percentile(ms): 95.25
+  total_time(s): 79.8
+  latency_mean(ms): 79.78
+  latency_median(ms): 78.97
+  latency_min(ms): 78.34
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_l.tflite, param num_threads: 1, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 287.26 ms
+  step 100/1000, iter_time(ms)=276
+  step 200/1000, iter_time(ms)=276
+  step 300/1000, iter_time(ms)=276
+  step 400/1000, iter_time(ms)=276
+  step 500/1000, iter_time(ms)=276
+  step 600/1000, iter_time(ms)=276
+  step 700/1000, iter_time(ms)=275
+  step 800/1000, iter_time(ms)=276
+  step 900/1000, iter_time(ms)=275
+  step 1000/1000, iter_time(ms)=276
+  images/sec: 3
+  99th_percentile(ms): 276.67
+  total_time(s): 275.7
+  latency_mean(ms): 275.66
+  latency_median(ms): 275.55
+  latency_min(ms): 275.04
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_l.tflite, param num_threads: 2, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 164.65 ms
+  step 100/1000, iter_time(ms)=155
+  step 200/1000, iter_time(ms)=154
+  step 300/1000, iter_time(ms)=155
+  step 400/1000, iter_time(ms)=154
+  step 500/1000, iter_time(ms)=155
+  step 600/1000, iter_time(ms)=154
+  step 700/1000, iter_time(ms)=155
+  step 800/1000, iter_time(ms)=154
+  step 900/1000, iter_time(ms)=155
+  step 1000/1000, iter_time(ms)=154
+  images/sec: 6
+  99th_percentile(ms): 155.90
+  total_time(s): 154.7
+  latency_mean(ms): 154.66
+  latency_median(ms): 154.62
+  latency_min(ms): 153.65
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_l.tflite, param num_threads: 3, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 124.82 ms
+  step 100/1000, iter_time(ms)=116
+  step 200/1000, iter_time(ms)=116
+  step 300/1000, iter_time(ms)=116
+  step 400/1000, iter_time(ms)=116
+  step 500/1000, iter_time(ms)=116
+  step 600/1000, iter_time(ms)=116
+  step 700/1000, iter_time(ms)=116
+  step 800/1000, iter_time(ms)=116
+  step 900/1000, iter_time(ms)=116
+  step 1000/1000, iter_time(ms)=116
+  images/sec: 8
+  99th_percentile(ms): 117.06
+  total_time(s): 115.9
+  latency_mean(ms): 115.91
+  latency_median(ms): 115.84
+  latency_min(ms): 115.41
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_l.tflite, param num_threads: 4, delegate: None
+Interpreter:  1 320 320 3
+First Inference : 103.51 ms
+  step 100/1000, iter_time(ms)=95
+  step 200/1000, iter_time(ms)=95
+  step 300/1000, iter_time(ms)=95
+  step 400/1000, iter_time(ms)=95
+  step 500/1000, iter_time(ms)=95
+  step 600/1000, iter_time(ms)=95
+  step 700/1000, iter_time(ms)=95
+  step 800/1000, iter_time(ms)=95
+  step 900/1000, iter_time(ms)=95
+  step 1000/1000, iter_time(ms)=94
+  images/sec: 10
+  99th_percentile(ms): 113.29
+  total_time(s): 95.7
+  latency_mean(ms): 95.62
+  latency_median(ms): 94.70
+  latency_min(ms): 94.21
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_s_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 33.64 ms
+  step 100/1000, iter_time(ms)=13
+  step 200/1000, iter_time(ms)=13
+  step 300/1000, iter_time(ms)=14
+  step 400/1000, iter_time(ms)=14
+  step 500/1000, iter_time(ms)=15
+  step 600/1000, iter_time(ms)=14
+  step 700/1000, iter_time(ms)=20
+  step 800/1000, iter_time(ms)=13
+  step 900/1000, iter_time(ms)=13
+  step 1000/1000, iter_time(ms)=14
+  images/sec: 73
+  99th_percentile(ms): 16.43
+  total_time(s): 13.6
+  latency_mean(ms): 13.59
+  latency_median(ms): 13.25
+  latency_min(ms): 12.92
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_m_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 37.68 ms
+  step 100/1000, iter_time(ms)=14
+  step 200/1000, iter_time(ms)=14
+  step 300/1000, iter_time(ms)=14
+  step 400/1000, iter_time(ms)=14
+  step 500/1000, iter_time(ms)=14
+  step 600/1000, iter_time(ms)=20
+  step 700/1000, iter_time(ms)=14
+  step 800/1000, iter_time(ms)=15
+  step 900/1000, iter_time(ms)=14
+  step 1000/1000, iter_time(ms)=14
+  images/sec: 71
+  99th_percentile(ms): 17.90
+  total_time(s): 14.0
+  latency_mean(ms): 14.00
+  latency_median(ms): 13.76
+  latency_min(ms): 13.38
+Model name: /home/pi/spaghettinet/spaghettinet_edgetpu_l_edgetpu.tflite, param num_threads: 2, delegate: None
+EdgeTpu delegate
+Interpreter:  1 320 320 3
+First Inference : 43.67 ms
+  step 100/1000, iter_time(ms)=14
+  step 200/1000, iter_time(ms)=14
+  step 300/1000, iter_time(ms)=15
+  step 400/1000, iter_time(ms)=15
+  step 500/1000, iter_time(ms)=15
+  step 600/1000, iter_time(ms)=15
+  step 700/1000, iter_time(ms)=15
+  step 800/1000, iter_time(ms)=15
+  step 900/1000, iter_time(ms)=14
+  step 1000/1000, iter_time(ms)=14
+  images/sec: 68
+  99th_percentile(ms): 18.99
+  total_time(s): 14.8
+  latency_mean(ms): 14.67
+  latency_median(ms): 14.56
+  latency_min(ms): 13.96
