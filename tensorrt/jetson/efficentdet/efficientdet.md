@@ -28,14 +28,14 @@ Models
 ## Latency mean (ms)
 
 ### Jetson Nano
-| Model               |Input  |    FP16 |
-|:--------------------|:----  |--------:|
-| EfficientDet-lite0  |320x320|   40.07 |
-| EfficientDet-lite1  |384x384|   73.95 |
-| EfficientDet-lite2  |448x448|  106.63 |
-| EfficientDet-lite3  |512x512|  186.78 |
-| EfficientDet-lite3x |640x640|  319.39 |
-| EfficientDet-lite4  |640x640|  406.49 |
+| Model               |Input  |    FP16 |    FP32 |
+|:--------------------|:----  |--------:|--------:|
+| EfficientDet-lite0  |320x320|   40.07 |   45.88 |
+| EfficientDet-lite1  |384x384|   73.95 |   82.80 |
+| EfficientDet-lite2  |448x448|  106.63 |  122.33 |
+| EfficientDet-lite3  |512x512|  186.78 |  215.88 |
+| EfficientDet-lite3x |640x640|  319.39 |  386.62 |
+| EfficientDet-lite4  |640x640|  406.49 |  509.14 |
 
 ## Youtube video
 
