@@ -18,6 +18,7 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, PyTorch, Torchvision, etc...
 |[Torchvision detection models](pytorch/torchvision/README.md)|AP, Latency, <br>YouTube video|PyTorch, Torchvision|
 |[TensorRT EfficientDet-Lite<br>Jetson nano](tensorrt/jetson/efficentdet/efficientdet.md)| Latency,<br>YouTube video | TensorRT |
 |[TF-Lite SpaghettiNet EdgeTpu Latency vs max_detections](tensorflow/lite/spaghettinet/latency_vs_map.md)|AP, Latency|TensorFlow Lite EdgeTPU delegate|
+|[TensorRT Autoseg-EdgeTPU and<br>DeepLab v3+ MobilenetEdgeTPUV2<br>Jetson nano](tensorrt/jetson/deeplabv3_edgetpuv2/deeplabv3_edgetpuv2.md)| Latency,<br>YouTube video | TensorRT |
 
 ## Reference
 - [TensorFlow 1 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md)
