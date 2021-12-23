@@ -1,0 +1,367 @@
+&&&& RUNNING TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/tensorrt-examples/python/deeplabv3_edgetpuv2/autoseg-edgetpu_default_argmax_s_opt.onnx --fp16
+[12/16/2021-22:16:24] [I] === Model Options ===
+[12/16/2021-22:16:24] [I] Format: ONNX
+[12/16/2021-22:16:24] [I] Model: /home/jetson/tensorrt-examples/python/deeplabv3_edgetpuv2/autoseg-edgetpu_default_argmax_s_opt.onnx
+[12/16/2021-22:16:24] [I] Output:
+[12/16/2021-22:16:24] [I] === Build Options ===
+[12/16/2021-22:16:24] [I] Max batch: explicit
+[12/16/2021-22:16:24] [I] Workspace: 16 MiB
+[12/16/2021-22:16:24] [I] minTiming: 1
+[12/16/2021-22:16:24] [I] avgTiming: 8
+[12/16/2021-22:16:24] [I] Precision: FP32+FP16
+[12/16/2021-22:16:24] [I] Calibration: 
+[12/16/2021-22:16:24] [I] Refit: Disabled
+[12/16/2021-22:16:24] [I] Sparsity: Disabled
+[12/16/2021-22:16:24] [I] Safe mode: Disabled
+[12/16/2021-22:16:24] [I] Restricted mode: Disabled
+[12/16/2021-22:16:24] [I] Save engine: 
+[12/16/2021-22:16:24] [I] Load engine: 
+[12/16/2021-22:16:24] [I] NVTX verbosity: 0
+[12/16/2021-22:16:24] [I] Tactic sources: Using default tactic sources
+[12/16/2021-22:16:24] [I] timingCacheMode: local
+[12/16/2021-22:16:24] [I] timingCacheFile: 
+[12/16/2021-22:16:24] [I] Input(s)s format: fp32:CHW
+[12/16/2021-22:16:24] [I] Output(s)s format: fp32:CHW
+[12/16/2021-22:16:24] [I] Input build shapes: model
+[12/16/2021-22:16:24] [I] Input calibration shapes: model
+[12/16/2021-22:16:24] [I] === System Options ===
+[12/16/2021-22:16:24] [I] Device: 0
+[12/16/2021-22:16:24] [I] DLACore: 
+[12/16/2021-22:16:24] [I] Plugins:
+[12/16/2021-22:16:24] [I] === Inference Options ===
+[12/16/2021-22:16:24] [I] Batch: Explicit
+[12/16/2021-22:16:24] [I] Input inference shapes: model
+[12/16/2021-22:16:24] [I] Iterations: 10
+[12/16/2021-22:16:24] [I] Duration: 3s (+ 200ms warm up)
+[12/16/2021-22:16:24] [I] Sleep time: 0ms
+[12/16/2021-22:16:24] [I] Streams: 1
+[12/16/2021-22:16:24] [I] ExposeDMA: Disabled
+[12/16/2021-22:16:24] [I] Data transfers: Enabled
+[12/16/2021-22:16:24] [I] Spin-wait: Disabled
+[12/16/2021-22:16:24] [I] Multithreading: Disabled
+[12/16/2021-22:16:24] [I] CUDA Graph: Disabled
+[12/16/2021-22:16:24] [I] Separate profiling: Disabled
+[12/16/2021-22:16:24] [I] Time Deserialize: Disabled
+[12/16/2021-22:16:24] [I] Time Refit: Disabled
+[12/16/2021-22:16:24] [I] Skip inference: Disabled
+[12/16/2021-22:16:24] [I] Inputs:
+[12/16/2021-22:16:24] [I] === Reporting Options ===
+[12/16/2021-22:16:24] [I] Verbose: Disabled
+[12/16/2021-22:16:24] [I] Averages: 10 inferences
+[12/16/2021-22:16:24] [I] Percentile: 99
+[12/16/2021-22:16:24] [I] Dump refittable layers:Disabled
+[12/16/2021-22:16:24] [I] Dump output: Disabled
+[12/16/2021-22:16:24] [I] Profile: Disabled
+[12/16/2021-22:16:24] [I] Export timing to JSON file: 
+[12/16/2021-22:16:24] [I] Export output to JSON file: 
+[12/16/2021-22:16:24] [I] Export profile to JSON file: 
+[12/16/2021-22:16:24] [I] 
+[12/16/2021-22:16:24] [I] === Device Information ===
+[12/16/2021-22:16:24] [I] Selected Device: NVIDIA Tegra X1
+[12/16/2021-22:16:24] [I] Compute Capability: 5.3
+[12/16/2021-22:16:24] [I] SMs: 1
+[12/16/2021-22:16:24] [I] Compute Clock Rate: 0.9216 GHz
+[12/16/2021-22:16:24] [I] Device Global Memory: 3956 MiB
+[12/16/2021-22:16:24] [I] Shared Memory per SM: 64 KiB
+[12/16/2021-22:16:24] [I] Memory Bus Width: 64 bits (ECC disabled)
+[12/16/2021-22:16:24] [I] Memory Clock Rate: 0.01275 GHz
+[12/16/2021-22:16:24] [I] 
+[12/16/2021-22:16:24] [I] TensorRT version: 8001
+[12/16/2021-22:16:25] [I] [TRT] [MemUsageChange] Init CUDA: CPU +203, GPU +0, now: CPU 221, GPU 2769 (MiB)
+[12/16/2021-22:16:25] [I] Start parsing network model
+[12/16/2021-22:16:25] [I] [TRT] ----------------------------------------------------------------
+[12/16/2021-22:16:25] [I] [TRT] Input filename:   /home/jetson/tensorrt-examples/python/deeplabv3_edgetpuv2/autoseg-edgetpu_default_argmax_s_opt.onnx
+[12/16/2021-22:16:25] [I] [TRT] ONNX IR version:  0.0.7
+[12/16/2021-22:16:25] [I] [TRT] Opset version:    13
+[12/16/2021-22:16:25] [I] [TRT] Producer name:    tf2onnx
+[12/16/2021-22:16:25] [I] [TRT] Producer version: 1.9.3
+[12/16/2021-22:16:25] [I] [TRT] Domain:           
+[12/16/2021-22:16:25] [I] [TRT] Model version:    0
+[12/16/2021-22:16:25] [I] [TRT] Doc string:       
+[12/16/2021-22:16:25] [I] [TRT] ----------------------------------------------------------------
+[12/16/2021-22:16:25] [12/16/2021-22:16:26] [I] Finish parsing network model
+[12/16/2021-22:16:26] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 233, GPU 2801 (MiB)
+[12/16/2021-22:16:26] [I] [TRT] [MemUsageSnapshot] Builder begin: CPU 244 MiB, GPU 2802 MiB
+[12/16/2021-22:16:26] [I] [TRT] ---------- Layers Running on DLA ----------
+[12/16/2021-22:16:26] [I] [TRT] ---------- Layers Running on GPU ----------
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__890 + model/tf.nn.relu/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__891
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__892 + model/tf.nn.relu_1/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__893
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__894 + model/tf.nn.relu_2/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__895 + model/tf.nn.relu_3/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__896
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__897 + model/tf.nn.relu_4/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__898
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__901 + model/tf.nn.relu_5/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__902 + model/tf.nn.relu_6/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__903 + model/tf.math.add_12/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__904 + model/tf.nn.relu_7/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__905 + model/tf.nn.relu_8/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__906
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__909 + model/tf.nn.relu_9/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__910 + model/tf.nn.relu_10/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__911 + model/tf.math.add_20/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__914 + model/tf.nn.relu_11/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__915 + model/tf.nn.relu_12/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__916 + model/tf.math.add_24/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__917 + model/tf.nn.relu_13/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__918 + model/tf.nn.relu_14/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__919
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__922 + model/tf.nn.relu_15/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__923 + model/tf.nn.relu_16/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__924 + model/tf.math.add_31/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__927 + model/tf.nn.relu_17/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__928 + model/tf.nn.relu_18/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__929 + model/tf.math.add_35/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__938 + model/tf.nn.relu_19/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__932
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__939
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__940 + model/tf.nn.relu_20/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__941
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__942 + model/tf.nn.relu_21/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__943
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__944 + model/tf.nn.relu_22/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__945
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__948 + model/tf.nn.relu_23/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__949 + model/tf.nn.relu_24/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__950 + model/tf.math.add_48/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__953 + model/tf.nn.relu_25/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__954
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__955 + model/tf.nn.relu_26/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__956
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__957 + model/tf.nn.relu_27/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__958
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__959 + model/tf.nn.relu_28/Relu
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__960
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__972 || Conv__963
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_1/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_2/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__174
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_59/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_13/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__977 + model/tf.nn.relu6/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__194
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_62/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_14/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__982 + model/tf.nn.relu6_1/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__214
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_65/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_15/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__987 + model/tf.nn.relu6_2/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__236
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_68/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_16/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__992 + model/tf.nn.relu6_3/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__258
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__935 + model/tf.math.add_71/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_17/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__995 + model/tf.nn.relu6_4/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_3/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_74/Add, model/tf.math.add_75/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_18/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1002 + model/tf.nn.relu6_5/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_4/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_78/Add, model/tf.math.add_79/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_19/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1010 + model/tf.nn.relu6_6/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_5/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_82/Add, model/tf.math.add_83/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_20/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1018 + model/tf.nn.relu6_7/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_6/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_86/Add, model/tf.math.add_87/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_21/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1026 + model/tf.nn.relu6_8/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_7/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_90/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_22/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1032 + model/tf.nn.relu6_9/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__340
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_93/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_23/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1037 + model/tf.nn.relu6_10/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__360
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_96/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_24/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1042 + model/tf.nn.relu6_11/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__380
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_99/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_25/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1047 + model/tf.nn.relu6_12/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__400
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_102/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_26/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1052 + model/tf.nn.relu6_13/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__420
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_105/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_27/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1057 + model/tf.nn.relu6_14/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_8/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_108/Add, model/tf.math.add_109/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_28/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1064 + model/tf.nn.relu6_15/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_9/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_112/Add, model/tf.math.add_113/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_29/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1072 + model/tf.nn.relu6_16/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_10/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_116/Add, model/tf.math.add_117/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_30/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1080 + model/tf.nn.relu6_17/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_11/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_120/Add, model/tf.math.add_121/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_31/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1088 + model/tf.nn.relu6_18/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_12/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_124/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_32/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1094 + model/tf.nn.relu6_19/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__500
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_127/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_33/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1099 + model/tf.nn.relu6_20/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__520
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_130/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_34/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1104 + model/tf.nn.relu6_21/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__540
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_133/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_35/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1109 + model/tf.nn.relu6_22/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__560
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_136/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_36/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1114 + model/tf.nn.relu6_23/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__580
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_139/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_37/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1119 + model/tf.nn.relu6_24/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_13/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_142/Add, model/tf.math.add_143/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_38/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1126 + model/tf.nn.relu6_25/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_14/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_146/Add, model/tf.math.add_147/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_39/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1134 + model/tf.nn.relu6_26/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_15/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_150/Add, model/tf.math.add_151/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_40/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1142 + model/tf.nn.relu6_27/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_16/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_154/Add, model/tf.math.add_155/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_41/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1150 + model/tf.nn.relu6_28/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_17/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_158/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_42/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1156 + model/tf.nn.relu6_29/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__660
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_161/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_43/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1161 + model/tf.nn.relu6_30/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__680
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_164/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_44/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1166 + model/tf.nn.relu6_31/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__700
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_167/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_45/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1171 + model/tf.nn.relu6_32/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__720
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_170/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_46/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1176 + model/tf.nn.relu6_33/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__740
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_173/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_47/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1181 + model/tf.nn.relu6_34/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_18/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_176/Add, model/tf.math.add_177/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_48/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1188 + model/tf.nn.relu6_35/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_19/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__772
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_181/Add, model/tf.math.add_182/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_49/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1195 + model/tf.nn.relu6_36/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_20/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__794
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_186/Add, model/tf.math.add_187/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_50/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1202 + model/tf.nn.relu6_37/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_21/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__816
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(model/tf.math.add_191/Add, model/tf.math.add_192/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_51/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1209 + model/tf.nn.relu6_38/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/average_pooling2d_22/AvgPool
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__838
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.add_196/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_52/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1214 + model/tf.nn.relu6_39/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__860
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(PWN(PWN(PWN(model/tf.math.add_180/Add, model/tf.math.add_185/Add), model/tf.math.add_190/Add), model/tf.math.add_195/Add), model/tf.math.add_199/Add)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_53/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1225 + model/tf.nn.relu6_40/Relu6
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/depthwise_conv2d_54/depthwise
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Conv__1226
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] Resize__888
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.reduce_max/Max
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(const_fold_opt__1280, PWN(model/tf.math.subtract/Sub, model/tf.math.minimum/Minimum))
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.multiply/Mul/y:0 + model/tf.math.multiply/Mul + const_fold_opt__1340 + model/tf.math.add_204/Add
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.math.reduce_max_1/Max
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] PWN(const_fold_opt__1315, model/tf.math.subtract_1/Sub)
+[12/16/2021-22:16:26] [I] [TRT] [GpuLayer] model/tf.reshape/Reshape
+[12/16/2021-22:16:27] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +159, now: CPU 403, GPU 2962 (MiB)
+[12/16/2021-22:16:28] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +240, GPU +247, now: CPU 643, GPU 3209 (MiB)
+[12/16/2021-22:16:28] [12/16/2021-22:16:59] [I] [TRT] Some tactics do not have sufficient workspace memory to run. Increasing workspace size may increase performance, please check verbose output.
+[12/16/2021-22:31:58] [I] [TRT] Detected 1 inputs and 1 output network tensors.
+[12/16/2021-22:31:58] [I] [TRT] Total Host Persistent Memory: 235856
+[12/16/2021-22:31:58] [I] [TRT] Total Device Persistent Memory: 6459392
+[12/16/2021-22:31:58] [I] [TRT] Total Scratch Memory: 111104
+[12/16/2021-22:31:58] [I] [TRT] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 6 MiB, GPU 96 MiB
+[12/16/2021-22:31:58] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 905, GPU 3458 (MiB)
+[12/16/2021-22:31:58] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 905, GPU 3458 (MiB)
+[12/16/2021-22:31:58] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 905, GPU 3458 (MiB)
+[12/16/2021-22:31:58] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 904, GPU 3458 (MiB)
+[12/16/2021-22:31:58] [I] [TRT] [MemUsageSnapshot] Builder end: CPU 904 MiB, GPU 3458 MiB
+[12/16/2021-22:31:59] [I] [TRT] Loaded engine size: 8 MB
+[12/16/2021-22:31:59] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine begin: CPU 907 MiB, GPU 3462 MiB
+[12/16/2021-22:31:59] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 909, GPU 3447 (MiB)
+[12/16/2021-22:31:59] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +1, GPU +0, now: CPU 910, GPU 3447 (MiB)
+[12/16/2021-22:31:59] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 909, GPU 3447 (MiB)
+[12/16/2021-22:31:59] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine end: CPU 909 MiB, GPU 3447 MiB
+[12/16/2021-22:31:59] [I] Engine built in 934.698 sec.
+[12/16/2021-22:31:59] [I] [TRT] [MemUsageSnapshot] ExecutionContext creation begin: CPU 897 MiB, GPU 3447 MiB
+[12/16/2021-22:31:59] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 897, GPU 3447 (MiB)
+[12/16/2021-22:31:59] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +1, GPU +0, now: CPU 898, GPU 3447 (MiB)
+[12/16/2021-22:31:59] [I] [TRT] [MemUsageSnapshot] ExecutionContext creation end: CPU 898 MiB, GPU 3447 MiB
+[12/16/2021-22:31:59] [I] Created input binding for inputs with dimensions 1x3x512x512
+[12/16/2021-22:31:59] [I] Created output binding for model/tf.reshape/Reshape with dimensions 1x512x512
+[12/16/2021-22:31:59] [I] Starting inference
+[12/16/2021-22:32:02] [I] Warmup completed 2 queries over 200 ms
+[12/16/2021-22:32:02] [I] Timing trace has 34 queries over 3.19076 s
+[12/16/2021-22:32:02] [I] 
+[12/16/2021-22:32:02] [I] === Trace details ===
+[12/16/2021-22:32:02] [I] Trace averages of 10 runs:
+[12/16/2021-22:32:02] [I] Average on 10 runs - GPU latency: 93.8011 ms - Host latency: 94.2144 ms (end to end 94.2249 ms, enqueue 37.4286 ms)
+[12/16/2021-22:32:02] [I] Average on 10 runs - GPU latency: 93.2604 ms - Host latency: 93.6743 ms (end to end 93.6845 ms, enqueue 37.481 ms)
+[12/16/2021-22:32:02] [I] Average on 10 runs - GPU latency: 93.3563 ms - Host latency: 93.7702 ms (end to end 93.7805 ms, enqueue 37.4841 ms)
+[12/16/2021-22:32:02] [I] 
+[12/16/2021-22:32:02] [I] === Performance summary ===
+[12/16/2021-22:32:02] [I] Throughput: 10.6558 qps
+[12/16/2021-22:32:02] [I] Latency: min = 93.2733 ms, max = 99.3018 ms, mean = 93.8351 ms, median = 93.6003 ms, percentile(99%) = 99.3018 ms
+[12/16/2021-22:32:02] [I] End-to-End Host Latency: min = 93.2843 ms, max = 99.3129 ms, mean = 93.8454 ms, median = 93.609 ms, percentile(99%) = 99.3129 ms
+[12/16/2021-22:32:02] [I] Enqueue Time: min = 37.2476 ms, max = 37.6404 ms, mean = 37.4602 ms, median = 37.4987 ms, percentile(99%) = 37.6404 ms
+[12/16/2021-22:32:02] [I] H2D Latency: min = 0.302734 ms, max = 0.307129 ms, mean = 0.304336 ms, median = 0.304199 ms, percentile(99%) = 0.307129 ms
+[12/16/2021-22:32:02] [I] GPU Compute Time: min = 92.8584 ms, max = 98.8847 ms, mean = 93.4216 ms, median = 93.1871 ms, percentile(99%) = 98.8847 ms
+[12/16/2021-22:32:02] [I] D2H Latency: min = 0.10791 ms, max = 0.111755 ms, mean = 0.109249 ms, median = 0.109131 ms, percentile(99%) = 0.111755 ms
+[12/16/2021-22:32:02] [I] Total Host Walltime: 3.19076 s
+[12/16/2021-22:32:02] [I] Total GPU Compute Time: 3.17633 s
+[12/16/2021-22:32:02] [I] Explanations of the performance metrics are printed in the verbose logs.
+[12/16/2021-22:32:02] [I] 
+&&&& PASSED TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/tensorrt-examples/python/deeplabv3_edgetpuv2/autoseg-edgetpu_default_argmax_s_opt.onnx --fp16
+[12/16/2021-22:32:02] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 898, GPU 3448 (MiB)

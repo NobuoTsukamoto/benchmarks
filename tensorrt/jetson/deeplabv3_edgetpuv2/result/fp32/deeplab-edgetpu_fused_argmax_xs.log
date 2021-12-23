@@ -1,0 +1,282 @@
+&&&& RUNNING TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/tensorrt-examples/python/deeplabv3_edgetpuv2/deeplab-edgetpu_fused_argmax_xs.onnx
+[12/18/2021-13:12:03] [I] === Model Options ===
+[12/18/2021-13:12:03] [I] Format: ONNX
+[12/18/2021-13:12:03] [I] Model: /home/jetson/tensorrt-examples/python/deeplabv3_edgetpuv2/deeplab-edgetpu_fused_argmax_xs.onnx
+[12/18/2021-13:12:03] [I] Output:
+[12/18/2021-13:12:03] [I] === Build Options ===
+[12/18/2021-13:12:03] [I] Max batch: explicit
+[12/18/2021-13:12:03] [I] Workspace: 16 MiB
+[12/18/2021-13:12:03] [I] minTiming: 1
+[12/18/2021-13:12:03] [I] avgTiming: 8
+[12/18/2021-13:12:03] [I] Precision: FP32
+[12/18/2021-13:12:03] [I] Calibration: 
+[12/18/2021-13:12:03] [I] Refit: Disabled
+[12/18/2021-13:12:03] [I] Sparsity: Disabled
+[12/18/2021-13:12:03] [I] Safe mode: Disabled
+[12/18/2021-13:12:03] [I] Restricted mode: Disabled
+[12/18/2021-13:12:03] [I] Save engine: 
+[12/18/2021-13:12:03] [I] Load engine: 
+[12/18/2021-13:12:03] [I] NVTX verbosity: 0
+[12/18/2021-13:12:03] [I] Tactic sources: Using default tactic sources
+[12/18/2021-13:12:03] [I] timingCacheMode: local
+[12/18/2021-13:12:03] [I] timingCacheFile: 
+[12/18/2021-13:12:03] [I] Input(s)s format: fp32:CHW
+[12/18/2021-13:12:03] [I] Output(s)s format: fp32:CHW
+[12/18/2021-13:12:03] [I] Input build shapes: model
+[12/18/2021-13:12:03] [I] Input calibration shapes: model
+[12/18/2021-13:12:03] [I] === System Options ===
+[12/18/2021-13:12:03] [I] Device: 0
+[12/18/2021-13:12:03] [I] DLACore: 
+[12/18/2021-13:12:03] [I] Plugins:
+[12/18/2021-13:12:03] [I] === Inference Options ===
+[12/18/2021-13:12:03] [I] Batch: Explicit
+[12/18/2021-13:12:03] [I] Input inference shapes: model
+[12/18/2021-13:12:03] [I] Iterations: 10
+[12/18/2021-13:12:03] [I] Duration: 3s (+ 200ms warm up)
+[12/18/2021-13:12:03] [I] Sleep time: 0ms
+[12/18/2021-13:12:03] [I] Streams: 1
+[12/18/2021-13:12:03] [I] ExposeDMA: Disabled
+[12/18/2021-13:12:03] [I] Data transfers: Enabled
+[12/18/2021-13:12:03] [I] Spin-wait: Disabled
+[12/18/2021-13:12:03] [I] Multithreading: Disabled
+[12/18/2021-13:12:03] [I] CUDA Graph: Disabled
+[12/18/2021-13:12:03] [I] Separate profiling: Disabled
+[12/18/2021-13:12:03] [I] Time Deserialize: Disabled
+[12/18/2021-13:12:03] [I] Time Refit: Disabled
+[12/18/2021-13:12:03] [I] Skip inference: Disabled
+[12/18/2021-13:12:03] [I] Inputs:
+[12/18/2021-13:12:03] [I] === Reporting Options ===
+[12/18/2021-13:12:03] [I] Verbose: Disabled
+[12/18/2021-13:12:03] [I] Averages: 10 inferences
+[12/18/2021-13:12:03] [I] Percentile: 99
+[12/18/2021-13:12:03] [I] Dump refittable layers:Disabled
+[12/18/2021-13:12:03] [I] Dump output: Disabled
+[12/18/2021-13:12:03] [I] Profile: Disabled
+[12/18/2021-13:12:03] [I] Export timing to JSON file: 
+[12/18/2021-13:12:03] [I] Export output to JSON file: 
+[12/18/2021-13:12:03] [I] Export profile to JSON file: 
+[12/18/2021-13:12:03] [I] 
+[12/18/2021-13:12:03] [I] === Device Information ===
+[12/18/2021-13:12:03] [I] Selected Device: NVIDIA Tegra X1
+[12/18/2021-13:12:03] [I] Compute Capability: 5.3
+[12/18/2021-13:12:03] [I] SMs: 1
+[12/18/2021-13:12:03] [I] Compute Clock Rate: 0.9216 GHz
+[12/18/2021-13:12:03] [I] Device Global Memory: 3956 MiB
+[12/18/2021-13:12:03] [I] Shared Memory per SM: 64 KiB
+[12/18/2021-13:12:03] [I] Memory Bus Width: 64 bits (ECC disabled)
+[12/18/2021-13:12:03] [I] Memory Clock Rate: 0.01275 GHz
+[12/18/2021-13:12:03] [I] 
+[12/18/2021-13:12:03] [I] TensorRT version: 8001
+[12/18/2021-13:12:04] [I] [TRT] [MemUsageChange] Init CUDA: CPU +203, GPU +0, now: CPU 221, GPU 2798 (MiB)
+[12/18/2021-13:12:04] [I] Start parsing network model
+[12/18/2021-13:12:04] [I] [TRT] ----------------------------------------------------------------
+[12/18/2021-13:12:04] [I] [TRT] Input filename:   /home/jetson/tensorrt-examples/python/deeplabv3_edgetpuv2/deeplab-edgetpu_fused_argmax_xs.onnx
+[12/18/2021-13:12:04] [I] [TRT] ONNX IR version:  0.0.7
+[12/18/2021-13:12:04] [I] [TRT] Opset version:    13
+[12/18/2021-13:12:04] [I] [TRT] Producer name:    tf2onnx
+[12/18/2021-13:12:04] [I] [TRT] Producer version: 1.10.0
+[12/18/2021-13:12:04] [I] [TRT] Domain:           
+[12/18/2021-13:12:04] [I] [TRT] Model version:    0
+[12/18/2021-13:12:04] [I] [TRT] Doc string:       
+[12/18/2021-13:12:04] [I] [TRT] ----------------------------------------------------------------
+[12/18/2021-13:12:04] [12/18/2021-13:12:05] [I] Finish parsing network model
+[12/18/2021-13:12:05] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 235, GPU 2838 (MiB)
+[12/18/2021-13:12:05] [I] [TRT] [MemUsageSnapshot] Builder begin: CPU 247 MiB, GPU 2838 MiB
+[12/18/2021-13:12:05] [I] [TRT] ---------- Layers Running on DLA ----------
+[12/18/2021-13:12:05] [I] [TRT] ---------- Layers Running on GPU ----------
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stem_activation/Relu;mobilenet_edge_tpuv2/stem_bn/batchnorm/add_1;segmentation_head/segmentation_output/Conv2D;mobilenet_edge_tpuv2/stem_conv2d/Conv2D;mobilenet_edge_tpuv2/stem_bn/batchnorm/sub + Relu__5
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_0/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_0/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_0/block_0/project_bn/batchnorm/sub1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_1/block_0/fused_activation/Relu;mobilenet_edge_tpuv2/stack_1/block_0/fused_bn/batchnorm/add_1;aspp/spatial_pyramid_pooling/sequential_6/conv2d_5/Conv2D;mobilenet_edge_tpuv2/stack_1/block_0/fused_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_1/block_0/fused_bn/batchnorm/sub + Relu__9
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_1/block_0/project_bn/batchnorm/add_1;segmentation_head/segmentation_output/Conv2D;mobilenet_edge_tpuv2/stack_1/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_1/block_0/project_bn/batchnorm/sub1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__770
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/split
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/split_0
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/Relu;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/tpu_batch_normalization/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/Conv2D;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/tpu_batch_normalization/batchnorm/sub__200
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/Relu_1;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/tpu_batch_normalization_1/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/Conv2D_1;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/tpu_batch_normalization_1/batchnorm/sub__195
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/Relu;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/tpu_batch_normalization/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/Conv2D;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/tpu_batch_normalization/batchnorm/sub + Relu__13
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/Relu_1;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/tpu_batch_normalization_1/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/Conv2D_1;mobilenet_edge_tpuv2/stack_2/block_0/fused_groupconv2d/tpu_batch_normalization_1/batchnorm/sub + Relu__16
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_2/block_0/project_bn/batchnorm/add_1;segmentation_head/segmentation_output/Conv2D;mobilenet_edge_tpuv2/stack_2/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_2/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_2/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_3/block_0/fused_activation/Relu;mobilenet_edge_tpuv2/stack_3/block_0/fused_bn/batchnorm/add_1;segmentation_head/segmentation_head_depthwise_norm_1/FusedBatchNormV3;segmentation_head/segmentation_head_depthwise_conv_1/depthwise;segmentation_head/segmentation_head_conv_1/Conv2D;mobilenet_edge_tpuv2/stack_3/block_0/fused_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_3/block_0/fused_bn/batchnorm/sub + Relu__20
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_3/block_0/project_bn/batchnorm/add_1;segmentation_head/segmentation_head_deeplabv3p_fusion_conv/Conv2D;mobilenet_edge_tpuv2/stack_3/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_3/block_0/project_bn/batchnorm/sub1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__778
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/split
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/split_1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/split_2
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Relu;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_2/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Conv2D;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_2/batchnorm/sub__230
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Relu_1;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_3/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Conv2D_1;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_3/batchnorm/sub__225
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Relu_2;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_4/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_4/batchnorm/sub__220
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Relu;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_2/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Conv2D;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_2/batchnorm/sub + Relu__24
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Relu_1;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_3/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Conv2D_1;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_3/batchnorm/sub + Relu__27
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Relu_2;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_4/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_4/block_0/fused_groupconv2d/tpu_batch_normalization_4/batchnorm/sub + Relu__30
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_4/block_0/project_bn/batchnorm/add_1;segmentation_head/segmentation_head_deeplabv3p_fusion_conv/Conv2D;mobilenet_edge_tpuv2/stack_4/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_4/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_4/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_5/block_0/fused_activation/Relu;mobilenet_edge_tpuv2/stack_5/block_0/fused_bn/batchnorm/add_1;aspp/spatial_pyramid_pooling/sequential_3/depthwise_conv2d_2/depthwise;mobilenet_edge_tpuv2/stack_5/block_0/fused_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_5/block_0/fused_bn/batchnorm/sub + Relu__34
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_5/block_0/project_bn/batchnorm/add_1;segmentation_head/segmentation_head_deeplabv3p_fusion_conv/Conv2D;mobilenet_edge_tpuv2/stack_5/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_5/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_5/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__796
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/split
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/split_3
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/split_4
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Relu;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_5/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_5/batchnorm/sub__260
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Relu_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_6/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_6/batchnorm/sub__255
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Relu_2;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_7/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_7/batchnorm/sub__250
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Relu;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_5/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_5/batchnorm/sub + Relu__38
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Relu_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_6/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_6/batchnorm/sub + Relu__41
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Relu_2;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_7/batchnorm/add_1;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/Conv2D_2;mobilenet_edge_tpuv2/stack_6/block_0/fused_groupconv2d/tpu_batch_normalization_7/batchnorm/sub + Relu__44
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_6/block_0/project_bn/batchnorm/add_1;segmentation_head/segmentation_head_deeplabv3p_fusion_conv/Conv2D;mobilenet_edge_tpuv2/stack_6/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_6/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_6/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_7/block_0/fused_activation/Relu;mobilenet_edge_tpuv2/stack_7/block_0/fused_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_7/block_0/fused_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_7/block_0/fused_bn/batchnorm/sub + Relu__48
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_7/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_10/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_7/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_7/block_0/project_bn/batchnorm/sub1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_8/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_8/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_8/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_8/block_0/expand_bn/batchnorm/sub + Relu__52
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_8/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_8/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_8/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_8/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_8/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_8/block_0/depthwise_bn/batchnorm/sub + Relu__55
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_8/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_10/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_8/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_8/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_8/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_9/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_9/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_9/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_9/block_0/expand_bn/batchnorm/sub + Relu__59
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_9/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_9/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_9/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_9/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_9/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_9/block_0/depthwise_bn/batchnorm/sub + Relu__62
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_9/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_10/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_9/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_9/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_9/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_10/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_10/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_10/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_10/block_0/expand_bn/batchnorm/sub + Relu__66
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_10/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_10/block_0/depthwise_bn/batchnorm/sub + Relu__69
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_10/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_10/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_10/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_10/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_11/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_11/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_11/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_11/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_11/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_11/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_11/block_0/expand_bn/batchnorm/sub + Relu__73
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_11/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_11/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_11/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_11/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_11/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_11/block_0/depthwise_bn/batchnorm/sub + Relu__76
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_11/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_14/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_11/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_11/block_0/project_bn/batchnorm/sub1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_12/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_12/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_12/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_12/block_0/expand_bn/batchnorm/sub + Relu__80
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_12/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_12/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_12/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_12/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_12/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_12/block_0/depthwise_bn/batchnorm/sub + Relu__83
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_12/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_14/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_12/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_12/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_12/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_13/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_13/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_13/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_13/block_0/expand_bn/batchnorm/sub + Relu__87
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_13/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_13/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_13/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_13/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_13/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_13/block_0/depthwise_bn/batchnorm/sub + Relu__90
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_13/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_14/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_13/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_13/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_13/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_14/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_14/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_14/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_14/block_0/expand_bn/batchnorm/sub + Relu__94
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_14/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_14/block_0/depthwise_bn/batchnorm/sub + Relu__97
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_14/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_14/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_14/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_14/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_15/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_15/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_15/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_15/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_15/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_15/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_15/block_0/expand_bn/batchnorm/sub + Relu__101 || segmentation_head/Relu;segmentation_head/segmentation_head_deeplabv3p_fusion_norm/FusedBatchNormV3;segmentation_head/segmentation_head_deeplabv3p_fusion_conv/Conv2D + Relu__157
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_15/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_15/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_15/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_15/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_15/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_15/block_0/depthwise_bn/batchnorm/sub + Relu__104
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_15/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_18/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_15/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_15/block_0/project_bn/batchnorm/sub1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_16/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_16/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_16/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_16/block_0/expand_bn/batchnorm/sub + Relu__108
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_16/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_16/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_16/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_16/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_16/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_16/block_0/depthwise_bn/batchnorm/sub + Relu__111
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_16/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_18/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_16/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_16/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_16/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_17/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_17/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_17/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_17/block_0/expand_bn/batchnorm/sub + Relu__115
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_17/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_17/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_17/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_17/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_17/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_17/block_0/depthwise_bn/batchnorm/sub + Relu__118
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_17/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_18/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_17/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_17/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_17/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_18/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_18/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_18/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_18/block_0/expand_bn/batchnorm/sub + Relu__122
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_18/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_18/block_0/depthwise_bn/batchnorm/sub + Relu__125
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_18/block_0/project_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_18/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_18/block_0/project_bn/batchnorm/sub1 + mobilenet_edge_tpuv2/stack_18/block_0/add/add
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_19/block_0/expand_activation/Relu;mobilenet_edge_tpuv2/stack_19/block_0/expand_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_19/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_19/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_19/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_19/block_0/expand_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_19/block_0/expand_bn/batchnorm/sub + Relu__129
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_19/block_0/depthwise_activation/Relu;mobilenet_edge_tpuv2/stack_19/block_0/depthwise_bn/batchnorm/add_1;mobilenet_edge_tpuv2/stack_19/block_0/depthwise_bn/batchnorm/mul_1;mobilenet_edge_tpuv2/stack_19/block_0/depthwise_conv2d/depthwise;mobilenet_edge_tpuv2/stack_19/block_0/depthwise_bn/batchnorm/mul;mobilenet_edge_tpuv2/stack_19/block_0/depthwise_bn/batchnorm/sub + Relu__132
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] mobilenet_edge_tpuv2/stack_19/block_0/project_bn/batchnorm/add_1;aspp/spatial_pyramid_pooling/sequential_3/depthwise_conv2d_2/depthwise;mobilenet_edge_tpuv2/stack_19/block_0/project_conv2d/Conv2D;mobilenet_edge_tpuv2/stack_19/block_0/project_bn/batchnorm/sub1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_4/average_pooling2d/AvgPool
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential/activation/Relu;aspp/spatial_pyramid_pooling/sequential/batch_normalization/FusedBatchNormV3;aspp/spatial_pyramid_pooling/sequential_6/conv2d_5/Conv2D;aspp/spatial_pyramid_pooling/sequential/conv2d/Conv2D + Relu__136
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Pad__636
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Pad__576
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Pad__516
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_4/sequential_5/activation_4/Relu;aspp/spatial_pyramid_pooling/sequential_4/sequential_5/batch_normalization_4/FusedBatchNormV3;aspp/spatial_pyramid_pooling/sequential_6/conv2d_5/Conv2D;aspp/spatial_pyramid_pooling/sequential_4/sequential_5/conv2d_4/Conv2D + Relu__151
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__633 + SpaceToDepth__638
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__573 + SpaceToDepth__578
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__513 + SpaceToDepth__518
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Resize__509
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 139) [Shuffle] + Transpose__640
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 146) [Shuffle] + Transpose__580
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 153) [Shuffle] + Transpose__520
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_1/depthwise_conv2d/depthwise1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_2/depthwise_conv2d_1/depthwise1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_3/depthwise_conv2d_2/depthwise2
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__651 + DepthToSpace__653
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__591 + DepthToSpace__593
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__531 + DepthToSpace__533
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 158) [Shuffle]
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 176) [Shuffle]
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 194) [Shuffle]
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Slice__658
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Slice__598
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Slice__538
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Pad__667
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Pad__607
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Pad__547
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] SpaceToDepth__669
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] SpaceToDepth__609
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] SpaceToDepth__549
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 162) [Shuffle] + Transpose__671
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 180) [Shuffle] + Transpose__611
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 198) [Shuffle] + Transpose__551
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_1/conv2d_1/Conv2D1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_2/conv2d_2/Conv2D1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_3/conv2d_3/Conv2D1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__680 + DepthToSpace__682
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__620 + DepthToSpace__622
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__560 + DepthToSpace__562
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 167) [Shuffle]
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 185) [Shuffle]
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] (Unnamed Layer* 203) [Shuffle]
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Slice__687
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Slice__627
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Slice__567
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__689
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__629
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Transpose__569
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_1/batch_normalization_1/FusedBatchNormV3 + aspp/spatial_pyramid_pooling/sequential_1/batch_normalization_1/FusedBatchNormV32 + const_fold_opt__1115 + aspp/spatial_pyramid_pooling/sequential_1/activation_1/Relu;aspp/spatial_pyramid_pooling/sequential_1/batch_normalization_1/FusedBatchNormV3 + Relu__141
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_2/batch_normalization_2/FusedBatchNormV3 + aspp/spatial_pyramid_pooling/sequential_2/batch_normalization_2/FusedBatchNormV32 + const_fold_opt__1046 + aspp/spatial_pyramid_pooling/sequential_2/activation_2/Relu;aspp/spatial_pyramid_pooling/sequential_2/batch_normalization_2/FusedBatchNormV3 + Relu__145
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_3/batch_normalization_3/FusedBatchNormV3 + aspp/spatial_pyramid_pooling/sequential_3/batch_normalization_3/FusedBatchNormV32 + const_fold_opt__1105 + aspp/spatial_pyramid_pooling/sequential_3/activation_3/Relu;aspp/spatial_pyramid_pooling/sequential_3/batch_normalization_3/FusedBatchNormV3 + Relu__149
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Resize__509:0 copy
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] aspp/spatial_pyramid_pooling/sequential_6/activation_5/Relu;aspp/spatial_pyramid_pooling/sequential_6/batch_normalization_5/FusedBatchNormV3;aspp/spatial_pyramid_pooling/sequential_6/conv2d_5/Conv2D + Relu__154
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Resize__712
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Resize__712:0 copy
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Relu__157:0 copy
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] segmentation_head/Relu_1;segmentation_head/segmentation_head_depthwise_norm_0/FusedBatchNormV3;segmentation_head/segmentation_head_depthwise_conv_0/depthwise + Relu__160
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] segmentation_head/Relu_2;segmentation_head/segmentation_head_norm_0/FusedBatchNormV3;segmentation_head/segmentation_head_depthwise_norm_1/FusedBatchNormV3;segmentation_head/segmentation_head_depthwise_conv_1/depthwise;segmentation_head/segmentation_head_conv_1/Conv2D;segmentation_head/segmentation_head_conv_0/Conv2D + Relu__163
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] segmentation_head/Relu_3;segmentation_head/segmentation_head_depthwise_norm_1/FusedBatchNormV3;segmentation_head/segmentation_head_depthwise_conv_1/depthwise;segmentation_head/segmentation_head_conv_1/Conv2D + Relu__166
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] segmentation_head/Relu_4;segmentation_head/segmentation_head_norm_1/FusedBatchNormV3;segmentation_head/segmentation_head_depthwise_norm_1/FusedBatchNormV3;segmentation_head/segmentation_head_depthwise_conv_1/depthwise;segmentation_head/segmentation_head_conv_1/Conv2D + Relu__169
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] segmentation_head/segmentation_output/BiasAdd;segmentation_head/segmentation_output/Conv2D;segmentation_model/segmentation_head/segmentation_output/bias1
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Resize__754
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] tf.math.reduce_max/Max
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] PWN(PWN(PWN(tf.math.subtract/Sub, PWN(const_fold_opt__1067, tf.math.minimum/Minimum)), Const_1 + (Unnamed Layer* 235) [Shuffle] + tf.math.multiply/Mul), PWN(const_fold_opt__1070, tf.math.subtract_1/Sub))
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Const_3 + tf.math.multiply_1/Mul
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] tf.math.reduce_max_1/Max
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] PWN(const_fold_opt__1059, tf.math.subtract_2/Sub)
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] Resize__767
+[12/18/2021-13:12:05] [I] [TRT] [GpuLayer] tf.image.resize_1/resize/ResizeNearestNeighbor + StatefulPartitionedCall:0
+[12/18/2021-13:12:06] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +162, now: CPU 406, GPU 3000 (MiB)
+[12/18/2021-13:12:07] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +240, GPU +239, now: CPU 646, GPU 3239 (MiB)
+[12/18/2021-13:12:07] [12/18/2021-13:12:13] [I] [TRT] Some tactics do not have sufficient workspace memory to run. Increasing workspace size may increase performance, please check verbose output.
+[12/18/2021-13:20:45] [I] [TRT] Detected 1 inputs and 1 output network tensors.
+[12/18/2021-13:20:45] [I] [TRT] Total Host Persistent Memory: 558160
+[12/18/2021-13:20:45] [I] [TRT] Total Device Persistent Memory: 15135232
+[12/18/2021-13:20:45] [I] [TRT] Total Scratch Memory: 0
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 11 MiB, GPU 87 MiB
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +1, GPU +0, now: CPU 901, GPU 3511 (MiB)
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 901, GPU 3511 (MiB)
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 901, GPU 3511 (MiB)
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 901, GPU 3511 (MiB)
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageSnapshot] Builder end: CPU 900 MiB, GPU 3511 MiB
+[12/18/2021-13:20:45] [I] [TRT] Loaded engine size: 15 MB
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine begin: CPU 914 MiB, GPU 3528 MiB
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 915, GPU 3528 (MiB)
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 915, GPU 3528 (MiB)
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 916, GPU 3528 (MiB)
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine end: CPU 916 MiB, GPU 3528 MiB
+[12/18/2021-13:20:45] [I] Engine built in 522.212 sec.
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageSnapshot] ExecutionContext creation begin: CPU 885 MiB, GPU 3512 MiB
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +1, GPU +0, now: CPU 886, GPU 3512 (MiB)
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 886, GPU 3512 (MiB)
+[12/18/2021-13:20:45] [I] [TRT] [MemUsageSnapshot] ExecutionContext creation end: CPU 886 MiB, GPU 3512 MiB
+[12/18/2021-13:20:45] [I] Created input binding for serving_default_keras_layer_input:0 with dimensions 1x3x512x512
+[12/18/2021-13:20:45] [I] Created output binding for StatefulPartitionedCall:0 with dimensions 1x512x512
+[12/18/2021-13:20:45] [I] Starting inference
+[12/18/2021-13:20:49] [I] Warmup completed 3 queries over 200 ms
+[12/18/2021-13:20:49] [I] Timing trace has 36 queries over 3.10878 s
+[12/18/2021-13:20:49] [I] 
+[12/18/2021-13:20:49] [I] === Trace details ===
+[12/18/2021-13:20:49] [I] Trace averages of 10 runs:
+[12/18/2021-13:20:49] [I] Average on 10 runs - GPU latency: 85.6935 ms - Host latency: 86.1068 ms (end to end 86.119 ms, enqueue 69.8078 ms)
+[12/18/2021-13:20:49] [I] Average on 10 runs - GPU latency: 85.9608 ms - Host latency: 86.3739 ms (end to end 86.3863 ms, enqueue 69.3352 ms)
+[12/18/2021-13:20:49] [I] Average on 10 runs - GPU latency: 85.9645 ms - Host latency: 86.3797 ms (end to end 86.3921 ms, enqueue 70.5086 ms)
+[12/18/2021-13:20:49] [I] 
+[12/18/2021-13:20:49] [I] === Performance summary ===
+[12/18/2021-13:20:49] [I] Throughput: 11.5801 qps
+[12/18/2021-13:20:49] [I] Latency: min = 85.7616 ms, max = 87.1106 ms, mean = 86.3423 ms, median = 86.3112 ms, percentile(99%) = 87.1106 ms
+[12/18/2021-13:20:49] [I] End-to-End Host Latency: min = 85.7743 ms, max = 87.1184 ms, mean = 86.3545 ms, median = 86.3233 ms, percentile(99%) = 87.1184 ms
+[12/18/2021-13:20:49] [I] Enqueue Time: min = 68.9883 ms, max = 73.2058 ms, mean = 69.811 ms, median = 69.3574 ms, percentile(99%) = 73.2058 ms
+[12/18/2021-13:20:49] [I] H2D Latency: min = 0.302002 ms, max = 0.309082 ms, mean = 0.303773 ms, median = 0.303589 ms, percentile(99%) = 0.309082 ms
+[12/18/2021-13:20:49] [I] GPU Compute Time: min = 85.3482 ms, max = 86.6992 ms, mean = 85.9284 ms, median = 85.8987 ms, percentile(99%) = 86.6992 ms
+[12/18/2021-13:20:49] [I] D2H Latency: min = 0.108154 ms, max = 0.115967 ms, mean = 0.110057 ms, median = 0.109863 ms, percentile(99%) = 0.115967 ms
+[12/18/2021-13:20:49] [I] Total Host Walltime: 3.10878 s
+[12/18/2021-13:20:49] [I] Total GPU Compute Time: 3.09342 s
+[12/18/2021-13:20:49] [12/18/2021-13:20:49] [12/18/2021-13:20:49] [I] Explanations of the performance metrics are printed in the verbose logs.
+[12/18/2021-13:20:49] [I] 
+&&&& PASSED TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/tensorrt-examples/python/deeplabv3_edgetpuv2/deeplab-edgetpu_fused_argmax_xs.onnx
+[12/18/2021-13:20:49] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 886, GPU 3513 (MiB)
