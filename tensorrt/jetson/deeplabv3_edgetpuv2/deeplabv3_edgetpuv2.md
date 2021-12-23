@@ -42,6 +42,9 @@ $ usr/src/tensorrt/bin/trtexec --onnx=_PATH_TO_/*.onnx [--fp16]
 | DeepLab v3+ MobilenetEdgeTPUV2-S with optimized fused argmax  | 97.41  | 89.60               | 119.77 | 112.89              |
 | DeepLab v3+ MobilenetEdgeTPUV2-M with optimized fused argmax  | 125.74 | 116.54              | 162.46 | 154.03              |
 
+^ with optimized: using [openvino2tensorflow](https://github.com/PINTO0309/openvino2tensorflow) and [tflite2tensorflow](https://github.com/PINTO0309/tflite2tensorflow)
+<br>
+<br>
 ![Latency](./result/latency.png)
 
 ## Youtube video
