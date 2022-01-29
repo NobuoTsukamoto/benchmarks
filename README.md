@@ -5,20 +5,30 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, PyTorch, Torchvision, etc...
 
 ## Summary
 
-|Description|Benchmarks|Framework|
-|:--|:--|:--|
-|[TF2 Detection Models<br>Local PC GTX1070](tensorflow/tf2_detection_model_zoo/local_gtx1070.md)|AP, Latency|TensorFlow<br>XLA Auto-clustering|
-|[TF2 Detection Models<br>Colab Tesla P100](tensorflow/tf2_detection_model_zoo/colab_p100.md)|AP, Latency|TensorFlow<br>TF-TRT<br>XLA Auto-clustering|
-|[TF2 Detection Models<br>Colab Tesla V100](tensorflow/tf2_detection_model_zoo/colab_v100.md)|AP, Latency|TensorFlow|
-|[TF2 Detection Models<br>V100 vs P100 vs GTX1070](tensorflow/tf2_detection_model_zoo/v100_vs_p100_vs_gtx1070.md)|Latency|TensorFlow|
-|[TensorFlow 1 Detection Model Zoo<br>Raspberry Pi](tensorflow/lite/tf1_detection_model_zoo/raspi.md)|AP, Latency|TensorFlow Lite<br>XNNPACK delegate<br>ARM NN delegate<br>EdgeTPU delegate|
-|[EdgeTPU Models<br>Coral Dev Board](tensorflow/lite/tf1_detection_model_zoo/devboard.md)|Latency|TensorFlow Lite<br>EdgeTPU delegate|
-|[EfficientDet-Lite<br>Raspberry Pi](tensorflow/lite/efficentdet/efficientdet.md)|AP, Latency|TensorFlow Lit<br>XNNPACK delegate<br>ARM NN delegate<br>EdgeTPU delegate|
-|[YOLOX TensorFlow LiteM<br>Raspberry Pi 4 64bit](tensorflow/lite/yolox)|AP, Latency|TensorFlow Lite<br>XNNPACK delegate|
-|[Torchvision detection models](pytorch/torchvision/README.md)|AP, Latency, <br>YouTube video|PyTorch, Torchvision|
-|[TensorRT EfficientDet-Lite<br>Jetson nano](tensorrt/jetson/efficentdet/efficientdet.md)| Latency,<br>YouTube video | TensorRT |
-|[TF-Lite SpaghettiNet EdgeTpu Latency vs max_detections](tensorflow/lite/spaghettinet/latency_vs_map.md)|AP, Latency|TensorFlow Lite EdgeTPU delegate|
-|[TensorRT Autoseg-EdgeTPU and<br>DeepLab v3+ MobilenetEdgeTPUV2<br>Jetson nano](tensorrt/jetson/deeplabv3_edgetpuv2/deeplabv3_edgetpuv2.md)| Latency,<br>YouTube video | TensorRT |
+### HostPC / Google Colaboratory
+|Description|Benchmarks|Framework|HW|
+|:--|:--|:--|:--|
+|[TF2 Detection Models](tensorflow/tf2_detection_model_zoo/local_gtx1070.md)|AP, Latency|TensorFlow<br>XLA Auto-clustering|Local PC GTX1070|
+|[TF2 Detection Models](tensorflow/tf2_detection_model_zoo/colab_p100.md)|AP, Latency|TensorFlow<br>TF-TRT<br>XLA Auto-clustering|Google Colab Tesla P100|
+|[TF2 Detection Models](tensorflow/tf2_detection_model_zoo/colab_v100.md)|AP, Latency|TensorFlow|Google Colab Tesla V100|
+|[TF2 Detection Models](tensorflow/tf2_detection_model_zoo/v100_vs_p100_vs_gtx1070.md)|Latency|TensorFlow|V100 vs P100 vs GTX1070|
+|[Torchvision detection models](pytorch/torchvision/README.md)|AP, Latency, <br>YouTube video|PyTorch, Torchvision|Local PC GTX1070|
+
+### Raspberry Pi / Coral Dev Board + EdgeTPU
+|Description|Benchmarks|Framework|HW|
+|:--|:--|:--|:--|
+|[TensorFlow 1 Detection Model Zoo](tensorflow/lite/tf1_detection_model_zoo/raspi.md)|AP, Latency|TensorFlow Lite<br>XNNPACK delegate<br>ARM NN delegate<br>EdgeTPU delegate|Raspberry Pi 2, 3, 4<br>Coral USB Accelerator|
+|[EdgeTPU Models](tensorflow/lite/tf1_detection_model_zoo/devboard.md)|Latency|TensorFlow Lite<br>EdgeTPU delegate|Coral Dev Board|
+|[EfficientDet-Lite](tensorflow/lite/efficentdet/efficientdet.md)|AP, Latency|TensorFlow Lit<br>XNNPACK delegate<br>ARM NN delegate<br>EdgeTPU delegate|Raspberry Pi 2, 3, 4<br>Coral USB Accelerator|
+|[YOLOX TensorFlow LiteM](tensorflow/lite/yolox)|AP, Latency|TensorFlow Lite<br>XNNPACK delegate|Raspberry Pi 4|
+|[TF-Lite SpaghettiNet EdgeTpu Latency vs max_detections](tensorflow/lite/spaghettinet/latency_vs_map.md)|AP, Latency|TensorFlow Lite EdgeTPU delegate|Raspberry Pi 4 + Coral USB Accelerator<br>Coral Dev Board|
+
+### Jetson
+|Description|Benchmarks|Framework|HW|
+|:--|:--|:--|:--|
+|[TensorRT EfficientDet-Lite](tensorrt/jetson/efficentdet/efficientdet.md)| Latency,<br>YouTube video | TensorRT | Jetson Nano |
+|[TensorRT Autoseg-EdgeTPU and<br>DeepLab v3+ MobilenetEdgeTPUV2](tensorrt/jetson/deeplabv3_edgetpuv2/deeplabv3_edgetpuv2.md)| Latency,<br>YouTube video | TensorRT | Jetson Nano |
+|[TensorRT Fast-SCNN](tensorrt/jetson/fast_scnn/README.md)| Latency,<br>YouTube video | TensorRT | Jetson Nano |
 
 ## Reference
 - [TensorFlow 1 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md)

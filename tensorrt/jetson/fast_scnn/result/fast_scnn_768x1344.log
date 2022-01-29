@@ -1,0 +1,195 @@
+&&&& RUNNING TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/tensorrt-examples/models/fast_scnn_768x1344.onnx
+[01/15/2022-16:50:10] [I] === Model Options ===
+[01/15/2022-16:50:10] [I] Format: ONNX
+[01/15/2022-16:50:10] [I] Model: /home/jetson/tensorrt-examples/models/fast_scnn_768x1344.onnx
+[01/15/2022-16:50:10] [I] Output:
+[01/15/2022-16:50:10] [I] === Build Options ===
+[01/15/2022-16:50:10] [I] Max batch: explicit
+[01/15/2022-16:50:10] [I] Workspace: 16 MiB
+[01/15/2022-16:50:10] [I] minTiming: 1
+[01/15/2022-16:50:10] [I] avgTiming: 8
+[01/15/2022-16:50:10] [I] Precision: FP32
+[01/15/2022-16:50:10] [I] Calibration: 
+[01/15/2022-16:50:10] [I] Refit: Disabled
+[01/15/2022-16:50:10] [I] Sparsity: Disabled
+[01/15/2022-16:50:10] [I] Safe mode: Disabled
+[01/15/2022-16:50:10] [I] Restricted mode: Disabled
+[01/15/2022-16:50:10] [I] Save engine: 
+[01/15/2022-16:50:10] [I] Load engine: 
+[01/15/2022-16:50:10] [I] NVTX verbosity: 0
+[01/15/2022-16:50:10] [I] Tactic sources: Using default tactic sources
+[01/15/2022-16:50:10] [I] timingCacheMode: local
+[01/15/2022-16:50:10] [I] timingCacheFile: 
+[01/15/2022-16:50:10] [I] Input(s)s format: fp32:CHW
+[01/15/2022-16:50:10] [I] Output(s)s format: fp32:CHW
+[01/15/2022-16:50:10] [I] Input build shapes: model
+[01/15/2022-16:50:10] [I] Input calibration shapes: model
+[01/15/2022-16:50:10] [I] === System Options ===
+[01/15/2022-16:50:10] [I] Device: 0
+[01/15/2022-16:50:10] [I] DLACore: 
+[01/15/2022-16:50:10] [I] Plugins:
+[01/15/2022-16:50:10] [I] === Inference Options ===
+[01/15/2022-16:50:10] [I] Batch: Explicit
+[01/15/2022-16:50:10] [I] Input inference shapes: model
+[01/15/2022-16:50:10] [I] Iterations: 10
+[01/15/2022-16:50:10] [I] Duration: 3s (+ 200ms warm up)
+[01/15/2022-16:50:10] [I] Sleep time: 0ms
+[01/15/2022-16:50:10] [I] Streams: 1
+[01/15/2022-16:50:10] [I] ExposeDMA: Disabled
+[01/15/2022-16:50:10] [I] Data transfers: Enabled
+[01/15/2022-16:50:10] [I] Spin-wait: Disabled
+[01/15/2022-16:50:10] [I] Multithreading: Disabled
+[01/15/2022-16:50:10] [I] CUDA Graph: Disabled
+[01/15/2022-16:50:10] [I] Separate profiling: Disabled
+[01/15/2022-16:50:10] [I] Time Deserialize: Disabled
+[01/15/2022-16:50:10] [I] Time Refit: Disabled
+[01/15/2022-16:50:10] [I] Skip inference: Disabled
+[01/15/2022-16:50:10] [I] Inputs:
+[01/15/2022-16:50:10] [I] === Reporting Options ===
+[01/15/2022-16:50:10] [I] Verbose: Disabled
+[01/15/2022-16:50:10] [I] Averages: 10 inferences
+[01/15/2022-16:50:10] [I] Percentile: 99
+[01/15/2022-16:50:10] [I] Dump refittable layers:Disabled
+[01/15/2022-16:50:10] [I] Dump output: Disabled
+[01/15/2022-16:50:10] [I] Profile: Disabled
+[01/15/2022-16:50:10] [I] Export timing to JSON file: 
+[01/15/2022-16:50:10] [I] Export output to JSON file: 
+[01/15/2022-16:50:10] [I] Export profile to JSON file: 
+[01/15/2022-16:50:10] [I] 
+[01/15/2022-16:50:10] [I] === Device Information ===
+[01/15/2022-16:50:10] [I] Selected Device: NVIDIA Tegra X1
+[01/15/2022-16:50:10] [I] Compute Capability: 5.3
+[01/15/2022-16:50:10] [I] SMs: 1
+[01/15/2022-16:50:10] [I] Compute Clock Rate: 0.9216 GHz
+[01/15/2022-16:50:10] [I] Device Global Memory: 3964 MiB
+[01/15/2022-16:50:10] [I] Shared Memory per SM: 64 KiB
+[01/15/2022-16:50:10] [I] Memory Bus Width: 64 bits (ECC disabled)
+[01/15/2022-16:50:10] [I] Memory Clock Rate: 0.01275 GHz
+[01/15/2022-16:50:10] [I] 
+[01/15/2022-16:50:10] [I] TensorRT version: 8001
+[01/15/2022-16:50:12] [I] [TRT] [MemUsageChange] Init CUDA: CPU +203, GPU +0, now: CPU 221, GPU 2822 (MiB)
+[01/15/2022-16:50:12] [I] Start parsing network model
+[01/15/2022-16:50:12] [I] [TRT] ----------------------------------------------------------------
+[01/15/2022-16:50:12] [I] [TRT] Input filename:   /home/jetson/tensorrt-examples/models/fast_scnn_768x1344.onnx
+[01/15/2022-16:50:12] [I] [TRT] ONNX IR version:  0.0.7
+[01/15/2022-16:50:12] [I] [TRT] Opset version:    11
+[01/15/2022-16:50:12] [I] [TRT] Producer name:    pytorch
+[01/15/2022-16:50:12] [I] [TRT] Producer version: 1.10
+[01/15/2022-16:50:12] [I] [TRT] Domain:           
+[01/15/2022-16:50:12] [I] [TRT] Model version:    0
+[01/15/2022-16:50:12] [I] [TRT] Doc string:       
+[01/15/2022-16:50:12] [I] [TRT] ----------------------------------------------------------------
+[01/15/2022-16:50:12] [01/15/2022-16:50:12] [I] Finish parsing network model
+[01/15/2022-16:50:12] [I] [TRT] [MemUsageChange] Init CUDA: CPU +0, GPU +0, now: CPU 226, GPU 2836 (MiB)
+[01/15/2022-16:50:13] [I] [TRT] [MemUsageSnapshot] Builder begin: CPU 238 MiB, GPU 2866 MiB
+[01/15/2022-16:50:13] [I] [TRT] ---------- Layers Running on DLA ----------
+[01/15/2022-16:50:13] [I] [TRT] ---------- Layers Running on GPU ----------
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_0 + Relu_1
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_2 + Relu_3
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_4 + Relu_5
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_6 + Relu_7
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_8 + Relu_9
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_10 + Relu_11
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_12 + Relu_13
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_14
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_15 + Relu_16
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_17 + Relu_18
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_19 + Add_20
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_21 + Relu_22
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_23 + Relu_24
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_25 + Add_26
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_27 + Relu_28
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_29 + Relu_30
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_31
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_32 + Relu_33
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_34 + Relu_35
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_36 + Add_37
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_38 + Relu_39
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_40 + Relu_41
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_42 + Add_43
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_44 + Relu_45
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_46 + Relu_47
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_48
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_49 + Relu_50
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_51 + Relu_52
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_53 + Add_54
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_55 + Relu_56
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_57 + Relu_58
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_59 + Add_60
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] AveragePool_63
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] AveragePool_77
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] AveragePool_91
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] AveragePool_105
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_64 + Relu_65
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_78 + Relu_79
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_92 + Relu_93
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_106 + Relu_107
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Resize_74
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Resize_88
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Resize_102
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Resize_116
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] 363 copy
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] 384 copy
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] 403 copy
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] 422 copy
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] 441 copy
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_118 + Relu_119
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Resize_121
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_122 + Relu_123
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_124
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_125 + Add_126 + Relu_127
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_128 + Relu_129
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_130 + Relu_131
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_132 + Relu_133
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_134 + Relu_135
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Conv_136
+[01/15/2022-16:50:13] [I] [TRT] [GpuLayer] Resize_145
+[01/15/2022-16:50:15] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +280, now: CPU 396, GPU 3146 (MiB)
+[01/15/2022-16:50:18] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +240, GPU +301, now: CPU 636, GPU 3447 (MiB)
+[01/15/2022-16:50:18] [01/15/2022-16:50:36] [I] [TRT] Some tactics do not have sufficient workspace memory to run. Increasing workspace size may increase performance, please check verbose output.
+[01/15/2022-16:57:59] [I] [TRT] Detected 1 inputs and 1 output network tensors.
+[01/15/2022-16:57:59] [I] [TRT] Total Host Persistent Memory: 85904
+[01/15/2022-16:57:59] [I] [TRT] Total Device Persistent Memory: 7058944
+[01/15/2022-16:57:59] [I] [TRT] Total Scratch Memory: 0
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageStats] Peak memory usage of TRT CPU/GPU memory allocators: CPU 6 MiB, GPU 67 MiB
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 880, GPU 3463 (MiB)
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +1, GPU +0, now: CPU 881, GPU 3463 (MiB)
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 880, GPU 3463 (MiB)
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 880, GPU 3463 (MiB)
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageSnapshot] Builder end: CPU 880 MiB, GPU 3463 MiB
+[01/15/2022-16:57:59] [I] [TRT] Loaded engine size: 7 MB
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine begin: CPU 894 MiB, GPU 3476 MiB
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 894, GPU 3457 (MiB)
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 894, GPU 3457 (MiB)
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 894, GPU 3457 (MiB)
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageSnapshot] deserializeCudaEngine end: CPU 894 MiB, GPU 3457 MiB
+[01/15/2022-16:57:59] [I] Engine built in 469.839 sec.
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageSnapshot] ExecutionContext creation begin: CPU 889 MiB, GPU 3457 MiB
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 889, GPU 3457 (MiB)
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 889, GPU 3457 (MiB)
+[01/15/2022-16:57:59] [I] [TRT] [MemUsageSnapshot] ExecutionContext creation end: CPU 889 MiB, GPU 3457 MiB
+[01/15/2022-16:58:00] [I] Created input binding for input.1 with dimensions 1x3x768x1344
+[01/15/2022-16:58:00] [I] Created output binding for 485 with dimensions 1x19x768x1344
+[01/15/2022-16:58:00] [I] Starting inference
+[01/15/2022-16:58:03] [I] Warmup completed 2 queries over 200 ms
+[01/15/2022-16:58:03] [I] Timing trace has 29 queries over 3.24476 s
+[01/15/2022-16:58:03] [I] 
+[01/15/2022-16:58:03] [I] === Trace details ===
+[01/15/2022-16:58:03] [I] Trace averages of 10 runs:
+[01/15/2022-16:58:03] [I] Average on 10 runs - GPU latency: 103.208 ms - Host latency: 111.92 ms (end to end 111.932 ms, enqueue 2.46284 ms)
+[01/15/2022-16:58:03] [I] Average on 10 runs - GPU latency: 103.199 ms - Host latency: 111.897 ms (end to end 111.908 ms, enqueue 2.38239 ms)
+[01/15/2022-16:58:03] [I] 
+[01/15/2022-16:58:03] [I] === Performance summary ===
+[01/15/2022-16:58:03] [I] Throughput: 8.93747 qps
+[01/15/2022-16:58:03] [I] Latency: min = 111.581 ms, max = 112.456 ms, mean = 111.877 ms, median = 111.869 ms, percentile(99%) = 112.456 ms
+[01/15/2022-16:58:03] [I] End-to-End Host Latency: min = 111.588 ms, max = 112.468 ms, mean = 111.888 ms, median = 111.88 ms, percentile(99%) = 112.468 ms
+[01/15/2022-16:58:03] [I] Enqueue Time: min = 2.23511 ms, max = 2.72624 ms, mean = 2.3897 ms, median = 2.36475 ms, percentile(99%) = 2.72624 ms
+[01/15/2022-16:58:03] [I] H2D Latency: min = 1.19238 ms, max = 1.20648 ms, mean = 1.19775 ms, median = 1.19751 ms, percentile(99%) = 1.20648 ms
+[01/15/2022-16:58:03] [I] GPU Compute Time: min = 102.898 ms, max = 103.741 ms, mean = 103.174 ms, median = 103.171 ms, percentile(99%) = 103.741 ms
+[01/15/2022-16:58:03] [I] D2H Latency: min = 7.49121 ms, max = 7.61346 ms, mean = 7.5047 ms, median = 7.50079 ms, percentile(99%) = 7.61346 ms
+[01/15/2022-16:58:03] [I] Total Host Walltime: 3.24476 s
+[01/15/2022-16:58:03] [I] Total GPU Compute Time: 2.99205 s
+[01/15/2022-16:58:03] [I] Explanations of the performance metrics are printed in the verbose logs.
+[01/15/2022-16:58:03] [I] 
+&&&& PASSED TensorRT.trtexec [TensorRT v8001] # /usr/src/tensorrt/bin/trtexec --onnx=/home/jetson/tensorrt-examples/models/fast_scnn_768x1344.onnx
+[01/15/2022-16:58:03] [I] [TRT] [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 889, GPU 3453 (MiB)
