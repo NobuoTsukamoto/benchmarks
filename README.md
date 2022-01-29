@@ -29,6 +29,7 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, PyTorch, Torchvision, etc...
 |[TensorRT EfficientDet-Lite](tensorrt/jetson/efficentdet/efficientdet.md)| Latency,<br>YouTube video | TensorRT | Jetson Nano |
 |[TensorRT Autoseg-EdgeTPU and<br>DeepLab v3+ MobilenetEdgeTPUV2](tensorrt/jetson/deeplabv3_edgetpuv2/deeplabv3_edgetpuv2.md)| Latency,<br>YouTube video | TensorRT | Jetson Nano |
 |[TensorRT Fast-SCNN](tensorrt/jetson/fast_scnn/README.md)| Latency,<br>YouTube video | TensorRT | Jetson Nano |
+|[TensorRT Ultra-Fast-Lane-Detection](tensorrt/jetson/ultra_falst_lane_detection/README.md)| Latency,<br>YouTube video | TensorRT | Jetson Nano |
 
 ## Reference
 - [TensorFlow 1 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md)
