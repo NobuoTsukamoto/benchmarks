@@ -1,0 +1,136 @@
+Reading engine from file ../../models/fast_scnn_384x576_fp32.trt
+count: 0000 Inference: 1538.71 ms
+count: 0020 Inference: 215.76 ms
+count: 0040 Inference: 215.61 ms
+count: 0060 Inference: 214.65 ms
+count: 0080 Inference: 214.77 ms
+count: 0100 Inference: 215.36 ms
+Mean inference: 215.97 ms
+Reading engine from file ../../models/fast_scnn_384x576_argmax_fp32.trt
+count: 0000 Inference: 1359.80 ms
+count: 0020 Inference: 55.00 ms
+count: 0040 Inference: 54.63 ms
+count: 0060 Inference: 55.02 ms
+count: 0080 Inference: 55.00 ms
+count: 0100 Inference: 54.66 ms
+Mean inference: 55.28 ms
+Reading engine from file ../../models/fast_scnn_384x576_reducemax_fp32.trt
+count: 0000 Inference: 1353.61 ms
+count: 0020 Inference: 52.92 ms
+count: 0040 Inference: 53.04 ms
+count: 0060 Inference: 52.53 ms
+count: 0080 Inference: 52.55 ms
+count: 0100 Inference: 52.61 ms
+Mean inference: 53.14 ms
+Reading engine from file ../../models/fast_scnn_384x576_fused_argmax_fp32.trt
+count: 0000 Inference: 1334.52 ms
+count: 0020 Inference: 35.36 ms
+count: 0040 Inference: 35.45 ms
+count: 0060 Inference: 35.43 ms
+count: 0080 Inference: 35.41 ms
+count: 0100 Inference: 35.37 ms
+Mean inference: 35.76 ms
+Reading engine from file ../../models/fast_scnn_576x576_fp32.trt
+count: 0000 Inference: 332.55 ms
+count: 0020 Inference: 335.93 ms
+count: 0040 Inference: 335.39 ms
+count: 0060 Inference: 323.72 ms
+count: 0080 Inference: 325.01 ms
+count: 0100 Inference: 324.65 ms
+Mean inference: 325.35 ms
+Reading engine from file ../../models/fast_scnn_576x576_fused_argmax_fp32.trt
+count: 0000 Inference: 54.22 ms
+count: 0020 Inference: 52.89 ms
+count: 0040 Inference: 53.43 ms
+count: 0060 Inference: 53.06 ms
+count: 0080 Inference: 52.97 ms
+count: 0100 Inference: 53.18 ms
+Mean inference: 53.06 ms
+Reading engine from file ../../models/fast_scnn_576x576_reducemax_fp32.trt
+count: 0000 Inference: 1383.19 ms
+count: 0020 Inference: 78.03 ms
+count: 0040 Inference: 77.86 ms
+count: 0060 Inference: 78.23 ms
+count: 0080 Inference: 78.31 ms
+count: 0100 Inference: 78.02 ms
+Mean inference: 78.17 ms
+Reading engine from file ../../models/fast_scnn_576x576_fused_reducemax_fp32.trt
+count: 0000 Inference: 1333.44 ms
+count: 0020 Inference: 53.90 ms
+count: 0040 Inference: 53.59 ms
+count: 0060 Inference: 53.52 ms
+count: 0080 Inference: 53.74 ms
+count: 0100 Inference: 53.47 ms
+Mean inference: 53.61 ms
+Reading engine from file ../../models/fast_scnn_576x768_fp32.trt
+count: 0000 Inference: 1778.29 ms
+count: 0020 Inference: 475.93 ms
+count: 0040 Inference: 476.44 ms
+count: 0060 Inference: 476.85 ms
+count: 0080 Inference: 477.43 ms
+count: 0100 Inference: 481.56 ms
+Mean inference: 482.05 ms
+Reading engine from file ../../models/fast_scnn_576x768_fused_argmax_fp32.trt
+count: 0000 Inference: 1391.86 ms
+count: 0020 Inference: 69.46 ms
+count: 0040 Inference: 69.15 ms
+count: 0060 Inference: 68.54 ms
+count: 0080 Inference: 68.73 ms
+count: 0100 Inference: 68.75 ms
+Mean inference: 68.84 ms
+Reading engine from file ../../models/fast_scnn_576x768_reducemax_fp32.trt
+count: 0000 Inference: 1475.86 ms
+count: 0020 Inference: 102.65 ms
+count: 0040 Inference: 102.72 ms
+count: 0060 Inference: 102.20 ms
+count: 0080 Inference: 102.35 ms
+count: 0100 Inference: 102.28 ms
+Mean inference: 102.66 ms
+Reading engine from file ../../models/fast_scnn_576x768_fused_reducemax_fp32.trt
+count: 0000 Inference: 1349.04 ms
+count: 0020 Inference: 70.09 ms
+count: 0040 Inference: 69.81 ms
+count: 0060 Inference: 69.72 ms
+count: 0080 Inference: 69.98 ms
+count: 0100 Inference: 69.73 ms
+Mean inference: 69.83 ms
+Reading engine from file ../../models/fast_scnn_768x1344_fp32.trt
+count: 0000 Inference: 2446.87 ms
+count: 0020 Inference: 1132.10 ms
+count: 0040 Inference: 1132.28 ms
+count: 0060 Inference: 1132.88 ms
+count: 0080 Inference: 1133.06 ms
+count: 0100 Inference: 1131.67 ms
+Mean inference: 1136.14 ms
+Reading engine from file ../../models/fast_scnn_768x1344_fused_argmax_fp32.trt
+count: 0000 Inference: 1462.59 ms
+count: 0020 Inference: 163.05 ms
+count: 0040 Inference: 161.75 ms
+count: 0060 Inference: 161.93 ms
+count: 0080 Inference: 161.98 ms
+count: 0100 Inference: 161.83 ms
+Mean inference: 162.06 ms
+Reading engine from file ../../models/fast_scnn_768x1344_reducemax_fp32.trt
+count: 0000 Inference: 1563.29 ms
+count: 0020 Inference: 231.27 ms
+count: 0040 Inference: 233.84 ms
+count: 0060 Inference: 232.46 ms
+count: 0080 Inference: 231.12 ms
+count: 0100 Inference: 234.19 ms
+Mean inference: 232.30 ms
+Reading engine from file ../../models/fast_scnn_768x1344_fused_reducemax_fp32.trt
+count: 0000 Inference: 1487.01 ms
+count: 0020 Inference: 155.51 ms
+count: 0040 Inference: 155.40 ms
+count: 0060 Inference: 156.86 ms
+count: 0080 Inference: 155.43 ms
+count: 0100 Inference: 155.56 ms
+Mean inference: 155.98 ms
+Reading engine from file ../../models/fast_scnn_384x576_fused_reducemax_fp32.trt
+count: 0000 Inference: 1347.51 ms
+count: 0020 Inference: 36.13 ms
+count: 0040 Inference: 36.23 ms
+count: 0060 Inference: 36.32 ms
+count: 0080 Inference: 36.18 ms
+count: 0100 Inference: 36.26 ms
+Mean inference: 36.56 ms

@@ -1,0 +1,321 @@
+Reading engine from file ../../models/fast_scnn_384x576_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2372 (MiB)
+[TensorRT] INFO: Loaded engine size: 4 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 232 MiB, GPU 2376 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +163, now: CPU 390, GPU 2539 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +239, now: CPU 631, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 631, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 631 MiB, GPU 2778 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2778 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2781 MiB
+count: 0000 Inference: 1519.74 ms
+count: 0020 Inference: 217.07 ms
+count: 0040 Inference: 228.41 ms
+count: 0060 Inference: 217.14 ms
+count: 0080 Inference: 216.74 ms
+count: 0100 Inference: 217.38 ms
+Mean inference: 218.81 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 887, GPU 3069 (MiB)
+Reading engine from file ../../models/fast_scnn_384x576_argmax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2374 (MiB)
+[TensorRT] INFO: Loaded engine size: 4 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 232 MiB, GPU 2378 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +159, now: CPU 390, GPU 2538 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +241, now: CPU 631, GPU 2779 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 631, GPU 2779 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 631 MiB, GPU 2779 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2779 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2779 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2779 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2782 MiB
+count: 0000 Inference: 1347.17 ms
+count: 0020 Inference: 53.45 ms
+count: 0040 Inference: 53.33 ms
+count: 0060 Inference: 53.32 ms
+count: 0080 Inference: 53.11 ms
+count: 0100 Inference: 53.33 ms
+Mean inference: 53.68 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 886, GPU 3038 (MiB)
+Reading engine from file ../../models/fast_scnn_384x576_reducemax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2375 (MiB)
+[TensorRT] INFO: Loaded engine size: 4 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 232 MiB, GPU 2380 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +158, now: CPU 391, GPU 2538 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +240, GPU +243, now: CPU 631, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 631, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 631 MiB, GPU 2781 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2781 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2784 MiB
+count: 0000 Inference: 1336.12 ms
+count: 0020 Inference: 51.23 ms
+count: 0040 Inference: 51.10 ms
+count: 0060 Inference: 51.21 ms
+count: 0080 Inference: 51.18 ms
+count: 0100 Inference: 50.96 ms
+Mean inference: 51.61 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 887, GPU 3038 (MiB)
+Reading engine from file ../../models/fast_scnn_384x576_fused_argmax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2373 (MiB)
+[TensorRT] INFO: Loaded engine size: 4 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 232 MiB, GPU 2378 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +159, now: CPU 390, GPU 2537 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +247, now: CPU 631, GPU 2784 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 631, GPU 2784 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 631 MiB, GPU 2784 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2784 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2784 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2784 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2786 MiB
+count: 0000 Inference: 1329.57 ms
+count: 0020 Inference: 34.84 ms
+count: 0040 Inference: 34.77 ms
+count: 0060 Inference: 34.77 ms
+count: 0080 Inference: 34.97 ms
+count: 0100 Inference: 34.82 ms
+Mean inference: 35.23 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 886, GPU 3041 (MiB)
+Reading engine from file ../../models/fast_scnn_576x576_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2372 (MiB)
+[TensorRT] INFO: Loaded engine size: 3 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 232 MiB, GPU 2376 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +159, now: CPU 390, GPU 2535 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +241, now: CPU 631, GPU 2776 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 630, GPU 2776 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 630 MiB, GPU 2776 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2776 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2776 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2776 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2779 MiB
+count: 0000 Inference: 1631.70 ms
+count: 0020 Inference: 322.43 ms
+count: 0040 Inference: 316.44 ms
+count: 0060 Inference: 314.87 ms
+count: 0080 Inference: 315.06 ms
+count: 0100 Inference: 314.79 ms
+Mean inference: 316.57 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 890, GPU 3123 (MiB)
+Reading engine from file ../../models/fast_scnn_576x576_fused_argmax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2371 (MiB)
+[TensorRT] INFO: Loaded engine size: 3 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 232 MiB, GPU 2375 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +164, now: CPU 390, GPU 2539 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +238, now: CPU 631, GPU 2777 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 630, GPU 2777 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 630 MiB, GPU 2777 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2777 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2777 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2777 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2780 MiB
+count: 0000 Inference: 1362.10 ms
+count: 0020 Inference: 51.79 ms
+count: 0040 Inference: 51.94 ms
+count: 0060 Inference: 52.03 ms
+count: 0080 Inference: 51.96 ms
+count: 0100 Inference: 51.76 ms
+Mean inference: 51.99 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 890, GPU 3053 (MiB)
+Reading engine from file ../../models/fast_scnn_576x576_reducemax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2372 (MiB)
+[TensorRT] INFO: Loaded engine size: 3 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 232 MiB, GPU 2376 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +159, now: CPU 390, GPU 2536 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +245, now: CPU 631, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 631, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 631 MiB, GPU 2781 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2781 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2784 MiB
+count: 0000 Inference: 1355.11 ms
+count: 0020 Inference: 76.09 ms
+count: 0040 Inference: 76.45 ms
+count: 0060 Inference: 75.98 ms
+count: 0080 Inference: 76.34 ms
+count: 0100 Inference: 75.97 ms
+Mean inference: 76.19 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 890, GPU 3065 (MiB)
+Reading engine from file ../../models/fast_scnn_576x576_fused_reducemax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2372 (MiB)
+[TensorRT] INFO: Loaded engine size: 3 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 232 MiB, GPU 2376 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +160, now: CPU 390, GPU 2536 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +241, now: CPU 631, GPU 2777 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 631, GPU 2777 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 631 MiB, GPU 2777 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2777 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2777 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2777 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2780 MiB
+count: 0000 Inference: 1384.01 ms
+count: 0020 Inference: 52.89 ms
+count: 0040 Inference: 52.85 ms
+count: 0060 Inference: 52.90 ms
+count: 0080 Inference: 53.04 ms
+count: 0100 Inference: 53.01 ms
+Mean inference: 52.90 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 891, GPU 3054 (MiB)
+Reading engine from file ../../models/fast_scnn_576x768_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2372 (MiB)
+[TensorRT] INFO: Loaded engine size: 4 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 233 MiB, GPU 2377 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +160, now: CPU 391, GPU 2537 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +240, now: CPU 632, GPU 2777 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 631, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 631 MiB, GPU 2778 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2778 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2780 MiB
+count: 0000 Inference: 1835.84 ms
+count: 0020 Inference: 474.69 ms
+count: 0040 Inference: 475.03 ms
+count: 0060 Inference: 475.17 ms
+count: 0080 Inference: 475.88 ms
+count: 0100 Inference: 475.20 ms
+Mean inference: 479.53 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 894, GPU 3163 (MiB)
+Reading engine from file ../../models/fast_scnn_576x768_fused_argmax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2375 (MiB)
+[TensorRT] INFO: Loaded engine size: 4 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 233 MiB, GPU 2380 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +160, now: CPU 391, GPU 2540 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +238, now: CPU 632, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 631, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 631 MiB, GPU 2778 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2778 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2781 MiB
+count: 0000 Inference: 1359.57 ms
+count: 0020 Inference: 68.44 ms
+count: 0040 Inference: 68.26 ms
+count: 0060 Inference: 68.30 ms
+count: 0080 Inference: 68.29 ms
+count: 0100 Inference: 68.20 ms
+Mean inference: 68.31 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 894, GPU 3071 (MiB)
+Reading engine from file ../../models/fast_scnn_576x768_reducemax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2373 (MiB)
+[TensorRT] INFO: Loaded engine size: 4 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 233 MiB, GPU 2378 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +160, now: CPU 391, GPU 2538 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +240, now: CPU 632, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 632, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 632 MiB, GPU 2778 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2778 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2778 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2781 MiB
+count: 0000 Inference: 1381.79 ms
+count: 0020 Inference: 100.13 ms
+count: 0040 Inference: 100.93 ms
+count: 0060 Inference: 100.63 ms
+count: 0080 Inference: 99.83 ms
+count: 0100 Inference: 99.92 ms
+Mean inference: 100.21 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 894, GPU 3086 (MiB)
+Reading engine from file ../../models/fast_scnn_576x768_fused_reducemax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2376 (MiB)
+[TensorRT] INFO: Loaded engine size: 4 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 233 MiB, GPU 2380 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +160, now: CPU 391, GPU 2540 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +241, now: CPU 632, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 632, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 632 MiB, GPU 2781 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2781 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2781 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2784 MiB
+count: 0000 Inference: 1368.28 ms
+count: 0020 Inference: 69.16 ms
+count: 0040 Inference: 69.16 ms
+count: 0060 Inference: 68.93 ms
+count: 0080 Inference: 69.36 ms
+count: 0100 Inference: 69.11 ms
+Mean inference: 69.13 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 894, GPU 3074 (MiB)
+Reading engine from file ../../models/fast_scnn_768x1344_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2376 (MiB)
+[TensorRT] INFO: Loaded engine size: 7 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 235 MiB, GPU 2383 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +159, GPU +160, now: CPU 394, GPU 2543 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +240, GPU +239, now: CPU 634, GPU 2782 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 634, GPU 2782 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 634 MiB, GPU 2782 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2776 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2776 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2776 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2780 MiB
+count: 0000 Inference: 2536.70 ms
+count: 0020 Inference: 1133.62 ms
+count: 0040 Inference: 1147.43 ms
+count: 0060 Inference: 1129.52 ms
+count: 0080 Inference: 1148.89 ms
+count: 0100 Inference: 1141.09 ms
+Mean inference: 1142.62 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 914, GPU 3264 (MiB)
+Reading engine from file ../../models/fast_scnn_768x1344_fused_argmax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2294 (MiB)
+[TensorRT] INFO: Loaded engine size: 7 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 235 MiB, GPU 2301 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +159, GPU +160, now: CPU 394, GPU 2461 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +240, GPU +241, now: CPU 634, GPU 2702 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 634, GPU 2702 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 634 MiB, GPU 2702 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2695 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2695 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2695 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2700 MiB
+count: 0000 Inference: 1470.00 ms
+count: 0020 Inference: 156.96 ms
+count: 0040 Inference: 156.95 ms
+count: 0060 Inference: 156.99 ms
+count: 0080 Inference: 157.39 ms
+count: 0100 Inference: 156.73 ms
+Mean inference: 157.27 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 914, GPU 3053 (MiB)
+Reading engine from file ../../models/fast_scnn_768x1344_reducemax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2296 (MiB)
+[TensorRT] INFO: Loaded engine size: 7 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 235 MiB, GPU 2303 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +159, now: CPU 394, GPU 2463 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +240, GPU +243, now: CPU 634, GPU 2706 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 634, GPU 2706 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 634 MiB, GPU 2706 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2699 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2699 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2699 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2703 MiB
+count: 0000 Inference: 1496.91 ms
+count: 0020 Inference: 226.69 ms
+count: 0040 Inference: 226.17 ms
+count: 0060 Inference: 226.19 ms
+count: 0080 Inference: 227.49 ms
+count: 0100 Inference: 225.90 ms
+Mean inference: 227.28 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 914, GPU 3095 (MiB)
+Reading engine from file ../../models/fast_scnn_768x1344_fused_reducemax_fp16.trt
+[TensorRT] INFO: [MemUsageChange] Init CUDA: CPU +198, GPU +0, now: CPU 228, GPU 2297 (MiB)
+[TensorRT] INFO: Loaded engine size: 7 MB
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine begin: CPU 235 MiB, GPU 2304 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +158, GPU +159, now: CPU 394, GPU 2463 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +241, GPU +241, now: CPU 635, GPU 2704 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 634, GPU 2704 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] deserializeCudaEngine end: CPU 634 MiB, GPU 2704 MiB
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation begin: CPU 627 MiB, GPU 2697 MiB
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 627, GPU 2697 (MiB)
+[TensorRT] INFO: [MemUsageChange] Init cuDNN: CPU +0, GPU +0, now: CPU 627, GPU 2697 (MiB)
+[TensorRT] INFO: [MemUsageSnapshot] ExecutionContext creation end: CPU 629 MiB, GPU 2701 MiB
+count: 0000 Inference: 1486.08 ms
+count: 0020 Inference: 154.56 ms
+count: 0040 Inference: 154.64 ms
+count: 0060 Inference: 154.43 ms
+count: 0080 Inference: 155.07 ms
+count: 0100 Inference: 155.01 ms
+Mean inference: 154.89 ms
+[TensorRT] INFO: [MemUsageChange] Init cuBLAS/cuBLASLt: CPU +0, GPU +0, now: CPU 914, GPU 3057 (MiB)
+
