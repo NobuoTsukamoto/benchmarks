@@ -75,6 +75,8 @@ The script and inference code for adding ope of argmax are as follows.
 
 - *: terminate called after throwing an instance of 'nvinfer1::CudaRuntimeError'
 
+![Latency_vs_Argmax](./result/fast_scnn_argmax_Inference.png)
+
 ## Youtube video
 
 ### 384x384 FP16
