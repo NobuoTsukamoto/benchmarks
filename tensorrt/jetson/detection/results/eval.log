@@ -1,0 +1,741 @@
+/home/jetson/efficientdet/efficientdet-lite0.trt
+Input 'input' with shape [1, 320, 320, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.02s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(496582, 7)
+0/496582
+DONE (t=13.56s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=312.43s).
+Accumulating evaluation results...
+DONE (t=58.80s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.239
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.393
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.246
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.057
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.257
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.430
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.231
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.347
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.370
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.095
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.422
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.616
+[0.23928535 0.39263892 0.2456816  0.05650566 0.2573692  0.42996868
+ 0.23111919 0.3467077  0.36951178 0.09453208 0.42247224 0.61577195]
+/home/jetson/efficientdet/efficientdet-lite0_fp16.trt
+Input 'input' with shape [1, 320, 320, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.16s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(496582, 7)
+0/496582
+DONE (t=13.49s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=311.66s).
+Accumulating evaluation results...
+DONE (t=53.98s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.239
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.393
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.246
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.056
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.257
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.430
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.231
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.347
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.370
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.095
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.423
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.616
+[0.2392899  0.39264143 0.2456603  0.05649927 0.25738913 0.42996266
+ 0.23112665 0.3467205  0.3695135  0.09452387 0.42250347 0.6157629 ]
+/home/jetson/efficientdet/efficientdet-lite1.trt
+Input 'input' with shape [1, 384, 384, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.01s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(493621, 7)
+0/493621
+DONE (t=13.55s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=316.37s).
+Accumulating evaluation results...
+DONE (t=54.00s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.292
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.464
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.300
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.103
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.324
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.482
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.262
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.402
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.427
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.168
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.484
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.662
+[0.2917867  0.46420178 0.30042347 0.10279866 0.32432723 0.4815939
+ 0.2624096  0.4022317  0.42691222 0.16793755 0.48424277 0.66220903]
+/home/jetson/efficientdet/efficientdet-lite1_fp16.trt
+Input 'input' with shape [1, 384, 384, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.00s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(493620, 7)
+0/493620
+DONE (t=13.35s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=308.88s).
+Accumulating evaluation results...
+DONE (t=58.10s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.292
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.464
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.300
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.103
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.324
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.482
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.262
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.402
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.427
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.168
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.484
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.662
+[0.29174092 0.46416768 0.30031052 0.10291351 0.32425484 0.48159477
+ 0.26235887 0.40214318 0.4268505  0.16810101 0.4841447  0.6623784 ]
+/home/jetson/efficientdet/efficientdet-lite2.trt
+Input 'input' with shape [1, 448, 448, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.08s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(492414, 7)
+0/492414
+DONE (t=13.60s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=307.70s).
+Accumulating evaluation results...
+DONE (t=53.95s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.327
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.500
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.344
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.134
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.367
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.510
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.285
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.441
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.468
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.221
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.534
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.684
+[0.3269206  0.4998837  0.3444501  0.13430518 0.36653    0.5102767
+ 0.28454697 0.44060928 0.46845174 0.2209136  0.53352314 0.6842263 ]
+/home/jetson/efficientdet/efficientdet-lite2_fp16.trt
+Input 'input' with shape [1, 448, 448, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.06s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(492410, 7)
+0/492410
+DONE (t=13.73s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=319.74s).
+Accumulating evaluation results...
+DONE (t=57.68s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.327
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.500
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.344
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.134
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.367
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.510
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.284
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.441
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.468
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.221
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.534
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.684
+[0.32689434 0.50007576 0.34428877 0.13433734 0.366642   0.50994533
+ 0.28438404 0.44054592 0.46841863 0.22102563 0.53361803 0.68375   ]
+/home/jetson/efficientdet/efficientdet-lite3.trt
+Input 'input' with shape [1, 512, 512, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=2.99s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(486387, 7)
+0/486387
+DONE (t=13.59s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=317.12s).
+Accumulating evaluation results...
+DONE (t=48.76s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.365
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.536
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.385
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.155
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.421
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.554
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.310
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.477
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.504
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.231
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.579
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.733
+[0.36455223 0.5360437  0.38525763 0.15453608 0.42077988 0.553786
+ 0.30980638 0.4767544  0.50405145 0.23069918 0.5794086  0.73313826]
+/home/jetson/efficientdet/efficientdet-lite3_fp16.trt
+Input 'input' with shape [1, 512, 512, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.02s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(486353, 7)
+0/486353
+DONE (t=13.52s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=316.98s).
+Accumulating evaluation results...
+DONE (t=49.93s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.365
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.536
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.385
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.155
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.421
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.554
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.310
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.477
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.504
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.231
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.579
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.733
+[0.3645511  0.53612304 0.3854218  0.15451886 0.42077982 0.55374235
+ 0.30974546 0.47668982 0.5040268  0.2307119  0.579484   0.7327434 ]
+/home/jetson/efficientdet/efficientdet-lite3x.trt
+Input 'input' with shape [1, 640, 640, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.06s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(483843, 7)
+0/483843
+DONE (t=13.64s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=328.84s).
+Accumulating evaluation results...
+DONE (t=48.92s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.400
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.587
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.428
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.443
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.557
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.329
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.520
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.552
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.334
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.608
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.724
+[0.400365   0.58669925 0.4276252  0.2109786  0.44308648 0.5574824
+ 0.32880262 0.5201056  0.55160797 0.33358276 0.60838395 0.7238991 ]
+/home/jetson/efficientdet/efficientdet-lite3x_fp16.trt
+Input 'input' with shape [1, 640, 640, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.01s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(483845, 7)
+0/483845
+DONE (t=13.24s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=312.64s).
+Accumulating evaluation results...
+DONE (t=51.30s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.400
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.587
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.428
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.443
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.558
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.329
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.520
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.552
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.334
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.608
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.724
+[0.40039393 0.5867324  0.42766473 0.21099608 0.4431092  0.5575277
+ 0.3287857  0.5201214  0.55160767 0.33355755 0.6083947  0.72390664]
+/home/jetson/efficientdet/efficientdet-lite4.trt
+Input 'input' with shape [1, 640, 640, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.09s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(478651, 7)
+0/478651
+DONE (t=13.40s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=315.53s).
+Accumulating evaluation results...
+DONE (t=51.62s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.408
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.588
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.436
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.216
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.460
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.582
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.333
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.523
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.553
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.316
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.620
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.743
+[0.40839237 0.5875048  0.4361185  0.21551107 0.45966792 0.5821926
+ 0.33258048 0.52334386 0.5531108  0.31581855 0.6196191  0.7434727 ]
+/home/jetson/efficientdet/efficientdet-lite4_fp16.trt
+Input 'input' with shape [1, 640, 640, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.05s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(478668, 7)
+0/478668
+DONE (t=13.25s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=325.05s).
+Accumulating evaluation results...
+DONE (t=53.50s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.408
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.588
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.436
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.215
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.460
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.582
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.333
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.523
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.553
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.316
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.620
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.744
+[0.40831992 0.5875186  0.43575203 0.21546124 0.45952275 0.5821763
+ 0.3326426  0.52342564 0.5531433  0.31579196 0.619623   0.74350834]
+/home/jetson/efficientdet/efficientdet-d0.trt
+Input 'input' with shape [1, 512, 512, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.05s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(484202, 7)
+0/484202
+DONE (t=13.37s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=315.13s).
+Accumulating evaluation results...
+DONE (t=53.14s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.341
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.525
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.362
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.131
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.401
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.534
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.293
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.447
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.472
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.197
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.556
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.694
+[0.34116396 0.5247212  0.36162335 0.13122487 0.40063208 0.53443384
+ 0.2927686  0.44719043 0.47186914 0.19658554 0.5562639  0.6941422 ]
+/home/jetson/efficientdet/efficientdet-d0_fp16.trt
+Input 'input' with shape [1, 512, 512, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.01s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(484210, 7)
+0/484210
+DONE (t=13.36s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=315.60s).
+Accumulating evaluation results...
+DONE (t=52.92s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.341
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.525
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.362
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.131
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.401
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.534
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.293
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.447
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.472
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.196
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.556
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.694
+[0.34124595 0.5247356  0.36167675 0.13132723 0.400966   0.5343065
+ 0.29296318 0.44728777 0.47182956 0.19637498 0.5563749  0.69418305]
+/home/jetson/efficientdet/efficientdet-d1.trt
+Input 'input' with shape [1, 640, 640, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=4.13s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(476650, 7)
+0/476650
+DONE (t=13.21s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=311.39s).
+Accumulating evaluation results...
+DONE (t=51.94s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.399
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.591
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.423
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.459
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.574
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.325
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.506
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.534
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.307
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.608
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.728
+[0.39936084 0.5905948  0.4231449  0.21090484 0.4586651  0.5740228
+ 0.32506728 0.50556254 0.53446895 0.30713043 0.6077227  0.7276203 ]
+/home/jetson/efficientdet/efficientdet-d1_fp16.trt
+Input 'input' with shape [1, 640, 640, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=2.99s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(476640, 7)
+0/476640
+DONE (t=13.28s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=314.25s).
+Accumulating evaluation results...
+DONE (t=52.58s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.399
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.590
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.423
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.211
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.459
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.574
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.325
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.506
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.535
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.307
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.608
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.728
+[0.39936042 0.5904609  0.42307857 0.21076795 0.45868328 0.57366616
+ 0.32515103 0.505606   0.53459555 0.30703884 0.6075191  0.72803766]
+/home/jetson/efficientdet/efficientdet-d2.trt
+Input 'input' with shape [1, 768, 768, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.01s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(468429, 7)
+0/468429
+DONE (t=13.09s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=312.04s).
+Accumulating evaluation results...
+DONE (t=52.41s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.432
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.627
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.464
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.237
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.486
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.602
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.342
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.536
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.568
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.345
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.634
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.742
+[0.4321532  0.6269849  0.46351948 0.23704968 0.48596436 0.60204566
+ 0.34236425 0.53625757 0.5681253  0.34489545 0.6342451  0.7420669 ]
+/home/jetson/efficientdet/efficientdet-d2_fp16.trt
+Input 'input' with shape [1, 768, 768, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=4.22s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(468459, 7)
+0/468459
+DONE (t=13.11s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=311.91s).
+Accumulating evaluation results...
+DONE (t=54.09s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.432
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.627
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.464
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.237
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.486
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.602
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.342
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.536
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.568
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.345
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.634
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.742
+[0.43207726 0.62703854 0.46354502 0.23694842 0.4859127  0.6020167
+ 0.34232584 0.5362615  0.56801426 0.34463012 0.634315   0.7422936 ]
+/home/jetson/efficientdet/efficientdet-d3.trt
+Input 'input' with shape [1, 896, 896, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.03s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(460705, 7)
+0/460705
+DONE (t=13.34s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=319.44s).
+Accumulating evaluation results...
+DONE (t=49.44s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.468
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.660
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.503
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.302
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.517
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.621
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.364
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.579
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.612
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.421
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.666
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.774
+[0.4683723  0.6604951  0.5034536  0.3016204  0.51692593 0.62141514
+ 0.36357987 0.5791493  0.6123295  0.42149845 0.66555864 0.77435607]
+/home/jetson/efficientdet/efficientdet-d3_fp16.trt
+Input 'input' with shape [1, 896, 896, 3] and dtype float32
+Output 'num_detections' with shape [1, 1] and dtype int32
+Output 'detection_boxes' with shape [1, 100, 4] and dtype float32
+Output 'detection_scores' with shape [1, 100] and dtype float32
+Output 'detection_classes' with shape [1, 100] and dtype int32
+Processing Image 5000 / 5000
+loading annotations into memory...
+Done (t=3.04s)
+creating index...
+index created!
+Loading and preparing results...
+Converting ndarray to lists...
+(460722, 7)
+0/460722
+DONE (t=12.76s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=303.24s).
+Accumulating evaluation results...
+DONE (t=49.70s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.468
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.660
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.503
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.301
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.517
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.621
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.364
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.579
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.612
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.421
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.665
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.774
+[0.46829817 0.66040117 0.50325096 0.30143464 0.5165946  0.6210545
+ 0.3635397  0.57905984 0.61214536 0.42114934 0.6653085  0.7742099 ]
+
