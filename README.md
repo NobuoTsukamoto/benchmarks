@@ -52,4 +52,3 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, PyTorch, Torchvision, etc...
 - [TensorRT](https://github.com/NVIDIA/TensorRT)
 - [meta-tensorflow-lite](https://github.com/NobuoTsukamoto/meta-tensorflow-lite)
 - [Yocto Project](https://www.yoctoproject.org/)
-- []
