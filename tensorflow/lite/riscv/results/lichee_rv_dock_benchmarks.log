@@ -1,0 +1,160 @@
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/usr/share/tensorflow/lite/examples/mobilenet_v2_1.0_224.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /usr/share/tensorflow/lite/examples/mobilenet_v2_1.0_224.tflite
+XNNPACK delegate created.
+Explicitly applied XNNPACK delegate, and the model graph will be completely executed by the delegate.
+The input model file size (MB): 13.9786
+Initialized session in 222.038ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=1036082
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=978676 curr=975685 min=974828 max=982949 avg=978403 std=2004
+
+Inference timings in us: Init: 222038, First inference: 1036082, Warmup (avg): 1.03608e+06, Inference (avg): 978403
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=28.3789 overall=36.7344
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/usr/share/tensorflow/lite/examples/mobilenet_v2_1.0_224_quant.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /usr/share/tensorflow/lite/examples/mobilenet_v2_1.0_224_quant.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 3.57801
+Initialized session in 359.223ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=6398132
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=25 first=6205833 curr=6206258 min=6201572 max=6219441 avg=6.21003e+06 std=6473
+
+Inference timings in us: Init: 359223, First inference: 6398132, Warmup (avg): 6.39813e+06, Inference (avg): 6.21003e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=2.89453 overall=7.11328
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/usr/share/tensorflow/lite/examples/v3-large_224_1.0_float.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /usr/share/tensorflow/lite/examples/v3-large_224_1.0_float.tflite
+XNNPACK delegate created.
+Explicitly applied XNNPACK delegate, and the model graph will be completely executed by the delegate.
+The input model file size (MB): 21.9278
+Initialized session in 3978.38ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=794875
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=751844 curr=754305 min=750817 max=760225 avg=754203 std=2286
+
+Inference timings in us: Init: 3978384, First inference: 794875, Warmup (avg): 794875, Inference (avg): 754203
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=43.7734 overall=50.2539
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/usr/share/tensorflow/lite/examples/v3-large_224_1.0_uint8.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /usr/share/tensorflow/lite/examples/v3-large_224_1.0_uint8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 5.58788
+Initialized session in 509.912ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=5118847
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=31 first=4855326 curr=4852847 min=4850790 max=4856087 avg=4.85366e+06 std=1102
+
+Inference timings in us: Init: 509912, First inference: 5118847, Warmup (avg): 5.11885e+06, Inference (avg): 4.85366e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=3.31641 overall=8.59375
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/usr/share/tensorflow/lite/examples/v3-small_224_1.0_float.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /usr/share/tensorflow/lite/examples/v3-small_224_1.0_float.tflite
+XNNPACK delegate created.
+Explicitly applied XNNPACK delegate, and the model graph will be completely executed by the delegate.
+The input model file size (MB): 10.186
+Initialized session in 1871.6ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=2 first=265933 curr=241216 min=241216 max=265933 avg=253574 std=12358
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=239597 curr=241247 min=239044 max=243839 avg=241697 std=992
+
+Inference timings in us: Init: 1871603, First inference: 265933, Warmup (avg): 253574, Inference (avg): 241697
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=21.3164 overall=25.2695
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/usr/share/tensorflow/lite/examples/v3-small_224_1.0_uint8.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /usr/share/tensorflow/lite/examples/v3-small_224_1.0_uint8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 2.62181
+Initialized session in 240.38ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=1581387
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=1443881 curr=1444170 min=1443425 max=1446107 avg=1.4442e+06 std=511
+
+Inference timings in us: Init: 240380, First inference: 1581387, Warmup (avg): 1.58139e+06, Inference (avg): 1.4442e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=2.58594 overall=5.27734
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [./mobilenet_v1_1.0_224.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model ./mobilenet_v1_1.0_224.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+XNNPACK delegate created.
+INIT: Id "1" respawning too fast: disabled for 5 minutes
+Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 2 delegate kernels.
+The input model file size (MB): 16.9008
+Initialized session in 3378.7ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=3314785
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=3214340 curr=1603165 min=1602211 max=3214340 avg=2.87429e+06 std=641496
+
+Inference timings in us: Init: 3378699, First inference: 3314785, Warmup (avg): 3.31478e+06, Inference (avg): 2.87429e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the inform.
+Memory footprint delta from the start of the tool (MB): init=33.8086 overall=41.0469
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/usr/share/tensorflow/lite/examples/mobilenet_v1_1.0_224_quant.tflite]
+#threads used for CPU inference: [1]
+Loaded model /usr/share/tensorflow/lite/examples/mobilenet_v1_1.0_224_quant.tflite
+The input model file size (MB): 4.30469
+Initialized session in 289.41ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=10285183
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INIT: Id "1" respawning too fast: disabled for 5 minutes
+count=15 first=10099191 curr=10083050 min=10083050 max=10102267 avg=1.00912e+07 std=6669
+
+Inference timings in us: Init: 289410, First inference: 10285183, Warmup (avg): 1.02852e+07, Inference (avg): 1.00912e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model a.
+Memory footprint delta from the start of the tool (MB): init=2.33594 overall=7.36719

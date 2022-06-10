@@ -31,6 +31,11 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, PyTorch, Torchvision, etc...
 |[TensorRT Fast-SCNN](tensorrt/jetson/fast_scnn/README.md)| Latency,<br>YouTube video | TensorRT | Jetson Nano |
 |[TensorRT Ultra-Fast-Lane-Detection](tensorrt/jetson/ultra_falst_lane_detection/README.md)| Latency,<br>YouTube video | TensorRT | Jetson Nano |
 
+### RISC-V
+|Description|Benchmarks|Framework|HW|
+|:--|:--|:--|:--|
+|[TensorFlow Lite on RISC-V CPU](tensorflow/lite/riscv/README.md) | Latency | TensorFlow Lite | Sipeed Lichee RV Dock |
+
 ## Reference
 - [TensorFlow 1 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md)
 - [TensorFlow 2 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md)
@@ -45,3 +50,6 @@ Benchmarks such as TensorFlow, TensorFlow-Lite, PyTorch, Torchvision, etc...
 - [PyTorch](https://pytorch.org/)
 - [Torchvision](https://pytorch.org/vision/stable/)
 - [TensorRT](https://github.com/NVIDIA/TensorRT)
+- [meta-tensorflow-lite](https://github.com/NobuoTsukamoto/meta-tensorflow-lite)
+- [Yocto Project](https://www.yoctoproject.org/)
+- []
