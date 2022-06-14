@@ -60,13 +60,13 @@ benchmark_model \
 
 ## Latency mean (ms)
 
-| Model name                | Input   | Kind | Lichee RV Dock<br>XNNPACK delegate |
-|:--------------------------|:--------|:-----|-----------------------------------:|
-| Mobilenet V1 dm=1.0       | 224x224 | FP32 |  2874.29                           |
-|                           |         | INT8 | 10091.20                           |
-| Mobilenet V2  dm=1.0      | 224x224 | FP32 |   978.40                           |
-|                           |         | INT8 |  6210.03                           |
-| Mobilenet V3 Large dm=1.0 | 224x224 | FP32 |   754.20                           |
-|                           |         | INT8 |  4853.66                           |
-| Mobilenet V3 Small dm=1.0 | 224x224 | FP32 |   241.70                           |
-|                           |         | INT8 |  1444.20                           |
+| Model name                | Input   | Kind | Lichee RV Dock<br>XNNPACK delegate | Lichee RV Dock |
+|:--------------------------|:--------|:-----|-----------------------------------:|---------------:|
+| Mobilenet V1 dm=1.0       | 224x224 | FP32 |  2874.29                           |        2614.93 |
+|                           |         | INT8 | 10091.20                           |       10293.0  |
+| Mobilenet V2  dm=1.0      | 224x224 | FP32 |   978.40                           |        1755.68 |
+|                           |         | INT8 |  6210.03                           |        6297.27 |
+| Mobilenet V3 Large dm=1.0 | 224x224 | FP32 |   754.20                           |        1439.37 |
+|                           |         | INT8 |  4853.66                           |        4933.28 |
+| Mobilenet V3 Small dm=1.0 | 224x224 | FP32 |   241.70                           |         399.6  |
+|                           |         | INT8 |  1444.20                           |        1464.83 |
