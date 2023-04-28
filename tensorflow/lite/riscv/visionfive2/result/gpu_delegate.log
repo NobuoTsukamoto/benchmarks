@@ -1,0 +1,216 @@
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite0_fp32.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite0_fp32.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 13.6828
+Initialized session in 5086.6ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=1010898
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=463972 curr=395792 min=395396 max=463972 avg=436080 std=19979
+
+Inference timings in us: Init: 5086595, First inference: 1010898, Warmup (avg): 1.0109e+06, Inference (avg): 436080
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=85.3359 overall=128.02
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite1_fp32.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite1_fp32.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 18.1733
+Initialized session in 3209.26ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=2389578
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=778692 curr=678836 min=677329 max=778692 avg=712761 std=38869
+
+Inference timings in us: Init: 3209263, First inference: 2389578, Warmup (avg): 2.38958e+06, Inference (avg): 712761
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=107.375 overall=151.992
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite2_fp32.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite2_fp32.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 22.7969
+Initialized session in 3405.41ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=3406065
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=1175471 curr=1042140 min=1038585 max=1175471 avg=1.07337e+06 std=48810
+
+Inference timings in us: Init: 3405409, First inference: 3406065, Warmup (avg): 3.40606e+06, Inference (avg): 1.07337e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=117.832 overall=179.137
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3_fp32.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3_fp32.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 37.3961
+Initialized session in 4613.94ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=9428438
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=1973546 curr=1790909 min=1788786 max=1973546 avg=1.81758e+06 std=55018
+
+Inference timings in us: Init: 4613938, First inference: 9428438, Warmup (avg): 9.42844e+06, Inference (avg): 1.81758e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=171.52 overall=230.676
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3x_fp32.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3x_fp32.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 43.3764
+Initialized session in 5287.71ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=10851048
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=46 first=3513703 curr=3276751 min=3259707 max=3513703 avg=3.28028e+06 std=52340
+
+Inference timings in us: Init: 5287714, First inference: 10851048, Warmup (avg): 1.0851e+07, Inference (avg): 3.28028e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=197.758 overall=269.574
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite4_fp32.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite4_fp32.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 68.005
+Initialized session in 7360.63ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=16068110
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=35 first=4391374 curr=4400241 min=4375105 max=4400241 avg=4.38498e+06 std=7184
+
+Inference timings in us: Init: 7360627, First inference: 16068110, Warmup (avg): 1.60681e+07, Inference (avg): 4.38498e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=278.277 overall=322.656
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite0_fp16.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite0_fp16.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 6.95462
+Initialized session in 2382.79ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=995739
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=455302 curr=451041 min=450240 max=455302 avg=451449 std=739
+
+Inference timings in us: Init: 2382789, First inference: 995739, Warmup (avg): 995739, Inference (avg): 451449
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=111.559 overall=116.184
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite1_fp16.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite1_fp16.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 9.22501
+Initialized session in 2853.37ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=2330366
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=720824 curr=716066 min=713887 max=738712 avg=716212 std=3400
+
+Inference timings in us: Init: 2853367, First inference: 2330366, Warmup (avg): 2.33037e+06, Inference (avg): 716212
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=130.551 overall=138.906
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite2_fp16.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite2_fp16.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 11.5496
+Initialized session in 3319.7ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=3302437
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=1111653 curr=1092059 min=1090864 max=1111653 avg=1.09576e+06 std=3896
+
+Inference timings in us: Init: 3319705, First inference: 3302437, Warmup (avg): 3.30244e+06, Inference (avg): 1.09576e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=145.992 overall=161.57
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3_fp16.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3_fp16.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 18.8782
+Initialized session in 4173.65ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=9337753
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=1897365 curr=1880508 min=1866195 max=1897365 avg=1.87307e+06 std=4881
+
+Inference timings in us: Init: 4173652, First inference: 9337753, Warmup (avg): 9.33775e+06, Inference (avg): 1.87307e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=189.543 overall=203.59
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3x_fp16.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3x_fp16.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 21.8684
+Initialized session in 4560.49ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=10592686
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=45 first=3410195 curr=3369036 min=3353422 max=3410195 avg=3.36411e+06 std=10441
+
+Inference timings in us: Init: 4560492, First inference: 10592686, Warmup (avg): 1.05927e+07, Inference (avg): 3.36411e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=200.789 overall=227.672
+STARTING!
+Log parameter values verbosely: [0]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite4_fp16.tflite]
+Use gpu: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite4_fp16.tflite
+GPU delegate created.
+Explicitly applied GPU delegate, and the model graph will be partially executed by the delegate w/ 1 delegate kernels.
+The input model file size (MB): 34.2102
+Initialized session in 6106.12ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=15985642
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=34 first=4414688 curr=4399407 min=4393739 max=4470793 avg=4.40778e+06 std=12828
+
+Inference timings in us: Init: 6106124, First inference: 15985642, Warmup (avg): 1.59856e+07, Inference (avg): 4.40778e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=259.336 overall=262.371

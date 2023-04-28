@@ -1,0 +1,480 @@
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite0_int8.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite0_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 4.56452
+Initialized session in 351.882ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=10339030
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=15 first=10315207 curr=10307476 min=10306808 max=10320477 avg=1.03114e+07 std=4586
+
+Inference timings in us: Init: 351882, First inference: 10339030, Warmup (avg): 1.0339e+07, Inference (avg): 1.03114e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=6.01172 overall=25.0312
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [2]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite0_int8.tflite]
+#threads used for CPU inference: [2]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite0_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 4.56452
+Initialized session in 22.21ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=5286314
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=29 first=5268993 curr=5267155 min=5260283 max=5326437 avg=5.26773e+06 std=11511
+
+Inference timings in us: Init: 22210, First inference: 5286314, Warmup (avg): 5.28631e+06, Inference (avg): 5.26773e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=6.83594 overall=25.9531
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [3]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite0_int8.tflite]
+#threads used for CPU inference: [3]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite0_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 4.56452
+Initialized session in 22.371ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=3848132
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=39 first=3784230 curr=3857105 min=3756525 max=4023541 avg=3.84988e+06 std=72210
+
+Inference timings in us: Init: 22371, First inference: 3848132, Warmup (avg): 3.84813e+06, Inference (avg): 3.84988e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=6.89453 overall=26.1367
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [4]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite0_int8.tflite]
+#threads used for CPU inference: [4]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite0_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 4.56452
+Initialized session in 22.347ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=2926328
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=2873223 curr=2869622 min=2869565 max=3142658 avg=2.90505e+06 std=53898
+
+Inference timings in us: Init: 22347, First inference: 2926328, Warmup (avg): 2.92633e+06, Inference (avg): 2.90505e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=6.89844 overall=25.1016
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite1_int8.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite1_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 6.07941
+Initialized session in 272.387ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=20653037
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=8 first=20608304 curr=20603141 min=20600761 max=20624269 avg=2.06071e+07 std=7075
+
+Inference timings in us: Init: 272387, First inference: 20653037, Warmup (avg): 2.0653e+07, Inference (avg): 2.06071e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=7.98047 overall=35.3438
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [2]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite1_int8.tflite]
+#threads used for CPU inference: [2]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite1_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 6.07941
+Initialized session in 39.988ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=10537537
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=15 first=10512879 curr=10502265 min=10502265 max=10512879 avg=1.05048e+07 std=2604
+
+Inference timings in us: Init: 39988, First inference: 10537537, Warmup (avg): 1.05375e+07, Inference (avg): 1.05048e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=7.98828 overall=35.293
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [3]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite1_int8.tflite]
+#threads used for CPU inference: [3]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite1_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 6.07941
+Initialized session in 28.222ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=7390166
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=20 first=7469993 curr=7664089 min=7286700 max=7702746 avg=7.56295e+06 std=109949
+
+Inference timings in us: Init: 28222, First inference: 7390166, Warmup (avg): 7.39017e+06, Inference (avg): 7.56295e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=8.11328 overall=35.0469
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [4]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite1_int8.tflite]
+#threads used for CPU inference: [4]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite1_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 6.07941
+Initialized session in 42.153ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=5676725
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=27 first=5604185 curr=5597035 min=5569270 max=5783684 avg=5.64959e+06 std=69429
+
+Inference timings in us: Init: 42153, First inference: 5676725, Warmup (avg): 5.67672e+06, Inference (avg): 5.64959e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=8.20703 overall=35.2031
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite2_int8.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite2_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 7.56068
+Initialized session in 323.852ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=35009524
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=5 first=34957972 curr=34947675 min=34947675 max=34957972 avg=3.49516e+07 std=3717
+
+Inference timings in us: Init: 323852, First inference: 35009524, Warmup (avg): 3.50095e+07, Inference (avg): 3.49516e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=8.6875 overall=46.2852
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [2]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite2_int8.tflite]
+#threads used for CPU inference: [2]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite2_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 7.56068
+Initialized session in 32.889ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=17824507
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=9 first=17797734 curr=17779189 min=17779189 max=17797734 avg=1.77846e+07 std=7020
+
+Inference timings in us: Init: 32889, First inference: 17824507, Warmup (avg): 1.78245e+07, Inference (avg): 1.77846e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=9.19141 overall=46.3711
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [3]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite2_int8.tflite]
+#threads used for CPU inference: [3]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite2_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 7.56068
+Initialized session in 43.1ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=12737178
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=12 first=12840728 curr=12785383 min=12611010 max=12940751 avg=1.27751e+07 std=87895
+
+Inference timings in us: Init: 43100, First inference: 12737178, Warmup (avg): 1.27372e+07, Inference (avg): 1.27751e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=8.94531 overall=46.1484
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [4]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite2_int8.tflite]
+#threads used for CPU inference: [4]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite2_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 7.56068
+Initialized session in 32.607ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=9450723
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=16 first=9393434 curr=9538902 min=9345986 max=9693221 avg=9.4548e+06 std=107813
+
+Inference timings in us: Init: 32607, First inference: 9450723, Warmup (avg): 9.45072e+06, Inference (avg): 9.4548e+06
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=8.87109 overall=44.957
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3_int8.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 11.9573
+Initialized session in 493.306ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=76227104
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=2 first=76136845 curr=76132312 min=76132312 max=76136845 avg=7.61346e+07 std=2266
+
+Inference timings in us: Init: 493306, First inference: 76227104, Warmup (avg): 7.62271e+07, Inference (avg): 7.61346e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=11.9805 overall=62.1562
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [2]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3_int8.tflite]
+#threads used for CPU inference: [2]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 11.9573
+Initialized session in 44.136ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=38823504
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=4 first=38780837 curr=38743356 min=38736549 max=38780837 avg=3.87509e+07 std=17476
+
+Inference timings in us: Init: 44136, First inference: 38823504, Warmup (avg): 3.88235e+07, Inference (avg): 3.87509e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=12.0508 overall=60.7148
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [3]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3_int8.tflite]
+#threads used for CPU inference: [3]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 11.9573
+Initialized session in 54.541ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=26623553
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=6 first=26694418 curr=26644506 min=26613840 max=26906781 avg=2.67016e+07 std=95928
+
+Inference timings in us: Init: 54541, First inference: 26623553, Warmup (avg): 2.66236e+07, Inference (avg): 2.67016e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=12.293 overall=59.0977
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [4]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3_int8.tflite]
+#threads used for CPU inference: [4]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 11.9573
+Initialized session in 44.51ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=20066979
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=8 first=20032844 curr=20157809 min=20032844 max=20409755 avg=2.0153e+07 std=135274
+
+Inference timings in us: Init: 44510, First inference: 20066979, Warmup (avg): 2.0067e+07, Inference (avg): 2.0153e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=12.1211 overall=61.7461
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3x_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 13.9759
+Initialized session in 572.89ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=141339288
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=2 first=141245067 curr=141211817 min=141211817 max=141245067 avg=1.41228e+08 std=16624
+
+Inference timings in us: Init: 572890, First inference: 141339288, Warmup (avg): 1.41339e+08, Inference (avg): 1.41228e+08
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=13.3359 overall=89.5664
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [2]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+#threads used for CPU inference: [2]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3x_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 13.9759
+Initialized session in 47.974ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=71824723
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=3 first=71763120 curr=71732722 min=71732722 max=71763120 avg=7.17464e+07 std=12590
+
+Inference timings in us: Init: 47974, First inference: 71824723, Warmup (avg): 7.18247e+07, Inference (avg): 7.17464e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=13.9023 overall=89.6406
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [3]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+#threads used for CPU inference: [3]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3x_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 13.9759
+Initialized session in 48.254ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=49117912
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=4 first=49169720 curr=49240893 min=49049313 max=49240893 avg=4.91447e+07 std=70062
+
+Inference timings in us: Init: 48254, First inference: 49117912, Warmup (avg): 4.91179e+07, Inference (avg): 4.91447e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=13.9609 overall=89.5508
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [4]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+#threads used for CPU inference: [4]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite3x_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 13.9759
+Initialized session in 48.259ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=36906419
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=5 first=37061878 curr=36873754 min=36842802 max=37061878 avg=3.69478e+07 std=87907
+
+Inference timings in us: Init: 48259, First inference: 36906419, Warmup (avg): 3.69064e+07, Inference (avg): 3.69478e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=13.8828 overall=86.9375
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [1]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite4_int8.tflite]
+#threads used for CPU inference: [1]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite4_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 20.8534
+Initialized session in 765.578ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=202238667
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=1 curr=202092950
+
+Inference timings in us: Init: 765578, First inference: 202238667, Warmup (avg): 2.02239e+08, Inference (avg): 2.02093e+08
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=16.3477 overall=96.832
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [2]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite4_int8.tflite]
+#threads used for CPU inference: [2]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite4_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 20.8534
+Initialized session in 61.814ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=102514070
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=2 first=102435614 curr=102397615 min=102397615 max=102435614 avg=1.02417e+08 std=18999
+
+Inference timings in us: Init: 61814, First inference: 102514070, Warmup (avg): 1.02514e+08, Inference (avg): 1.02417e+08
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=17.1289 overall=96.5859
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [3]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite4_int8.tflite]
+#threads used for CPU inference: [3]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite4_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 20.8534
+Initialized session in 71.909ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=70122772
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=3 first=70157617 curr=70095652 min=70095652 max=70265833 avg=7.0173e+07 std=70326
+
+Inference timings in us: Init: 71909, First inference: 70122772, Warmup (avg): 7.01228e+07, Inference (avg): 7.0173e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=17.0938 overall=94.9375
+STARTING!
+Log parameter values verbosely: [0]
+Num threads: [4]
+Graph: [/home/user/efficientdet-lite/efficientdet-lite4_int8.tflite]
+#threads used for CPU inference: [4]
+Use xnnpack: [1]
+Loaded model /home/user/efficientdet-lite/efficientdet-lite4_int8.tflite
+XNNPACK delegate created.
+Though XNNPACK delegate is explicitly applied, the model graph will not be executed by the delegate.
+The input model file size (MB): 20.8534
+Initialized session in 61.755ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=1 curr=52694400
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=3 first=52656937 curr=52560093 min=52536765 max=52656937 avg=5.25846e+07 std=52030
+
+Inference timings in us: Init: 61755, First inference: 52694400, Warmup (avg): 5.26944e+07, Inference (avg): 5.25846e+07
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Memory footprint delta from the start of the tool (MB): init=17.5273 overall=96.0664
