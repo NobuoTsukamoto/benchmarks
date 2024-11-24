@@ -1,0 +1,1151 @@
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 13.6828
+INFO: Initialized session in 224.228ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=5 first=151333 curr=103810 min=103771 max=151333 avg=113841 std=18757
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=104978 curr=104696 min=103266 max=105607 avg=104012 std=490
+
+INFO: Inference timings in us: Init: 224228, First inference: 151333, Warmup (avg): 113841, Inference (avg): 104012
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31 overall=65.6094
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 13.6828
+INFO: Initialized session in 12.833ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=5 first=131102 curr=104491 min=104491 max=131102 avg=110029 std=10540
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=104617 curr=104413 min=104154 max=105547 avg=104514 std=229
+
+INFO: Inference timings in us: Init: 12833, First inference: 131102, Warmup (avg): 110029, Inference (avg): 104514
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31 overall=66.1094
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 13.6828
+INFO: Initialized session in 13.046ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=7 first=97849 curr=73141 min=72398 max=97849 avg=76521.3 std=8711
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=72791 curr=73126 min=72319 max=73391 avg=72881.7 std=281
+
+INFO: Inference timings in us: Init: 13046, First inference: 97849, Warmup (avg): 76521.3, Inference (avg): 72881.7
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31 overall=65.6094
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 13.6828
+INFO: Initialized session in 12.442ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=8 first=89561 curr=64524 min=63804 max=89561 avg=67540 std=8328
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=64082 curr=64061 min=63529 max=65444 avg=64303.1 std=320
+
+INFO: Inference timings in us: Init: 12442, First inference: 89561, Warmup (avg): 67540, Inference (avg): 64303.1
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31 overall=65.3281
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 13.6828
+INFO: Initialized session in 13.504ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=8 first=87208 curr=62300 min=61785 max=87208 avg=65214.8 std=8314
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=62601 curr=62371 min=61893 max=62938 avg=62245 std=213
+
+INFO: Inference timings in us: Init: 13504, First inference: 87208, Warmup (avg): 65214.8, Inference (avg): 62245
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31 overall=65.6719
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 18.1733
+INFO: Initialized session in 223.18ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=3 first=237181 curr=198482 min=198482 max=237181 avg=211744 std=17992
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=198548 curr=198001 min=197922 max=200198 avg=198975 std=585
+
+INFO: Inference timings in us: Init: 223180, First inference: 237181, Warmup (avg): 211744, Inference (avg): 198975
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=40 overall=90.9688
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 18.1733
+INFO: Initialized session in 17.349ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=4 first=171395 curr=135482 min=135482 max=171395 avg=144588 std=15477
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=135813 curr=135653 min=134981 max=136397 avg=135645 std=301
+
+INFO: Inference timings in us: Init: 17349, First inference: 171395, Warmup (avg): 144588, Inference (avg): 135645
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=40 overall=91.375
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 18.1733
+INFO: Initialized session in 17.19ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=4 first=155749 curr=120355 min=120355 max=155749 avg=129679 std=15056
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=120614 curr=120334 min=119678 max=121408 avg=120558 std=408
+
+INFO: Inference timings in us: Init: 17190, First inference: 155749, Warmup (avg): 129679, Inference (avg): 120558
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=40 overall=90.2969
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 18.1733
+INFO: Initialized session in 18.114ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=5 first=150142 curr=114493 min=114493 max=150142 avg=121714 std=14214
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=114954 curr=114548 min=114008 max=115596 avg=114632 std=286
+
+INFO: Inference timings in us: Init: 18114, First inference: 150142, Warmup (avg): 121714, Inference (avg): 114632
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=40 overall=90.5156
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 22.7969
+INFO: Initialized session in 280.974ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=381558 curr=328938 min=328938 max=381558 avg=355248 std=26310
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=328539 curr=328705 min=328526 max=329466 avg=328918 std=218
+
+INFO: Inference timings in us: Init: 280974, First inference: 381558, Warmup (avg): 355248, Inference (avg): 328918
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=49 overall=119.859
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 22.7969
+INFO: Initialized session in 21.235ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=3 first=264342 curr=220111 min=220111 max=264342 avg=235023 std=20732
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=219443 curr=219881 min=219065 max=221397 avg=220233 std=492
+
+INFO: Inference timings in us: Init: 21235, First inference: 264342, Warmup (avg): 235023, Inference (avg): 220233
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=49 overall=119.5
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 22.7969
+INFO: Initialized session in 21.598ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=3 first=237635 curr=189046 min=189046 max=237635 avg=205258 std=22894
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=189928 curr=188556 min=188059 max=191136 avg=189058 std=619
+
+INFO: Inference timings in us: Init: 21598, First inference: 237635, Warmup (avg): 205258, Inference (avg): 189058
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=49 overall=119.234
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 22.7969
+INFO: Initialized session in 21.844ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=3 first=228393 curr=180528 min=180303 max=228393 avg=196408 std=22616
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=180442 curr=180837 min=179094 max=198139 avg=180557 std=2562
+
+INFO: Inference timings in us: Init: 21844, First inference: 228393, Warmup (avg): 196408, Inference (avg): 180557
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=49 overall=119.172
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 37.3961
+INFO: Initialized session in 458.72ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=722890
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=671803 curr=663971 min=661577 max=671803 avg=663834 std=1607
+
+INFO: Inference timings in us: Init: 458720, First inference: 722890, Warmup (avg): 722890, Inference (avg): 663834
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=77.5 overall=182.5
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 37.3961
+INFO: Initialized session in 31.939ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=473619 curr=432278 min=432278 max=473619 avg=452948 std=20670
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=420923 curr=423032 min=420856 max=424255 avg=421973 std=688
+
+INFO: Inference timings in us: Init: 31939, First inference: 473619, Warmup (avg): 452948, Inference (avg): 421973
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=77.5 overall=182.5
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 37.3961
+INFO: Initialized session in 31.857ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=416697 curr=370182 min=370182 max=416697 avg=393440 std=23257
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=362123 curr=360543 min=358781 max=362466 avg=361033 std=778
+
+INFO: Inference timings in us: Init: 31857, First inference: 416697, Warmup (avg): 393440, Inference (avg): 361033
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=77.5 overall=182.062
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 37.3961
+INFO: Initialized session in 34.783ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=400770 curr=359761 min=359761 max=400770 avg=380266 std=20504
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=347333 curr=350118 min=347333 max=383192 avg=350481 std=4802
+
+INFO: Inference timings in us: Init: 34783, First inference: 400770, Warmup (avg): 380266, Inference (avg): 350481
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=77.5 overall=182.5
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 43.3764
+INFO: Initialized session in 522.82ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=1271873
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=1194469 curr=1181433 min=1178611 max=1194469 avg=1.18111e+06 std=2054
+
+INFO: Inference timings in us: Init: 522820, First inference: 1271873, Warmup (avg): 1.27187e+06, Inference (avg): 1.18111e+06
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=89 overall=255.875
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 43.3764
+INFO: Initialized session in 40.282ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=831365
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=762186 curr=750441 min=747503 max=762186 avg=749787 std=2015
+
+INFO: Inference timings in us: Init: 40282, First inference: 831365, Warmup (avg): 831365, Inference (avg): 749787
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=89 overall=255.172
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 43.3764
+INFO: Initialized session in 37.323ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=712156
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=651558 curr=632625 min=630279 max=651558 avg=634694 std=3016
+
+INFO: Inference timings in us: Init: 37323, First inference: 712156, Warmup (avg): 712156, Inference (avg): 634694
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=89 overall=255.406
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 43.3764
+INFO: Initialized session in 39.259ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=689306
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=626555 curr=613436 min=611171 max=659322 avg=615688 std=7956
+
+INFO: Inference timings in us: Init: 39259, First inference: 689306, Warmup (avg): 689306, Inference (avg): 615688
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=89 overall=255.562
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 68.005
+INFO: Initialized session in 818.485ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=1716240
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=1635466 curr=1622991 min=1618194 max=1635466 avg=1.62324e+06 std=2344
+
+INFO: Inference timings in us: Init: 818485, First inference: 1716240, Warmup (avg): 1.71624e+06, Inference (avg): 1.62324e+06
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=137.5 overall=307
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 68.005
+INFO: Initialized session in 65.532ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=1084274
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=1013253 curr=994974 min=990709 max=1013253 avg=995348 std=3885
+
+INFO: Inference timings in us: Init: 65532, First inference: 1084274, Warmup (avg): 1.08427e+06, Inference (avg): 995348
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=137.5 overall=306.688
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 68.005
+INFO: Initialized session in 55.833ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=906011
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=838541 curr=821931 min=820273 max=838541 avg=824134 std=2542
+
+INFO: Inference timings in us: Init: 55833, First inference: 906011, Warmup (avg): 906011, Inference (avg): 824134
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=137.5 overall=306.5
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 68.005
+INFO: Initialized session in 66.316ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=857703
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=791397 curr=776655 min=776410 max=792300 avg=779460 std=3031
+
+INFO: Inference timings in us: Init: 66316, First inference: 857703, Warmup (avg): 857703, Inference (avg): 779460
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=137.5 overall=306
+
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite0_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite0_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 4.56452
+INFO: Initialized session in 72.601ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=11 first=76496 curr=44200 min=44131 max=76496 avg=47462.9 std=9228
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=44291 curr=44192 min=44089 max=44448 avg=44197.6 std=59
+
+INFO: Inference timings in us: Init: 72601, First inference: 76496, Warmup (avg): 47462.9, Inference (avg): 44197.6
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=13 overall=35.8594
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite0_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite0_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 4.56452
+INFO: Initialized session in 12.071ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=11 first=58900 curr=44173 min=44161 max=58900 avg=45858 std=4232
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=44239 curr=44219 min=44096 max=54274 avg=44944.6 std=2472
+
+INFO: Inference timings in us: Init: 12071, First inference: 58900, Warmup (avg): 45858, Inference (avg): 44944.6
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=13 overall=35.8438
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite0_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite0_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 4.56452
+INFO: Initialized session in 12.134ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=17 first=43932 curr=29304 min=29146 max=43932 avg=30389.8 std=3478
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=29452 curr=29302 min=29126 max=29452 avg=29299.3 std=71
+
+INFO: Inference timings in us: Init: 12134, First inference: 43932, Warmup (avg): 30389.8, Inference (avg): 29299.3
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=13 overall=35.8906
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite0_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite0_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 4.56452
+INFO: Initialized session in 13.022ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=20 first=39584 curr=24179 min=24089 max=39584 avg=25291 std=3406
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=24162 curr=24836 min=24152 max=25057 avg=24780.3 std=164
+
+INFO: Inference timings in us: Init: 13022, First inference: 39584, Warmup (avg): 25291, Inference (avg): 24780.3
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=13 overall=35.2969
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite0_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite0_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 4.56452
+INFO: Initialized session in 12.331ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=22 first=36243 curr=22955 min=22796 max=36243 avg=23649.9 std=2837
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=22824 curr=22693 min=22693 max=23075 avg=22876.6 std=67
+
+INFO: Inference timings in us: Init: 12331, First inference: 36243, Warmup (avg): 23649.9, Inference (avg): 22876.6
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=13 overall=35.3125
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite1_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite1_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 6.07941
+INFO: Initialized session in 86.626ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=6 first=105390 curr=81785 min=81571 max=105390 avg=86393.2 std=8658
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=81554 curr=81562 min=81409 max=82204 avg=81633.4 std=127
+
+INFO: Inference timings in us: Init: 86626, First inference: 105390, Warmup (avg): 86393.2, Inference (avg): 81633.4
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=16.5 overall=49.4531
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite1_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite1_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 6.07941
+INFO: Initialized session in 15.705ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=10 first=72994 curr=52526 min=52490 max=72994 avg=55105.9 std=6138
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=52951 curr=52585 min=52260 max=52951 avg=52583.5 std=135
+
+INFO: Inference timings in us: Init: 15705, First inference: 72994, Warmup (avg): 55105.9, Inference (avg): 52583.5
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=16.5 overall=49.1406
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite1_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite1_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 6.07941
+INFO: Initialized session in 16.306ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=12 first=63107 curr=42864 min=42861 max=63107 avg=44924.2 std=5530
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=42882 curr=42711 min=42607 max=43350 avg=42918.2 std=142
+
+INFO: Inference timings in us: Init: 16306, First inference: 63107, Warmup (avg): 44924.2, Inference (avg): 42918.2
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=16.5 overall=48.5781
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite1_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite1_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 6.07941
+INFO: Initialized session in 15.924ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=13 first=58484 curr=39126 min=38981 max=58484 avg=41017.1 std=5228
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=39264 curr=39154 min=38824 max=69630 avg=39720.3 std=4274
+
+INFO: Inference timings in us: Init: 15924, First inference: 58484, Warmup (avg): 41017.1, Inference (avg): 39720.3
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=16.5 overall=49.0938
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite2_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite2_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 7.56068
+INFO: Initialized session in 106.373ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=4 first=158005 curr=123778 min=123778 max=158005 avg=133988 std=14110
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=123832 curr=123732 min=123561 max=124050 avg=123805 std=99
+
+INFO: Inference timings in us: Init: 106373, First inference: 158005, Warmup (avg): 133988, Inference (avg): 123805
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=19 overall=64.0781
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite2_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite2_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 7.56068
+INFO: Initialized session in 19.459ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=7 first=105651 curr=77062 min=76923 max=105651 avg=82013.1 std=9893
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=76935 curr=77130 min=76755 max=77400 avg=77020.6 std=152
+
+INFO: Inference timings in us: Init: 19459, First inference: 105651, Warmup (avg): 82013.1, Inference (avg): 77020.6
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=19 overall=63.9531
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite2_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite2_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 7.56068
+INFO: Initialized session in 19.933ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=8 first=91384 curr=62260 min=61986 max=91384 avg=66894.4 std=9534
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=62406 curr=62277 min=62118 max=65961 avg=62476.2 std=524
+
+INFO: Inference timings in us: Init: 19933, First inference: 91384, Warmup (avg): 66894.4, Inference (avg): 62476.2
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=19 overall=63.3281
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite2_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite2_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 7.56068
+INFO: Initialized session in 20.076ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=9 first=83412 curr=55525 min=55525 max=83412 avg=59417 std=8730
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=55805 curr=55704 min=55367 max=55805 avg=55592.9 std=111
+
+INFO: Inference timings in us: Init: 20076, First inference: 83412, Warmup (avg): 59417, Inference (avg): 55592.9
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=19 overall=63.7656
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 11.9573
+INFO: Initialized session in 165.025ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=269729 curr=240026 min=240026 max=269729 avg=254878 std=14851
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=233684 curr=232584 min=232557 max=234105 avg=232962 std=413
+
+INFO: Inference timings in us: Init: 165025, First inference: 269729, Warmup (avg): 254878, Inference (avg): 232962
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=27.5 overall=90
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 11.9573
+INFO: Initialized session in 29.741ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=4 first=176076 curr=142142 min=142142 max=176076 avg=152813 std=13887
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=142688 curr=141565 min=141349 max=142688 avg=142042 std=280
+
+INFO: Inference timings in us: Init: 29741, First inference: 176076, Warmup (avg): 152813, Inference (avg): 142042
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=27.5 overall=90
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 11.9573
+INFO: Initialized session in 30.914ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=5 first=145050 curr=113589 min=113167 max=145050 avg=121342 std=12230
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=113467 curr=113180 min=112801 max=114135 avg=113389 std=265
+
+INFO: Inference timings in us: Init: 30914, First inference: 145050, Warmup (avg): 121342, Inference (avg): 113389
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=27.5 overall=90
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 11.9573
+INFO: Initialized session in 30.007ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=5 first=132414 curr=100148 min=99929 max=132414 avg=108347 std=12526
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=100239 curr=100544 min=99642 max=131425 avg=100873 std=4372
+
+INFO: Inference timings in us: Init: 30007, First inference: 132414, Warmup (avg): 108347, Inference (avg): 100873
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=27.5 overall=89.5
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 13.9759
+INFO: Initialized session in 190.187ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=484362 curr=429192 min=429192 max=484362 avg=456777 std=27585
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=418559 curr=417916 min=417226 max=419000 avg=417988 std=362
+
+INFO: Inference timings in us: Init: 190187, First inference: 484362, Warmup (avg): 456777, Inference (avg): 417988
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31 overall=129.422
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 13.9759
+INFO: Initialized session in 33.918ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=299773 curr=260073 min=260073 max=299773 avg=279923 std=19850
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=246863 curr=246493 min=245820 max=247892 avg=246852 std=461
+
+INFO: Inference timings in us: Init: 33918, First inference: 299773, Warmup (avg): 279923, Inference (avg): 246852
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31 overall=129.203
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 13.9759
+INFO: Initialized session in 34.025ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=3 first=248155 curr=195478 min=195478 max=248155 avg=217551 std=22335
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=195981 curr=195756 min=194368 max=196697 avg=195625 std=463
+
+INFO: Inference timings in us: Init: 34025, First inference: 248155, Warmup (avg): 217551, Inference (avg): 195625
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31 overall=129.125
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 13.9759
+INFO: Initialized session in 34.7ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=3 first=222401 curr=170327 min=170327 max=222401 avg=192210 std=22055
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=170277 curr=170480 min=169465 max=207714 avg=170983 std=5257
+
+INFO: Inference timings in us: Init: 34700, First inference: 222401, Warmup (avg): 192210, Inference (avg): 170983
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31 overall=128.406
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite4_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite4_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 20.8534
+INFO: Initialized session in 279.159ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=616857
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=563849 curr=549808 min=548950 max=563849 avg=550061 std=2000
+
+INFO: Inference timings in us: Init: 279159, First inference: 616857, Warmup (avg): 616857, Inference (avg): 550061
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=44.5 overall=144.438
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite4_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite4_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 20.8534
+INFO: Initialized session in 50.243ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=374245 curr=334317 min=334317 max=374245 avg=354281 std=19964
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=320560 curr=320761 min=319726 max=322113 avg=320747 std=427
+
+INFO: Inference timings in us: Init: 50243, First inference: 374245, Warmup (avg): 354281, Inference (avg): 320747
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=44.5 overall=144.344
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite4_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite4_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 20.8534
+INFO: Initialized session in 49.704ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=302791 curr=263792 min=263792 max=302791 avg=283292 std=19499
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=250544 curr=250962 min=249676 max=251208 avg=250394 std=389
+
+INFO: Inference timings in us: Init: 49704, First inference: 302791, Warmup (avg): 283292, Inference (avg): 250394
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=44.5 overall=143.984
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/pi/Models/efficientdet-lite/efficientdet-lite4_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/pi/Models/efficientdet-lite/efficientdet-lite4_int8.tflite
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 20.8534
+INFO: Initialized session in 50.433ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=3 first=264234 curr=216350 min=216350 max=264234 avg=236742 std=20182
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=216591 curr=216513 min=215722 max=218889 avg=216473 std=519
+
+INFO: Inference timings in us: Init: 50433, First inference: 264234, Warmup (avg): 236742, Inference (avg): 216473
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=44.5 overall=144.016

@@ -1,0 +1,1060 @@
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 13.6828
+INFO: Initialized session in 17.303ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=7 first=98496 curr=76767 min=76701 max=98496 avg=79882.4 std=7599
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=78210 curr=76400 min=76400 max=78210 avg=76587.9 std=315
+
+INFO: Inference timings in us: Init: 17303, First inference: 98496, Warmup (avg): 79882.4, Inference (avg): 76587.9
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31.75 overall=66.957
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 13.6828
+INFO: Initialized session in 9.999ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=11 first=67563 curr=47416 min=45865 max=67563 avg=48791.5 std=5968
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=48724 curr=45925 min=45925 max=48831 avg=47264.1 std=728
+
+INFO: Inference timings in us: Init: 9999, First inference: 67563, Warmup (avg): 48791.5, Inference (avg): 47264.1
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31.75 overall=66.9961
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 13.6828
+INFO: Initialized session in 15.466ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=12 first=69007 curr=39088 min=38829 max=69007 avg=41928.2 std=8176
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=40716 curr=39871 min=38576 max=40716 avg=39535.5 std=500
+
+INFO: Inference timings in us: Init: 15466, First inference: 69007, Warmup (avg): 41928.2, Inference (avg): 39535.5
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31.375 overall=66.4102
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite0_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 13.6828
+INFO: Initialized session in 20.578ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=14 first=73468 curr=34654 min=34647 max=73468 avg=37751 std=9911
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=39455 curr=34909 min=34178 max=39455 avg=34928.4 std=714
+
+INFO: Inference timings in us: Init: 20578, First inference: 73468, Warmup (avg): 37751, Inference (avg): 34928.4
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31.875 overall=66.9023
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 18.1733
+INFO: Initialized session in 13.647ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=4 first=183709 curr=153346 min=152439 max=183709 avg=160620 std=13334
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=153658 curr=152931 min=152069 max=153658 avg=152890 std=353
+
+INFO: Inference timings in us: Init: 13647, First inference: 183709, Warmup (avg): 160620, Inference (avg): 152890
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=40.5 overall=92.0977
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 18.1733
+INFO: Initialized session in 13.576ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=6 first=120010 curr=92642 min=90133 max=120010 avg=96388.8 std=10618
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=93091 curr=93388 min=89486 max=93968 avg=92089.1 std=1299
+
+INFO: Inference timings in us: Init: 13576, First inference: 120010, Warmup (avg): 96388.8, Inference (avg): 92089.1
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=40.625 overall=92.1133
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 18.1733
+INFO: Initialized session in 19.092ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=7 first=105100 curr=74094 min=73916 max=105100 avg=78914.7 std=10702
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=76180 curr=74792 min=73416 max=76180 avg=74421.4 std=719
+
+INFO: Inference timings in us: Init: 19092, First inference: 105100, Warmup (avg): 78914.7, Inference (avg): 74421.4
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=40.875 overall=92.2383
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite1_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 18.1733
+INFO: Initialized session in 22.201ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=7 first=107852 curr=66827 min=65338 max=107852 avg=71697.1 std=14768
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=70892 curr=65518 min=65231 max=73064 avg=65824.5 std=1347
+
+INFO: Inference timings in us: Init: 22201, First inference: 107852, Warmup (avg): 71697.1, Inference (avg): 65824.5
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=41 overall=92.1484
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 22.7969
+INFO: Initialized session in 16.86ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=287991 curr=247108 min=247108 max=287991 avg=267550 std=20441
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=248452 curr=247250 min=246985 max=248452 avg=247201 std=229
+
+INFO: Inference timings in us: Init: 16860, First inference: 287991, Warmup (avg): 267550, Inference (avg): 247201
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=49.75 overall=120.902
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 22.7969
+INFO: Initialized session in 17.157ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=4 first=183671 curr=142965 min=142949 max=183671 avg=154399 std=17025
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=147218 curr=143768 min=141702 max=148402 avg=144754 std=1803
+
+INFO: Inference timings in us: Init: 17157, First inference: 183671, Warmup (avg): 154399, Inference (avg): 144754
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=49.875 overall=120.793
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 22.7969
+INFO: Initialized session in 22.352ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=4 first=153825 curr=115471 min=114682 max=153825 avg=124982 std=16658
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=117823 curr=116049 min=114869 max=118334 avg=116335 std=1032
+
+INFO: Inference timings in us: Init: 22352, First inference: 153825, Warmup (avg): 124982, Inference (avg): 116335
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=49.875 overall=120.711
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite2_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 22.7969
+INFO: Initialized session in 23.48ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=5 first=153543 curr=99793 min=99685 max=153543 avg=110518 std=21512
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=106098 curr=99851 min=99606 max=106098 avg=100149 std=1038
+
+INFO: Inference timings in us: Init: 23480, First inference: 153543, Warmup (avg): 110518, Inference (avg): 100149
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=49.625 overall=120.363
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 37.3961
+INFO: Initialized session in 26.211ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=553711
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=514643 curr=507956 min=507532 max=514643 avg=507964 std=985
+
+INFO: Inference timings in us: Init: 26211, First inference: 553711, Warmup (avg): 553711, Inference (avg): 507964
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=78.75 overall=184.031
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 37.3961
+INFO: Initialized session in 26.909ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=337638 curr=294875 min=294875 max=337638 avg=316256 std=21381
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=292848 curr=287125 min=280947 max=294774 avg=290196 std=2745
+
+INFO: Inference timings in us: Init: 26909, First inference: 337638, Warmup (avg): 316256, Inference (avg): 290196
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=78.375 overall=183.633
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 37.3961
+INFO: Initialized session in 27.945ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=274146 curr=236521 min=236521 max=274146 avg=255334 std=18812
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=229450 curr=227603 min=224304 max=230719 avg=227580 std=1608
+
+INFO: Inference timings in us: Init: 27945, First inference: 274146, Warmup (avg): 255334, Inference (avg): 227580
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=78.375 overall=183.582
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 37.3961
+INFO: Initialized session in 29.114ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=3 first=236271 curr=193034 min=193034 max=236271 avg=208955 std=19403
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=196199 curr=193710 min=191891 max=196199 avg=192608 std=778
+
+INFO: Inference timings in us: Init: 29114, First inference: 236271, Warmup (avg): 208955, Inference (avg): 192608
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=78.625 overall=183.582
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 43.3764
+INFO: Initialized session in 29.837ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=1013484
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=951322 curr=941116 min=940603 max=951322 avg=941466 std=1453
+
+INFO: Inference timings in us: Init: 29837, First inference: 1013484, Warmup (avg): 1.01348e+06, Inference (avg): 941466
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=90.375 overall=257.262
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 43.3764
+INFO: Initialized session in 29.949ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=595014
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=536173 curr=533940 min=518714 max=536796 avg=529429 std=4081
+
+INFO: Inference timings in us: Init: 29949, First inference: 595014, Warmup (avg): 595014, Inference (avg): 529429
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=90.25 overall=256.859
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 43.3764
+INFO: Initialized session in 32.783ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=477630 curr=422719 min=422719 max=477630 avg=450174 std=27455
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=412738 curr=415566 min=408797 max=416752 avg=413075 std=2184
+
+INFO: Inference timings in us: Init: 32783, First inference: 477630, Warmup (avg): 450174, Inference (avg): 413075
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=90.125 overall=256.84
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 43.3764
+INFO: Initialized session in 35.576ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=412950 curr=357437 min=357437 max=412950 avg=385194 std=27756
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=351453 curr=347289 min=346963 max=357721 avg=347942 std=1620
+
+INFO: Inference timings in us: Init: 35576, First inference: 412950, Warmup (avg): 385194, Inference (avg): 347942
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=90.125 overall=256.824
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 68.005
+INFO: Initialized session in 45.946ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=1384472
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=1322118 curr=1312210 min=1311975 max=1329484 avg=1.31308e+06 std=2748
+
+INFO: Inference timings in us: Init: 45946, First inference: 1384472, Warmup (avg): 1.38447e+06, Inference (avg): 1.31308e+06
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=137.5 overall=306.953
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 68.005
+INFO: Initialized session in 46.117ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=811714
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=744133 curr=734931 min=724465 max=749270 avg=736915 std=5679
+
+INFO: Inference timings in us: Init: 46117, First inference: 811714, Warmup (avg): 811714, Inference (avg): 736915
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=137.375 overall=306.844
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 68.005
+INFO: Initialized session in 46.158ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=633122
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=579142 curr=574404 min=562719 max=579142 avg=572080 std=3445
+
+INFO: Inference timings in us: Init: 46158, First inference: 633122, Warmup (avg): 633122, Inference (avg): 572080
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=137.125 overall=306.555
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite4_fp32.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 68.005
+INFO: Initialized session in 52.29ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=542656
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=489799 curr=476511 min=476254 max=489799 avg=477214 std=1893
+
+INFO: Inference timings in us: Init: 52290, First inference: 542656, Warmup (avg): 542656, Inference (avg): 477214
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=137.5 overall=306.766
+
+
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite0_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite0_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 4.56452
+INFO: Initialized session in 10.693ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=9 first=66922 curr=54764 min=54717 max=66922 avg=56352.2 std=3800
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=55356 curr=54689 min=54613 max=55356 avg=54757 std=131
+
+INFO: Inference timings in us: Init: 10693, First inference: 66922, Warmup (avg): 56352.2, Inference (avg): 54757
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=14 overall=36.5156
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite0_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite0_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 4.56452
+INFO: Initialized session in 9.448ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=15 first=44747 curr=34790 min=32846 max=44747 avg=34554.7 std=2806
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=33984 curr=33727 min=32408 max=34793 avg=33353.4 std=599
+
+INFO: Inference timings in us: Init: 9448, First inference: 44747, Warmup (avg): 34554.7, Inference (avg): 33353.4
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=13.625 overall=36.2344
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite0_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite0_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 4.56452
+INFO: Initialized session in 14.864ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=18 first=45179 curr=27468 min=27432 max=45179 avg=28814.3 std=3988
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=27512 curr=27798 min=26981 max=28405 avg=27724.7 std=320
+
+INFO: Inference timings in us: Init: 14864, First inference: 45179, Warmup (avg): 28814.3, Inference (avg): 27724.7
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=13.75 overall=36.0859
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite0_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite0_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 13 delegate kernels.
+INFO: The input model file size (MB): 4.56452
+INFO: Initialized session in 17.867ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=20 first=60760 curr=23799 min=23228 max=60760 avg=25850.7 std=8025
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=27133 curr=23262 min=23204 max=27133 avg=23883.2 std=676
+
+INFO: Inference timings in us: Init: 17867, First inference: 60760, Warmup (avg): 25850.7, Inference (avg): 23883.2
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=13.875 overall=36.2148
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite1_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite1_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 6.07941
+INFO: Initialized session in 11.404ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=5 first=120109 curr=103939 min=103519 max=120109 avg=107524 std=6386
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=103863 curr=103477 min=103249 max=103863 avg=103458 std=104
+
+INFO: Inference timings in us: Init: 11404, First inference: 120109, Warmup (avg): 107524, Inference (avg): 103458
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=16.875 overall=49.8867
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite1_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite1_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 6.07941
+INFO: Initialized session in 11.7ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=8 first=81589 curr=61796 min=59838 max=81589 avg=64275.5 std=6730
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=60330 curr=62599 min=59597 max=62924 avg=61362 std=1087
+
+INFO: Inference timings in us: Init: 11700, First inference: 81589, Warmup (avg): 64275.5, Inference (avg): 61362
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=17 overall=49.9453
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite1_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite1_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 6.07941
+INFO: Initialized session in 17.535ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=10 first=69559 curr=49313 min=47845 max=69559 avg=51212 std=6216
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=48318 curr=49140 min=47544 max=49384 avg=48390.8 std=517
+
+INFO: Inference timings in us: Init: 17535, First inference: 69559, Warmup (avg): 51212, Inference (avg): 48390.8
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=17 overall=49.875
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite1_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite1_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 17 delegate kernels.
+INFO: The input model file size (MB): 6.07941
+INFO: Initialized session in 23.958ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=11 first=83723 curr=41909 min=41040 max=83723 avg=45676.8 std=12064
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=43334 curr=41336 min=40864 max=43334 avg=41582.7 std=483
+
+INFO: Inference timings in us: Init: 23958, First inference: 83723, Warmup (avg): 45676.8, Inference (avg): 41582.7
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=16.75 overall=49.5625
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite2_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite2_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 7.56068
+INFO: Initialized session in 13.628ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=3 first=185152 curr=162073 min=162073 max=185152 avg=170989 std=10125
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=162715 curr=162558 min=162166 max=162984 avg=162450 std=208
+
+INFO: Inference timings in us: Init: 13628, First inference: 185152, Warmup (avg): 170989, Inference (avg): 162450
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=19.75 overall=65.0195
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite2_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite2_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 7.56068
+INFO: Initialized session in 14.407ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=6 first=113335 curr=93426 min=91756 max=113335 avg=97995.7 std=7320
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=95136 curr=94467 min=91579 max=96597 avg=94431.4 std=1537
+
+INFO: Inference timings in us: Init: 14407, First inference: 113335, Warmup (avg): 97995.7, Inference (avg): 94431.4
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=19.5 overall=64.7266
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite2_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite2_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 7.56068
+INFO: Initialized session in 20.483ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=7 first=97824 curr=75680 min=74119 max=97824 avg=78909.1 std=7800
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=74610 curr=75238 min=73722 max=76623 avg=74988.2 std=806
+
+INFO: Inference timings in us: Init: 20483, First inference: 97824, Warmup (avg): 78909.1, Inference (avg): 74988.2
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=19.75 overall=64.8203
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite2_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite2_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 21 delegate kernels.
+INFO: The input model file size (MB): 7.56068
+INFO: Initialized session in 24.478ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=8 first=97876 curr=63398 min=61543 max=97876 avg=67004.5 std=11742
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=63066 curr=61922 min=61440 max=63066 avg=61967.1 std=268
+
+INFO: Inference timings in us: Init: 24478, First inference: 97876, Warmup (avg): 67004.5, Inference (avg): 61967.1
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=19.875 overall=64.8125
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 11.9573
+INFO: Initialized session in 21.63ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=336347 curr=313932 min=313932 max=336347 avg=325140 std=11207
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=308853 curr=308148 min=308007 max=309388 avg=308757 std=313
+
+INFO: Inference timings in us: Init: 21630, First inference: 336347, Warmup (avg): 325140, Inference (avg): 308757
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=28.375 overall=90.9922
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 11.9573
+INFO: Initialized session in 21.416ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=3 first=201524 curr=174166 min=174166 max=201524 avg=185491 std=11654
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=172859 curr=178422 min=169551 max=178752 avg=173971 std=2367
+
+INFO: Inference timings in us: Init: 21416, First inference: 201524, Warmup (avg): 185491, Inference (avg): 173971
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=28.25 overall=90.8672
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 11.9573
+INFO: Initialized session in 24.021ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=4 first=159091 curr=133924 min=133924 max=159091 avg=141615 std=10156
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=133438 curr=136894 min=131451 max=137088 avg=134319 std=1684
+
+INFO: Inference timings in us: Init: 24021, First inference: 159091, Warmup (avg): 141615, Inference (avg): 134319
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=28.25 overall=90.5
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 11.9573
+INFO: Initialized session in 29.016ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=5 first=143006 curr=109970 min=108293 max=143006 avg=116650 std=13324
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=108712 curr=110002 min=108071 max=110673 avg=108580 std=638
+
+INFO: Inference timings in us: Init: 29016, First inference: 143006, Warmup (avg): 116650, Inference (avg): 108580
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=28.375 overall=90.75
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 13.9759
+INFO: Initialized session in 23.489ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=582435
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=549062 curr=539221 min=538176 max=566846 avg=540983 std=4380
+
+INFO: Inference timings in us: Init: 23489, First inference: 582435, Warmup (avg): 582435, Inference (avg): 540983
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31.625 overall=129.906
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 13.9759
+INFO: Initialized session in 25.275ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=337402 curr=305541 min=305541 max=337402 avg=321472 std=15930
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=297194 curr=304149 min=293963 max=307581 avg=300155 std=2978
+
+INFO: Inference timings in us: Init: 25275, First inference: 337402, Warmup (avg): 321472, Inference (avg): 300155
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31.625 overall=129.816
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 13.9759
+INFO: Initialized session in 25.832ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=269648 curr=237546 min=237546 max=269648 avg=253597 std=16051
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=229669 curr=228486 min=225726 max=232947 avg=228844 std=1592
+
+INFO: Inference timings in us: Init: 25832, First inference: 269648, Warmup (avg): 253597, Inference (avg): 228844
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31.625 overall=129.551
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite3x_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 25 delegate kernels.
+INFO: The input model file size (MB): 13.9759
+INFO: Initialized session in 29.92ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=3 first=227943 curr=189985 min=189985 max=227943 avg=204074 std=16969
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=186503 curr=185954 min=185554 max=188156 avg=186740 std=638
+
+INFO: Inference timings in us: Init: 29920, First inference: 227943, Warmup (avg): 204074, Inference (avg): 186740
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=31.625 overall=129.82
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [1]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite4_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [1]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite4_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 20.8534
+INFO: Initialized session in 34.388ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=1 curr=778681
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=741988 curr=732553 min=731727 max=741988 avg=733557 std=1467
+
+INFO: Inference timings in us: Init: 34388, First inference: 778681, Warmup (avg): 778681, Inference (avg): 733557
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=44.75 overall=144.871
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [2]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite4_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [2]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite4_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 20.8534
+INFO: Initialized session in 35.091ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=449523 curr=413302 min=413302 max=449523 avg=431412 std=18110
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=405877 curr=398588 min=396258 max=414575 avg=405723 std=4738
+
+INFO: Inference timings in us: Init: 35091, First inference: 449523, Warmup (avg): 431412, Inference (avg): 405723
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=45.125 overall=145.133
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [3]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite4_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [3]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite4_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 20.8534
+INFO: Initialized session in 37.05ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=344970 curr=311812 min=311812 max=344970 avg=328391 std=16579
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=303982 curr=304966 min=300403 max=309889 avg=304510 std=2323
+
+INFO: Inference timings in us: Init: 37050, First inference: 344970, Warmup (avg): 328391, Inference (avg): 304510
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=45.25 overall=145.098
+INFO: STARTING!
+INFO: Log parameter values verbosely: [0]
+INFO: Num threads: [4]
+INFO: Graph: [/home/nobuo/Models/efficientdet-lite/efficientdet-lite4_int8.tflite]
+INFO: Signature to run: []
+INFO: #threads used for CPU inference: [4]
+INFO: Use xnnpack: [1]
+INFO: Loaded model /home/nobuo/Models/efficientdet-lite/efficientdet-lite4_int8.tflite
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: XNNPACK delegate created.
+INFO: Explicitly applied XNNPACK delegate, and the model graph will be partially executed by the delegate w/ 29 delegate kernels.
+INFO: The input model file size (MB): 20.8534
+INFO: Initialized session in 37.357ms.
+INFO: Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: count=2 first=284652 curr=251967 min=251967 max=284652 avg=268310 std=16342
+
+INFO: Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+INFO: count=50 first=244927 curr=243375 min=243193 max=254690 avg=244171 std=1707
+
+INFO: Inference timings in us: Init: 37357, First inference: 284652, Warmup (avg): 268310, Inference (avg): 244171
+INFO: Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+INFO: Memory footprint delta from the start of the tool (MB): init=44.875 overall=144.824
+
+
